@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    var hasStorage = (function() {
+                      try {
+                        localStorage.setItem(mod, mod);
+                        localStorage.removeItem(mod);
+                      return true;
+                      } catch(e) {
+                        return false;
+                      }
+                      }());
+                      
+      function setSiteWideValue(_key, _value) {
+          if(hasStorage) {
+              localStorage[_key] = _value;
+              console.log("storage");
+
+          }
+          else {
+              console.log("cookie");
+
+              document.cookie = _key+'='+_value+'; expires=<01012016e>; path=/; ;domain=<.cfc>';
+          }
+      }
+
+    function getSiteWideValue(_key) {
+        if(hasStorage) {
+            return localStorage[_key];
+        }
+        else {
+            if(document.cookie.indexOf(_key+'=') != -1) {
+                return document.cookie.split(_key+'=')[1].split(';')[0];
+            }
+        }
+    }
+    var storage = (function() {
+                   var uid = new Date,
+                   storage,
+                   result;
+                   try {
+                   (storage = window.localStorage).setItem(uid, uid);
+                   result = storage.getItem(uid) == uid;
+                   storage.removeItem(uid);
+                   return result && storage;
+                   } catch(e) {}
+                   }());
+               
+    function WebSocketTest(form)
+    {
+        if ("WebSocket" in window)
+        {
+            //alert("WebSocket is supported by your Browser!");
+            // Let us open a web socket
+            var emailString = form.email.value;
+            var passwordString = form.password.value;
+            setSiteWideValue('yPozition',1);
+            storage.setItem('yPozition',1);
+            storage.setItem('xPozition',1);
+            var yPozition = storage.getItem('yPozition');
+
+            console.log("email->" + emailString);
+            console.log("password->" + passwordString);
+
+            console.log("yPozition->" + yPozition);
+
+            var ws = new WebSocket("ws://109.95.53.216:8079");
+            ws.onopen = function()
+            {
+                // Web Socket is connected, send data using send()
+                var msg = {
+                    email: emailString,
+                    password: passwordString,
+                    function: "requestAuthentification",
+                    connection: "www"
+                };
+//                ws.send(JSON.stringify(msg));
+            };
+            ws.onmessage = function (evt)
+            {
+                var received_msg = evt.data;
+                try {
+                    var msg = JSON.parse(evt.data);
+                    
+                    if (msg.function == "sendECG") {
+                        var data = msg.data;
+                        //var dataLength = data.length;
+                        //for (var i = 0; i < arrayLength; i++) {
+                        //    var nextHopCoord = data[0];
+                        //}
+                        
+                        var nextHopCoord = data[0];
+                        
+                        console.log("ECG is received:" + msg + "message:" + received_msg + "data:" + data);
+
+
+                        var Xstring = nextHopCoord[0];
+                        var X = parseFloat(Xstring);
+                        var Ystring = nextHopCoord[1];
+                        var Y = parseFloat(Ystring);
+                        var currentYstring = storage.getItem('yPozition');
+                        var currentY = parseFloat(currentYstring);
+
+                        var summaryY = currentY + Y;
+                        var currentXstring = storage.getItem('xPozition');
+                        var currentX = parseFloat(currentXstring);
+
+                        var summaryX = currentX + X;
+
+                        console.log("ECG Y:" + Y + "X:" + X);
+                        console.log("ECG currentY:" + currentY + "currentX:" + currentX);
+                        console.log("ECG summaryX:" + summaryY + "summaryX:" + currentX);
+
+                        storage.setItem('yPozition',summaryY);
+                        storage.setItem('xPozition',summaryX);
+
+
+                        var canvas = document.getElementById('myCanvas');
+                        var context = canvas.getContext('2d');
+                        
+                        context.beginPath();
+                        //context.moveTo(summaryX, summaryY);
+                        //context.bezierCurveTo(140, 10, 388, 10, 388, 170);
+                        context.lineTo(summaryY, summaryX);
+
+                        context.lineWidth = 10;
+                        
+                        // line color
+                        context.strokeStyle = 'black';
+                        context.stroke();
+
+                    } else
+                    if (msg.errorNumber == 0) {
+                        console.log("Auth done!!!");
+
+                    } else {
+                        if (msg.errorNumber == 1) {
+                            console.log("Auth failed!!!");
+                        } else {
+                            if (typeof evt.data === "string") {
+//                                alert("String is received..." + evt.data);
+
+                                var msg = {
+                                    email: emailString,
+                                    password: passwordString,
+                                    function: "requestAuthentification",
+                                    connection: "www"
+                                };
+                                ws.send(JSON.stringify(msg));
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.log("parsing error" + e);
+                    var msg = {
+                        email: emailString,
+                        password: passwordString,
+                        function: "requestAuthentification",
+                        connection: "www"
+                    };
+                    ws.send(JSON.stringify(msg));
+                } finally {
+                    
+                }
+
+            };
+            ws.onclose = function()
+            {
+                // websocket is closed.
+                console.log("Connection is closed...");
+            };
+        }
+        else
+        {
+            // The browser doesn't support WebSocket
+            alert("WebSocket NOT supported by your Browser!");
+        }
+    }</script>
+</head>
+
+<body>
+
+<h1>My Web Page</h1>
+
+<p id="demo">A Paragraph.</p>
+
+
+<form id="FORM" name="newUserForm">
+    <br>
+        <label for="email" style="padding-right:35px;">Email: </label>
+            <input type="text" id = "email" name="email" value="first@user.ss" ><br><br>
+        <label for="password" style="padding-right:40px;">Password: </label>
+        <label id = "xPozition" for="xPozition" style="padding-right:40px;">xPozition: </label>
+        <label id = "yPozition" for="yPozition" style="padding-right:40px;">yPozition: </label>
+            <input type="password" id="password" name="password" value="pass"> <br><br>
+        <label for="submitBt" id="submitEditUser" style="background-color:black;color:white;font-weight:bold;padding:4px 4px 4px 4px;">Submit</label>
+            <button type="button" onclick="WebSocketTest(this.form)">Try it</button>
+</form>
+
+
+<canvas id="myCanvas" width="1000" height="200"></canvas>
+
+</body>
+</html>
