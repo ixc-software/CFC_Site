@@ -137,6 +137,7 @@ $(function(){
 	
 	try{
 		/*if (!window.matchMedia("(max-width:1280px)").matches) {*/
+        /*TODO BACGROUND~*/
 			var siteBackground = new Image()
 			siteBackground.src = "http://cfc.io/wp-content/themes/cfc/images/background.jpg";
 			$(siteBackground).load( function() {
@@ -151,11 +152,8 @@ $(function(){
 							"display" : "block",
 							"width" : "100%",
 							"height" : "100%",
-							"backgroundImage" : "url(http://cfc.io/wp-content/themes/cfc/images/background.jpg)",
-							"backgroundPosition" : "center top",
-							"backgroundRepeat" : "no-repeat",
-							"backgroundAttachment" : "fixed",
-							"backgroundColor" : "black",
+
+
 							"opacity" : "0"
 						}
 					}).animate( { "opacity":1 } , "slow" )

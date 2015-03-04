@@ -137,6 +137,7 @@ $(function(){
 	
 	try{
 		/*if (!window.matchMedia("(max-width:1280px)").matches) {*/
+        /*
 			var siteBackground = new Image()
 			siteBackground.src = "http://cfc.io/wp-content/themes/cfc/images/background.jpg";
 			$(siteBackground).load( function() {

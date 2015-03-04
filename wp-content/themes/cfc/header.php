@@ -116,11 +116,12 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                 </div>
             </div>
         <ul id="navigation" class="b-nav">
+            <li data-action="menuleft" style="display: none;" id="menuLeft">
 		</ul>
 		<!--<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
         -->
 	<div id="viewport" class="b-viewport">
-		
+
 
 <div class="b-content-decoration<?php if( !is_front_page() ) echo ' __opened'; ?>" >
 	<?php
