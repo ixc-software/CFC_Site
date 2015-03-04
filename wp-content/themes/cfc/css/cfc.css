@@ -9,11 +9,11 @@ a {
 }
 
 body {
-	background:#293d55!important;
+    background: rgb(214,231,251) !important;
 }
 
 .site-background {
-	background-size:cover;
+	display: none;
 }
 
 /*		mobile layout		*/

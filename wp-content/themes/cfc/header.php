@@ -9,6 +9,12 @@
  * @since Twenty Fourteen 1.0
  */
 ?><!DOCTYPE html>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="css/hover.css">
+ <script src="js/libs/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" href="css/index.css">
 <!-- SendGrid -->
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
@@ -25,6 +31,15 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hover.css">
+    <script src="<?php echo get_template_directory_uri(); ?>/js/libs/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css">
+
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -69,37 +84,43 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 	}
 	?>
 	<nav class="top-menu">
+        <!--
 		<div class="top-menu-left-bg"></div>
 		<div class="top-menu-main-bg left"></div>
 		<div class="top-menu-main-bg right"></div>
 		<div class="top-menu-right-bg"></div>
-		<ul id="navigation" class="b-nav">
-			<li data-action="menuleft" id="menuLeft">
-				<a href="#"><span>About Us</span></a>
-				<ol data-visible="">
-					<?php wp_nav_menu( array( 'menu' => 'Contacts', 'items_wrap' => '%3$s' , 'container' => false ) ); ?>
-				</ol>
-			</li>
-			<li class="top-menu-devider"></li>
-			<li data-action="menucenter" id="menuCenter">
-				<a href="#"><span>Get CFC</span></a>
-				<ol data-visible="">
-					<?php wp_nav_menu( array( 'menu' => 'Get CFC', 'items_wrap' => '%3$s' , 'container' => false ) ); ?>
-				</ol>
-			</li>
-			<li class="top-menu-devider"></li>
-			<li data-action="menuright" id="menuRight">
-				<a href="#"><span>Support</span></a>
-				<ol data-visible="">
-					<?php wp_nav_menu( array( 'menu' => 'Support', 'items_wrap' => '%3$s' , 'container' => false ) ); ?>
-				</ol>
-			</li>
+		-->
+
+            <div class="row row-margined-top">
+
+                <div style="float:left;margin-left: 9%">
+                    <div class="lang-div hvr-back-pulse">RU</div>
+                    <div class="lang-div hvr-back-pulse">EN</div>
+                    <div class="lang-div hvr-back-pulse">FR</div>
+                </div>
+            </div>
+            <div style="margin-left: 30%;">
+                <div style="display: block;">
+                    <div class="about-header-div hvr-back-pulse">ABOUT US</div>
+                    <div class="about-header-div hvr-back-pulse">GET CFC</div>
+                    <div class="about-header-div hvr-back-pulse">SUPPORT</div>
+                </div>
+
+
+
+                <div style="display: inline-table;">
+                    <div class="news-hheader-div hvr-underline-from-center">News</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Our team</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Contacts</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Media kit</div>
+                </div>
+            </div>
+        <ul id="navigation" class="b-nav">
 		</ul>
-		<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
-	</nav>
+		<!--<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
+        -->
 	<div id="viewport" class="b-viewport">
-		<div class="viewport-left-bg"></div>
-		<div class="viewport-right-bg"></div>
+		
 
 <div class="b-content-decoration<?php if( !is_front_page() ) echo ' __opened'; ?>" >
 	<?php
