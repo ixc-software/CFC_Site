@@ -10,7 +10,7 @@ div{
     cursor: pointer;
 }
 .about-header-div{
-    width: 119px;
+    width: 133px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -18,7 +18,9 @@ div{
     margin-left: 0px;
 }
 .news-hheader-div{
-    width: 90.5px;
+    vertical-align: middle;
+    width: 133px;
+    font-size: 12px;
     margin-left: 0px;
     color:#ffffff;
     padding-top: 4px;
@@ -27,12 +29,14 @@ div{
     cursor: pointer;
     background-color: rgb(121,198,44);
 }
+
+
 body{
     background-color: rgb(214,231,251);
 
 }
 .row-margined-top{
-    margin-top: 2%;
+   /* margin-top: 2%;*/
 }
 .lbl-our-team{
     color:#ffffff;

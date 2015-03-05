@@ -37,6 +37,7 @@
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hover.css">
     <script src="<?php echo get_template_directory_uri(); ?>/js/libs/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css">
 
@@ -92,27 +93,38 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 		-->
 
             <div class="row row-margined-top">
-
-                <div style="float:left;margin-left: 9%">
+                <div style="float:left;margin-left: 10em;">
                     <div class="lang-div hvr-back-pulse">RU</div>
                     <div class="lang-div hvr-back-pulse">EN</div>
                     <div class="lang-div hvr-back-pulse">FR</div>
                 </div>
             </div>
-            <div style="margin-left: 30%;">
+            <div style="margin-left: 5%; ">
                 <div style="display: block;">
-                    <div class="about-header-div hvr-back-pulse">ABOUT US</div>
-                    <div class="about-header-div hvr-back-pulse">GET CFC</div>
-                    <div class="about-header-div hvr-back-pulse">SUPPORT</div>
+                    <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()">ABOUT US</div>
+                    <div class="about-header-div hvr-back-pulse" id="get-cfc" onclick="getCfcClicked()">GET CFC</div>
+                    <div class="about-header-div hvr-back-pulse" id="support" onclick="supportClicked()">SUPPORT</div>
                 </div>
 
 
-
-                <div style="display: inline-table;">
-                    <div class="news-hheader-div hvr-underline-from-center">News</div>
+                <!--inline-table-->
+                <div style="display: none;" id="submenu-about-us" class="submenu">
+                    <div class="news-hheader-div hvr-underline-from-center"><span>News</span></div>
                     <div class="news-hheader-div hvr-underline-from-center">Our team</div>
                     <div class="news-hheader-div hvr-underline-from-center">Contacts</div>
                     <div class="news-hheader-div hvr-underline-from-center">Media kit</div>
+                </div>
+                <div style="display: none;" id="submenu-get-cfc" class="submenu">
+                    <div class="news-hheader-div hvr-underline-from-center"  >iOs</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Mac OS X</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Android</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Get the App's link</div>
+                </div>
+                <div style="display: none;" id="submenu-support"  class="submenu">
+                    <div class="news-hheader-div hvr-underline-from-center">FAQs</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Getting Started</div>
+                    <div class="news-hheader-div hvr-underline-from-center">Features and Functions</div>
+                    <div class="news-hheader-div hvr-underline-from-center">CFC Tariffs</div>
                 </div>
             </div>
         <ul id="navigation" class="b-nav">
