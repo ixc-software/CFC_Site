@@ -824,7 +824,7 @@ body {
 		position: absolute;
 		top: -15px;
 		left: auto!important;
-	
+		right: 60px;
 		//right: 41%;
 		z-index: 50;
 		display: block;
