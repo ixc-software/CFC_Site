@@ -5,7 +5,7 @@
  */
  
 get_header(); ?>
-
+<!--
 <div id="logoWords">
 	<div id="logoImg">
 		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
@@ -20,7 +20,7 @@ get_header(); ?>
 
 <div id="cableLeft"></div>
 <div id="cableMain"><img src="<?php echo get_template_directory_uri(); ?>/images/cable-main.png" /></div>
-
+-->
 <div id="phoneapp" class="phoneapp" <?php if( !is_front_page() ) echo "style='display:none;' data-visible='' ";else echo "data-visible='visible' " ?>>
 	
 	<script src="http://callsfreecalls.com/appio/js/jquery.cookie.js"></script>

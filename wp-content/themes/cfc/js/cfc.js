@@ -470,7 +470,7 @@ $(function(){
 				},
 				success: function(html){
 					alert('E-Mail was sent successfully. Enjoy!');
-				},
+				}
 			});
 		}
 		else
