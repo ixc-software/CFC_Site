@@ -139,7 +139,7 @@ $(function(){
 		/*if (!window.matchMedia("(max-width:1280px)").matches) {*/
         /*TODO BACGROUND~*/
 			var siteBackground = new Image()
-			siteBackground.src = "http://cfc.io/wp-content/themes/cfc/images/background.jpg";
+			siteBackground.src = "http://presta.com/wp-content/themes/cfc/images/background1.png";
 			$(siteBackground).load( function() {
 				$broot.before(
 					$( "<div />" , {
@@ -152,7 +152,11 @@ $(function(){
 							"display" : "block",
 							"width" : "100%",
 							"height" : "100%",
+                            "background-image":siteBackground.src,
+                            "background-attachment": "fixed",
 
+                            "background-position": "50% 0%",
+                            "background-repeat": "no-repeat",
 
 							"opacity" : "0"
 						}

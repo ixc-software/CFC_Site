@@ -99,7 +99,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                     <div class="lang-div hvr-back-pulse">FR</div>
                 </div>
             </div>
-            <div style="margin-left: 5%; ">
+            <div style="margin-left: 5%; height: 71px;">
                 <div style="display: block;">
                     <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()">ABOUT US</div>
                     <div class="about-header-div hvr-back-pulse" id="get-cfc" onclick="getCfcClicked()">GET CFC</div>
@@ -127,7 +127,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                     <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/cfc-tariffs/';">CFC Tariffs</div>
                 </div>
             </div>
-        <ul id="navigation" class="b-nav">
+        <ul id="navigation" class="b-nav" style="display: none;">
             <li data-action="menuleft" style="display: none;" id="menuLeft">
 		</ul>
 		<!--<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
