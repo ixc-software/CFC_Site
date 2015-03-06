@@ -23,10 +23,10 @@ float: right;">
         <button class="social-box-start">
             Start
         </button>
-        <div class="social-box-android-apple">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/googleplay.png">
+        <div class="social-box-android-apple"  onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/googleplay.png" >
         </div>
-        <div class="social-box-android-apple">
+        <div class="social-box-android-apple" onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">
             <img src="<?php echo get_template_directory_uri(); ?>/images/App_Store_Badge_small.png">
         </div>
 
