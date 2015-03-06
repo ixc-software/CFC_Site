@@ -311,7 +311,7 @@ $(function(){
             if(margTopImage>0){
                 $("#logoWords").css('margin-top',margTopImage+"px");
             }else{
-                $("#logoWords").css('margin-top',"0px");
+                $("#logoWords").css('margin-top',"00px");
 
             }
 
