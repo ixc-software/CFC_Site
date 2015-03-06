@@ -301,7 +301,7 @@ $(function(){
             $("#logoWords").css('width','100%');
         }else{
             $("#span-cfc-front").css('margin-left','11em');
-            $(".front-middle-blue-line").css('width','90%');
+            $(".front-middle-blue-line").css('width','100%');
             $("#logoWords").css('width','90%');
             $(".phoneapp").css('width',2500);
             $(".phoneapp").css('height',$(window).height()*0.66);
@@ -311,11 +311,10 @@ $(function(){
             if(margTopImage>0){
                 $("#logoWords").css('margin-top',margTopImage+"px");
             }else{
-                $("#logoWords").css('margin-top',"00px");
-
+                $("#logoWords").css('margin-top',"0px");
             }
-
         }
+        $("#logoWords").css('width',$(window).width()-(parseFloat($("#phoneapp").css('height'))*0.7));
 
 
 		if ($('#logoImg img').length)
