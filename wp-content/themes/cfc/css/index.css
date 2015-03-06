@@ -29,7 +29,17 @@ div{
     cursor: pointer;
     background-color: rgb(121,198,44);
 }
+.front-middle-blue-line{
+   float:right;
+    height: 3em;
+    width: 90%;
+   background-color:rgb(88,179,252);
+    color:#ffffff;
 
+       display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
 
 body{
     background-color: rgb(214,231,251);

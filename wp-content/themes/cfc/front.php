@@ -6,8 +6,8 @@
  
 get_header(); ?>
 
-<div id="logoWords" style="display: none;">
-	<div id="logoImg">
+<div id="logoWords" style="">
+	<!--<div id="logoImg">
 		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/homepage-logo.png" />
 		</a>
@@ -15,13 +15,16 @@ get_header(); ?>
 	
 	<h2>Welcome to the CFC world</h2>
 	
-	<h3>You can call anyone free of charge.</h3>
+	<h3>You can call anyone free of charge.</h3>-->
+    <div class="front-middle-blue-line"><span style="margin-left: 11em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CFC is a virtual SIM-card in your mobile for making
+            free phone calls</span></div>
 </div>
 <div id="cableLeft"  style="display: none;"></div>
 <div id="cableMain"  style="display: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/cable-main.png" /></div>
 <!--
 
 -->
+
 <div id="phoneapp" class="phoneapp" <?php if( !is_front_page() ) echo "style='display:none;' data-visible='' ";else echo "data-visible='visible' " ?>>
 	
 	<script src="http://callsfreecalls.com/appio/js/jquery.cookie.js"></script>

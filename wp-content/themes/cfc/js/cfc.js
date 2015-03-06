@@ -297,9 +297,10 @@ $(function(){
 		
 		if ($('#logoImg img').length)
 		{
+
 			if ($(window).width() <= 1190 && $(window).width() > 800)
 			{
-				$('#logoWords').width($(window).width() - 350);
+				//$('#logoWords').width($(window).width() - 350);
 			}
 			else
 			{
@@ -659,7 +660,7 @@ $(window).load(function() {
 	$('#homeContent #main').animate( { "opacity":1 } , "slow" , function() {
 		if ($(window).width() <= 1190 && $(window).width() > 800)
 		{
-			$('#logoWords').width($(window).width() - 350);
+			//$('#logoWords').width($(window).width() - 350);
 		}
 		else
 		{
