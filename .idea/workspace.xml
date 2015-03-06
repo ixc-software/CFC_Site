@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -76,8 +75,8 @@
       <file leaf-file-name="cfc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4747191" vertical-offset="4914" max-vertical-offset="14399">
-              <caret line="299" column="70" selection-start-line="299" selection-start-column="70" selection-end-line="299" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.66573036" vertical-offset="4914" max-vertical-offset="14433">
+              <caret line="303" column="54" selection-start-line="303" selection-start-column="54" selection-end-line="303" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -440,7 +439,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425643093854</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix mobile">
+      <created>1425644178058</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1425644178058</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,7 +501,8 @@
     <MESSAGE value="middle blue line(front.php) fix" />
     <MESSAGE value="+middle hero" />
     <MESSAGE value="+social buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="+social buttons" />
+    <MESSAGE value="fix mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix mobile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -715,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4747191" vertical-offset="4914" max-vertical-offset="14399">
-          <caret line="299" column="70" selection-start-line="299" selection-start-column="70" selection-end-line="299" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.66573036" vertical-offset="4914" max-vertical-offset="14433">
+          <caret line="303" column="54" selection-start-line="303" selection-start-column="54" selection-end-line="303" selection-end-column="54" />
           <folding />
         </state>
       </provider>

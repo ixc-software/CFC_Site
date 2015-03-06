@@ -298,9 +298,11 @@ $(function(){
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');
             $(".front-middle-blue-line").css('width',$(window).width()+'px');
+            $("#logoWords").css('width','100%');
         }else{
             $("#span-cfc-front").css('margin-left','11em');
             $(".front-middle-blue-line").css('width','90%');
+            $("#logoWords").css('width','90%');
         }
 
 
