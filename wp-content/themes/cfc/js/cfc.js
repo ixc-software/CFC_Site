@@ -310,6 +310,9 @@ $(function(){
             //logoWords
             if(margTopImage>0){
                 $("#logoWords").css('margin-top',margTopImage+"px");
+            }else{
+                $("#logoWords").css('margin-top',"0px");
+
             }
 
         }

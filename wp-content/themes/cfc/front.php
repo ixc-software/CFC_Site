@@ -6,7 +6,7 @@
  
 get_header(); ?>
 
-<div id="logoWords" style="width: 90%;
+<div id="logoWords" style="margin-top: -1.6em;width: 90%;
 float: right;">
 	<div id="logoImg">
 		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
