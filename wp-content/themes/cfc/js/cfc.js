@@ -305,6 +305,13 @@ $(function(){
             $("#logoWords").css('width','90%');
             $(".phoneapp").css('width',2500);
             $(".phoneapp").css('height',$(window).height()*0.66);
+
+            var margTopImage = $(window).height()/2 - 406;
+            //logoWords
+            if(margTopImage>0){
+                $("#logoWords").css('margin-top',margTopImage+"px");
+            }
+
         }
 
 
