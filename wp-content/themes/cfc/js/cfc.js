@@ -303,7 +303,8 @@ $(function(){
             $("#span-cfc-front").css('margin-left','11em');
             $(".front-middle-blue-line").css('width','90%');
             $("#logoWords").css('width','90%');
-            $(".phoneapp").css('width',$(window).width()*0.66);
+            $(".phoneapp").css('width',2500);
+            $(".phoneapp").css('height',$(window).height()*0.66);
         }
 
 
