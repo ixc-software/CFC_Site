@@ -9,12 +9,7 @@
  * @since Twenty Fourteen 1.0
  */
 ?><!DOCTYPE html>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-<link rel="stylesheet" href="css/hover.css">
- <script src="js/libs/bootstrap.min.js"></script>
 
- <link rel="stylesheet" href="css/index.css">
 <!-- SendGrid -->
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
@@ -36,6 +31,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hover.css">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
     <script src="<?php echo get_template_directory_uri(); ?>/js/libs/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
 
