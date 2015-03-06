@@ -30,9 +30,11 @@ div{
     background-color: rgb(121,198,44);
 }
 .front-middle-blue-line{
+    margin-right: 10px;
    float:right;
     height: 3em;
     width: 90%;
+
    background-color:rgb(88,179,252);
     color:#ffffff;
 
