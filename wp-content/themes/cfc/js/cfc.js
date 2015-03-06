@@ -294,7 +294,7 @@ $(function(){
 		}
 		
 		centeringPhone.call();
-        $("#logoWords").css('width',$(window).width()-(parseFloat($("#phoneapp").css('height'))*0.7));
+        $("#logoWords").css('width',$(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68));
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');
             $(".front-middle-blue-line").css('width',$(window).width()+'px');
@@ -302,9 +302,10 @@ $(function(){
         }else{
             $("#span-cfc-front").css('margin-left','11em');
             $(".front-middle-blue-line").css('width','100%');
-            $("#logoWords").css('width','82%');
-            $(".phoneapp").css('width',2500);
-            $(".phoneapp").css('height',$(window).height()*0.66);
+           // $("#logoWords").css('width','82%');
+            $(".phoneapp")
+                .css('width',2500)
+                .css('height',$(window).height()*0.66);
 
             var margTopImage = ($(window).height()/3)*2 - (406+111);
             //logoWords
