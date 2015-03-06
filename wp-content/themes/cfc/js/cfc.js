@@ -318,7 +318,7 @@ $(function(){
             var w = $(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68) + 20;
 
             $("#logoWords").css('width',w);
-            alert(w+","+$(window).width());
+        //    alert(w+","+$(window).width());
         }
 
 
