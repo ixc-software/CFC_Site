@@ -294,6 +294,7 @@ $(function(){
 		}
 		
 		centeringPhone.call();
+        alert("r");
         $("#logoWords").css('width',$(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68));
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');

@@ -71,8 +71,8 @@
       <file leaf-file-name="cfc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14044943" vertical-offset="4982" max-vertical-offset="14637">
-              <caret line="296" column="100" selection-start-line="296" selection-start-column="100" selection-end-line="296" selection-end-column="100" />
+            <state vertical-scroll-proportion="0.28370786" vertical-offset="4931" max-vertical-offset="14654">
+              <caret line="296" column="19" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -544,7 +544,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425665282257</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fix blue line">
+      <created>1425666843081</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1425666843081</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -830,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14044943" vertical-offset="4982" max-vertical-offset="14637">
-          <caret line="296" column="100" selection-start-line="296" selection-start-column="100" selection-end-line="296" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.28370786" vertical-offset="4931" max-vertical-offset="14654">
+          <caret line="296" column="19" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="19" />
           <folding />
         </state>
       </provider>
