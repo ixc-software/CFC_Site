@@ -528,7 +528,7 @@ body {
 		content:url(../images/navigation.png) url(../images/body-bgr.jpg) url(../images/iphone5s.png);
 	}
     html,body{
-        background-image: url('http://presta.com/wp-content/themes/cfc/images/background1.png') !important;
+        background-image: url('/wp-content/themes/cfc/images/background1.png') !important;
         background-size: 1400px 100% !important;
     }
 
