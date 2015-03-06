@@ -7,15 +7,15 @@
 get_header(); ?>
 
 <div id="logoWords" style="">
-	<!--<div id="logoImg">
+	<div id="logoImg">
 		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/homepage-logo.png" />
+			<img  style="width: 15em" src="<?php echo get_template_directory_uri(); ?>/images/composition.png" />
 		</a>
 	</div>
-	
-	<h2>Welcome to the CFC world</h2>
-	
-	<h3>You can call anyone free of charge.</h3>-->
+    <!--
+    <h2>Welcome to the CFC world</h2>
+
+    <h3>You can call anyone free of charge.</h3>-->
     <div class="front-middle-blue-line"><span style="margin-left: 11em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CFC is a virtual SIM-card in your mobile for making
             free phone calls</span></div>
 </div>
