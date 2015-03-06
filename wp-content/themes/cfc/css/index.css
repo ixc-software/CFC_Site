@@ -57,7 +57,9 @@ div{
 #___plusone_0 iframe{
     /*height: 86px !important;
     top:0;*/
-    margin-top: 15px !important;
+    position: relative !important;
+    top: -25px !important;
+
 }
 .fb-share-button iframe{
     margin-top: -31px;
