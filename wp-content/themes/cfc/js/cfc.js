@@ -183,7 +183,9 @@ $(function(){
 	});
 	
 	var centeringPhone = function() {
+        /*
 		$phoneapp.css( "top" , ($viewport.innerHeight()/2|0)-($phoneapp.outerHeight()/2|0)+ "px" );
+		*/
 	};
 		
 	$(window).on('resize', function() {		

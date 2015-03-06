@@ -166,7 +166,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 		
 		<div class="content-top"></div>
 		
-		<div class="hfeed site b-content">
+		<div class="hfeed site b-content" style="bottom: 0;position: absolute;">
 			<?php if ( get_header_image() ) : ?>
 			<div id="site-header">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
