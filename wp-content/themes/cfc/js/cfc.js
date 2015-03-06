@@ -294,8 +294,8 @@ $(function(){
 		}
 		
 		centeringPhone.call();
-        alert("r");
-        $("#logoWords").css('width',$(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68));
+
+        $("#logoWords").css('width',$(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68) + 20);
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');
             $(".front-middle-blue-line").css('width',$(window).width()+'px');

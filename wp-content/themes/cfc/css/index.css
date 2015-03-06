@@ -55,8 +55,9 @@ div{
     border-radius: 14px;
 }
 #___plusone_0 iframe{
-    height: 86px !important;
-    top:0;
+    /*height: 86px !important;
+    top:0;*/
+    margin-top: 15px !important;
 }
 .fb-share-button iframe{
     margin-top: -31px;
@@ -72,7 +73,7 @@ div{
 
        display: flex;
     justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
+
 }
 
 body{
