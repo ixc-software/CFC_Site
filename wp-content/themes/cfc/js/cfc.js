@@ -294,10 +294,19 @@ $(function(){
 		}
 		
 		centeringPhone.call();
-		
+
+        if($("#phoneapp").css('display')=='none'){
+            $("#span-cfc-front").css('margin-left','0px');
+            $(".front-middle-blue-line").css('width',$(window).width()+'px');
+        }else{
+            $("#span-cfc-front").css('margin-left','11em');
+            $(".front-middle-blue-line").css('width','90%');
+        }
+
+
 		if ($('#logoImg img').length)
 		{
-
+            //alert('image');
 			if ($(window).width() <= 1190 && $(window).width() > 800)
 			{
 				//$('#logoWords').width($(window).width() - 350);
