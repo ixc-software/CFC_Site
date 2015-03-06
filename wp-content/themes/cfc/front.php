@@ -9,7 +9,7 @@ get_header(); ?>
 <div id="logoWords" style="">
 	<div id="logoImg">
 		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
-			<img  style="width: 15em" src="<?php echo get_template_directory_uri(); ?>/images/composition.png" />
+			<img  style="width: 12em" src="<?php echo get_template_directory_uri(); ?>/images/composition.png" />
 		</a>
 	</div>
     <!--
