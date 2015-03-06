@@ -58,7 +58,7 @@
 		</div>
 	</footer>
 -->
-<footer style="background-color: rgb(41,128,185);padding: 0.7em;color:#ffffff;" id="colophon" class="b-footer" role="contentinfo">
+<footer style="background-color: rgb(41,128,185);color:#ffffff;" id="colophon" class="b-footer" role="contentinfo">
         <span>Copyright 2015 CallsFreeCalls.All right reserved.</span>
     </footer>
 </div><!--//root-->
