@@ -212,17 +212,17 @@ $(function(){
 		
 		if ($('#homeContent').length > 0 || $('#getAppContent').length > 0)
 		{
-			$('.b-content').height(innerHeight - 34).width('100%');
+			$('.b-content').height(innerHeight ).width('100%');
 		}
 		else
 		{
 			if ($(window).width() > 540)
 			{
-				$('.b-content').height(innerHeight - 34).width($content.width() - 80);
+				$('.b-content').height(innerHeight ).width($content.width() - 80);
 			}
 			else
 			{
-				$('.b-content').height(innerHeight - 27).width($content.width() - 58);
+				$('.b-content').height(innerHeight).width($content.width() - 58);
 			}
 		}
 		
