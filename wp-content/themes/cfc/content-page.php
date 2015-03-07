@@ -11,8 +11,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	
 	<?php echo get_content_header(); ?>
-	
-	
+
+
 		<div class="category-scroll">
 			<div class="breadcrumbs">
 				<?php if(function_exists('bcn_display'))
@@ -21,7 +21,7 @@
 				}?>
 			</div>
 			<div class="category-scroll-inner">
-				
+
 			<div class="entry-content">
 				<?php
 					the_content();
@@ -37,4 +37,5 @@
 			</div><!-- .entry-content -->
 			</div>
 		</div><!-- //category-scroll-all -->
+
 </article><!-- #post-## -->

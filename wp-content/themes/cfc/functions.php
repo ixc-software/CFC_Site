@@ -565,13 +565,11 @@ function get_content_header($type = 'post', $id = NULL)
 {
 	$_output = '';
 	
-	$_output .= '
-	<div class="category-banner-wrapper">
-	<div class="category-banner-flare"><img src="'.get_template_directory_uri().'/images/flare.png" /></div>';
-		
+
+
 	// Page thumbnail and title.
 	//twentyfourteen_post_thumbnail();
-	
+
 	if ($type == 'post' && is_null($id))
 	{
 		$header_img_left = get_field('header_image_left');
@@ -610,17 +608,25 @@ function get_content_header($type = 'post', $id = NULL)
 	{
 		$header_img_right_url = get_template_directory_uri().'/images/01_R.png';
 	}
-	$_output .= '<img class="category-banner-left" src="'.$header_img_left_url.'">';
-	$_output .= '<h1 class="post-single-title category-banner">'.$title.'</h1>';
-	$_output .= '<img class="category-banner-right" src="'.$header_img_right_url.'">';
-	$_output .= '<div class="clear"></div>
+    $_output .= '
+	<div class="category-banner-wrapper1 container-our-team-header-div" style="width: 100%;height: 3em;">
+	<h4 class="lbl-our-team">'.$title.'</h4>
+
+	<div class="category-banner-flare"><img src="'.get_template_directory_uri().'/images/flare.png" /></div>';
+	//$_output .= '<img class="category-banner-left" src="'.$header_img_left_url.'">';
+	//$_output .= '<h1 class="post-single-title category-banner">'.$title.'</h1>';
+	//$_output .= '<img class="category-banner-right" src="'.$header_img_right_url.'">';
+	/*$_output .= '<div class="clear"></div>
 	</div>
 	<div class="clear"></div>
 	<div class="header-image-bottom-gradient">
 		<div class="left"><img src="'.get_template_directory_uri().'/images/header-img-left.png" width="14" height="14" /></div>
 		<div class="center"></div>
 		<div class="right"><img src="'.get_template_directory_uri().'/images/header-img-right.png" width="14" height="14" /></div>
-	</div>';
+	</div>';*/
+    $_output .= '<div class="clear"></div>
+	</div>
+	<div class="clear"></div>';
 	return $_output;
 }
 

@@ -887,9 +887,10 @@ body {
 		/*background:url(../images/content-middle-bgr.png) 0 0 repeat-y;*/
 		text-align:left;
 	}
-	
+
 	.content-left-top {
-		position:absolute;
+		display: none;
+        position:absolute;
 		left:0;
 		top:0;
 		width:40px;
@@ -897,13 +898,15 @@ body {
 		background:url(../images/content-left-top.png) left center no-repeat;
 	}
 	.content-left {
-		position:absolute;
+        display: none;
+        position:absolute;
 		left:0;
 		top:17px;
 		width:40px;
 		background:url(../images/content-left.png) left center repeat-y;
 	}
 	.content-left-bottom {
+        display: none;
 		position:absolute;
 		left:0;
 		bottom:0;
@@ -912,6 +915,7 @@ body {
 		background:url(../images/content-left-bottom.png) left center no-repeat;
 	}
 	.content-right-top {
+        display: none;
 		position:absolute;
 		right:0;
 		top:0;
@@ -920,6 +924,7 @@ body {
 		background:url(../images/content-right-top.png) right center no-repeat;
 	}
 	.content-right {
+        display: none;
 		position:absolute;
 		right:0;
 		top:17px;
@@ -927,6 +932,7 @@ body {
 		background:url(../images/content-right.png) right center repeat-y;
 	}
 	.content-right-bottom {
+        display: none;
 		position:absolute;
 		right:0;
 		bottom:0;
@@ -979,14 +985,14 @@ body {
 
 	.b-content {
 		width:auto;
-		background-color:#f2f2f1;
+        background-color: transparent;
 		overflow:hidden;
 	}
 	#homeContent .b-content, #getAppContent .b-content {
 		background:none;
 		overflow: visible;
 	}
-	.content-top {
+	/*.content-top {
 		margin:0 auto;
 		height:17px;
 		background:url(../images/content-top-bg.png) center repeat-x;
@@ -995,7 +1001,7 @@ body {
 		margin:0 auto;
 		height:17px;
 		background:url(../images/content-bottom-bg.png) center repeat-x;
-	}
+	}*/
 	.site-main,
 	#primary.content-area,
 	#content.site-content,
@@ -1016,7 +1022,7 @@ body {
 	body.page .category-banner,
 	body.single .category-scroll,
 	body.single .category-banner {
-		margin:0 10px;
+		//margin:0 10px;
 	}
 	
 	body.category .post {
@@ -1817,7 +1823,7 @@ font-size:9px;
 	z-index:11001;
 }
 .content-left, .content-right, .content-left-top, .content-left-bottom, .content-right-top, .content-right-bottom {
-	width:29px;
+	width:0px;
 }
 .list-view .content-area {
 padding: 0;
