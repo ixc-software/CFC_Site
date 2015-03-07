@@ -17,7 +17,7 @@ float: right;">
     <h2>Welcome to the CFC world</h2>
 
     <h3>You can call anyone free of charge.</h3>-->
-    <div class="front-middle-blue-line"><span style="margin-left: 11em;margin-top: 0.8em;" id="span-cfc-front">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CFC is a virtual SIM-card in your mobile for making
+    <div class="front-middle-blue-line"><span style=";margin-top: 0.8em;" id="span-cfc-front">&nbsp;&nbsp;&nbsp;CFC is a virtual SIM-card in your mobile for making
             free phone calls</span></div>
     <div class="social-box">
         <button class="social-box-start">

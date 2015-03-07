@@ -295,11 +295,26 @@ $(function(){
 		
 		centeringPhone.call();
 
+        if($(window).height()<550){
+            //hide blue line
+            $(".front-middle-blue-line").hide();
+            $(".social-box").css('margin-top','-0.3em');
+        }else{
+            $(".front-middle-blue-line").show();
+            $(".social-box").css('margin-top','3em');
+        }
+        if(($(window).height()<500)){
+            $("#logoImg").hide();
+        }else{
+            $("#logoImg").show();
+        }
 
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');
             $(".front-middle-blue-line").css('width',$(window).width()+'px');
             $("#logoWords").css('width','100%');
+
+
         }else{
             $("#span-cfc-front").css('margin-left','11em');
             $(".front-middle-blue-line").css('width','100%');
