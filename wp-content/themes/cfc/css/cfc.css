@@ -1146,7 +1146,7 @@ body {
 		overflow-y:scroll;
 		border:1px #d3d3d3 solid;
 		background:#fff;
-		margin:0 13px;
+		//margin:0 13px;
 		width:60%;
 		float:left;
 	}
@@ -1536,6 +1536,7 @@ margin-bottom: 5px;
 	color:#a79472;
 }
 .staff .civ {
+    height: 12em;
 	text-align:center;
 	color:#62625e;
 }

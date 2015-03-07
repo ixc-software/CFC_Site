@@ -3,6 +3,7 @@
  */
 function resetMenuColor(){
     $("#about-us").css('background-color','');
+    $("#home").css('background-color','');
     $("#get-cfc").css('background-color','');
     $("#support").css('background-color','');
     $(".submenu").hide();

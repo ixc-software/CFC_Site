@@ -99,6 +99,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
             </div>
             <div style="margin-left: 5%; height: 71px;">
                 <div style="display: block;">
+                    <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'">HOME</div>
                     <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()">ABOUT US</div>
                     <div class="about-header-div hvr-back-pulse" id="get-cfc" onclick="getCfcClicked()">GET CFC</div>
                     <div class="about-header-div hvr-back-pulse" id="support" onclick="supportClicked()">SUPPORT</div>
