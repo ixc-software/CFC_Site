@@ -1126,7 +1126,7 @@ body {
 		display:block;
 		/*height:calc(100% - 164px);*/ /*120 */
 		/*padding:0 15px 15px;*/
-		border:1px #d3d3d3 solid;
+
 		border-top:none;
 		background:#fcfcfc;
 		overflow: hidden;
@@ -1136,9 +1136,9 @@ body {
 	.category-scroll-inner {
 		display:block;
 		overflow-y:scroll;
-		border:1px #d3d3d3 solid;
+
 		background:transparent;
-		margin:0 13px;
+
 	}
 	
 	#contactPage .category-scroll-inner {
@@ -1489,8 +1489,8 @@ margin-bottom: 5px;
 	position:relative;
 	width:23%;
 	float:left;
-    margin-left: 5px;
-    margin-right: 5px;
+	margin-left:1%;
+	margin-right:1%;
 }
 .grid_4 {
 	position:relative;
