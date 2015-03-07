@@ -17,6 +17,9 @@ div{
     cursor: pointer;
     margin-left: 0px;
 }
+.lang-active{
+    background-color: rgb(52, 152, 219);
+}
 .news-hheader-div{
     vertical-align: middle;
     width: 135.5px;

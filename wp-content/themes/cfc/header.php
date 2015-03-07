@@ -62,26 +62,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 <div class="b-root">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/smile_hey_left.png" id="smile_hey_left">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/smile_hey_right.png" id="smile_hey_right">
-	<?php
-	$langs = icl_get_languages('skip_missing=1');
-	//print_r($langs);
-	if (count($langs) > 1)
-	{
-		?>
-		<div class="languages">
-		<?php
-		foreach ($langs as $lang_code => $lang_data)
-		{
-			if (!$lang_data['active'])
-			{
-				echo '<a href="'.$lang_data['url'].'"><img src="'.get_template_directory_uri().'/images/icon_lang_'.$lang_data['language_code'].'.png"></a>';
-			}
-		}
-		?>
-		</div>
-		<?php
-	}
-	?>
+
 	<nav class="top-menu">
         <!--
 		<div class="top-menu-left-bg"></div>
@@ -92,11 +73,39 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
             <div class="row row-margined-top">
                 <div style="float:left;margin-left: 3em;">
-                    <div class="lang-div hvr-back-pulse">RU</div>
-                    <div class="lang-div hvr-back-pulse">EN</div>
-                    <div class="lang-div hvr-back-pulse">FR</div>
+
+
+        <?php
+            $langs = icl_get_languages('skip_missing=1');
+
+            if (count($langs) >= 1)
+            {
+                ?>
+
+                    <?php
+                    foreach ($langs as $lang_code => $lang_data)
+                    {
+                        if (!$lang_data['active'])
+                        {
+                           // echo '<a href="'.$lang_data['url'].'"><img src="'.get_template_directory_uri().'/images/icon_lang_'.$lang_data['language_code'].'.png"></a>';
+                        }
+
+
+                    }
+                    echo ' <div onclick="window.location =\''.$langs['ru']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['ru']['active']?'lang-active':'') . '">RU</div>
+                    <div onclick="window.location =\''.$langs['en']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['en']['active']?'lang-active':'') . '">EN</div>
+                    <div onclick="window.location =\''.$langs['fr']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['fr']['active']?'lang-active':'') . '">FR</div>';
+
+                    ?>
+                
+            <?php
+            }
+            ?>
                 </div>
             </div>
+
+
+
             <div style="margin-left: 5%; height: 71px;">
                 <div style="display: block;">
                     <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'">HOME</div>
