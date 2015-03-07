@@ -984,7 +984,7 @@ body {
 	}*/
 
 	.b-content {
-		width:auto;
+		width:100% !important;
         background-color: transparent;
 		overflow:hidden;
 	}
@@ -1155,7 +1155,7 @@ body {
 	}
 	
 	.breadcrumbs {
-		display:block;
+		display:none;
 		padding:5px 26px;
 		line-height:15px;
 		font-size:12px;

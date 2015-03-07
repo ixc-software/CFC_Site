@@ -188,7 +188,8 @@ $(function(){
 		*/
 	};
 		
-	$(window).on('resize', function() {		
+	$(window).on('resize', function() {
+
 		if ($(window).width() > 540)
 		{
 			$viewport.height(function() {
@@ -292,7 +293,7 @@ $(function(){
 			//console.log($(window).width());
 			//$('#logoWords').css('margin-top', 0);
 		}
-		
+
 		centeringPhone.call();
 
         if($(window).height()<550){
