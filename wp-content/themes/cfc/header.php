@@ -97,7 +97,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                     <div onclick="window.location =\''.$langs['fr']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['fr']['active']?'lang-active':'') . '">FR</div>';
 
                     ?>
-                
+
             <?php
             }
             ?>

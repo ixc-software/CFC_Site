@@ -10,7 +10,7 @@ div{
     cursor: pointer;
 }
 .about-header-div{
-    width: 133px;
+    width: 132px;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -22,7 +22,7 @@ div{
 }
 .news-hheader-div{
     vertical-align: middle;
-    width: 135.5px;
+    width: 135px;
     font-size: 12px;
     margin-left: 0px;
     color:#ffffff;

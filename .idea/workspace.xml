@@ -42,39 +42,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90529245" vertical-offset="1222" max-vertical-offset="3536">
-              <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+            <state vertical-scroll-proportion="-9.884615" vertical-offset="1222" max-vertical-offset="3536">
+              <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8296#9279#0#PHP" expanded="true" />
-                <marker date="1425747392479" expanded="true" signature="3949:3979" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="3980:4129" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="4010:4025" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="4026:4129" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="4593:4607" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="4646:4750" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="6106:6120" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="6159:6263" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="6815:6829" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="6830:6915" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="6878:6892" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="6923:7039" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="7081:7150" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="7310:7480" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="7421:7433" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="7582:8072" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="7919:7961" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="7962:8072" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="8028:8072" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="8387:8455" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="8550:8622" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="8767:8808" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="9155:9242" placeholder="..." />
-                <marker date="1425747392479" expanded="true" signature="9185:9231" placeholder="..." />
+                <element signature="e#8280#9263#0#PHP" expanded="true" />
+                <marker date="1425747436424" expanded="true" signature="3933:3963" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="3964:4113" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="3994:4009" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="4010:4113" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="4577:4591" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="4630:4734" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="6090:6104" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="6143:6247" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="6799:6813" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="6814:6899" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="6862:6876" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="6907:7023" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="7065:7134" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="7294:7464" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="7405:7417" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="7566:8056" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="7903:7945" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="7946:8056" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="8012:8056" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="8371:8439" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="8534:8606" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="8751:8792" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="9139:9226" placeholder="..." />
+                <marker date="1425747436424" expanded="true" signature="9169:9215" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -158,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.206897" vertical-offset="131" max-vertical-offset="2006">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.27642277" vertical-offset="102" max-vertical-offset="2006">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -188,8 +188,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/index.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/index.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/index.css" />
       </list>
     </option>
   </component>
@@ -655,7 +655,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425745452074</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add language">
+      <created>1425747427888</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1425747427888</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -724,7 +730,8 @@
     <MESSAGE value="update front template)(all pages)" />
     <MESSAGE value="about us" />
     <MESSAGE value="add home button" />
-    <option name="LAST_COMMIT_MESSAGE" value="add home button" />
+    <MESSAGE value="add language" />
+    <option name="LAST_COMMIT_MESSAGE" value="add language" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1053,14 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="19233" max-vertical-offset="32249">
-          <caret line="1138" column="0" selection-start-line="1138" selection-start-column="0" selection-end-line="1138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
@@ -1077,14 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.206897" vertical-offset="131" max-vertical-offset="2006">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/content-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923" vertical-offset="119" max-vertical-offset="697">
@@ -1095,37 +1086,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90529245" vertical-offset="1222" max-vertical-offset="3536">
-          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        <state vertical-scroll-proportion="-9.884615" vertical-offset="1222" max-vertical-offset="3536">
+          <caret line="95" column="43" selection-start-line="95" selection-start-column="43" selection-end-line="95" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8296#9279#0#PHP" expanded="true" />
-            <marker date="1425747392479" expanded="true" signature="3949:3979" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="3980:4129" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="4010:4025" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="4026:4129" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="4593:4607" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="4646:4750" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="6106:6120" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="6159:6263" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="6815:6829" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="6830:6915" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="6878:6892" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="6923:7039" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="7081:7150" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="7310:7480" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="7421:7433" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="7582:8072" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="7919:7961" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="7962:8072" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="8028:8072" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="8387:8455" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="8550:8622" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="8767:8808" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="9155:9242" placeholder="..." />
-            <marker date="1425747392479" expanded="true" signature="9185:9231" placeholder="..." />
+            <element signature="e#8280#9263#0#PHP" expanded="true" />
+            <marker date="1425747436424" expanded="true" signature="3933:3963" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="3964:4113" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="3994:4009" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="4010:4113" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="4577:4591" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="4630:4734" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="6090:6104" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="6143:6247" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="6799:6813" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="6814:6899" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="6862:6876" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="6907:7023" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="7065:7134" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="7294:7464" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="7405:7417" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="7566:8056" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="7903:7945" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="7946:8056" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="8012:8056" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="8371:8439" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="8534:8606" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="8751:8792" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="9139:9226" placeholder="..." />
+            <marker date="1425747436424" expanded="true" signature="9169:9215" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19233" max-vertical-offset="32249">
+          <caret line="1138" column="0" selection-start-line="1138" selection-start-column="0" selection-end-line="1138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27642277" vertical-offset="102" max-vertical-offset="2006">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
