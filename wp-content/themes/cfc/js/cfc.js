@@ -325,13 +325,13 @@ $(function(){
                 .css('width',$(window).height()*0.60)
                 .css('height',$(window).height()*0.66);
 
-            /*var margTopImage = ($(window).height()/3)*2 - (350+111);
+            var margTopImage = ($("#main").height() - 355)/2;
             //logoWords
             if(margTopImage>0){
-                $("#logoWords").css('margin-top',margTopImage+"px");
+                $("#logoWords").css('margin-bottom',margTopImage+"px");
             }else{
-                $("#logoWords").css('margin-top',"0px");
-            }*/
+                $("#logoWords").css('margin-bottom',"0px");
+            }
             var w = $(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68) + 20;
 
             $("#logoWords").css('width',w);

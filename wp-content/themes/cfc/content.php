@@ -45,7 +45,7 @@
 			
 			$meta = get_post_meta(get_the_ID(), 'inpost_gallery_data');
 			$scroll = $mobile_thumb = '';
-
+            /*
 			if (isset($meta[0]) && is_array($meta[0]))
 			{
 				$scroll = ' with-slider';
@@ -59,7 +59,7 @@
 				}
 				
 				echo '</ul></div>';			
-			}
+			}*/
 			?>
 			
 			<div class="category-scroll-inner <?php echo $inner_class; ?><?php echo $scroll; ?>">
@@ -124,6 +124,22 @@ padding-right: 20px;">
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
 			) );
+
+
+            if (isset($meta[0]) && is_array($meta[0]))
+            {
+                $scroll = ' with-slider';
+                $gallery = $meta[0];
+
+                echo '<div class="slider-wrapper" style="position: inherit;"><ul id="contentSlider">';
+                foreach ($gallery as $item)
+                {
+                    echo '<li><img src="'.$item['imgurl'].'"></li>';
+                    $mobile_thumb = $item['imgurl'];
+                }
+
+                echo '</ul></div>';
+            }
 		?>
 	</div><!-- .entry-content -->
         </div>
