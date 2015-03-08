@@ -66,8 +66,14 @@
 	<?php endif; ?>
 
 	<?php //twentyfourteen_post_thumbnail(); ?>
-
-	<header class="entry-header">
+    <div style="background-color: rgba(235, 241, 253, 0.7);display: inline-block;width: 100%;">
+	<div class="entry-header" style="text-align: center;position: relative;
+z-index: 1;
+width: 30%;
+min-width: 150px;
+float: left;
+padding-left: 5px;
+padding-right: 20px;">
 		<?php /* if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
 		<div class="entry-meta">
 			<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfourteen' ) ); ?>:</span>
@@ -76,20 +82,22 @@
 			endif; */
 
 			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
+				the_title( '<h1 class="entry-title" style="/*margin: 20px 0 12px;*/margin: 0;">', '</h1>' );
 			else :
 				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
 			endif;
-		?>
 
-	</header><!-- .entry-header -->
+		?>
+        <?php the_date(); ?>
+
+	</div><!-- .entry-header -->
 
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
-	<div class="entry-content">
+	<div class="entry-content" style="/*margin: 20px 0 12px;*/display: table;">
 		<?php
 			
 			if ($mobile_thumb)
@@ -100,8 +108,8 @@
 
 			//edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
 	
-			if ( 'post' == get_post_type() )
-				twentyfourteen_posted_on();
+			//if ( 'post' == get_post_type() )
+			//	twentyfourteen_posted_on();
 
 /*			if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) : ?>
 
@@ -118,6 +126,7 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
+        </div>
 	<?php endif; ?>
 
 	<?php the_tags( '<footer class="entry-meta"><span class="tag-links">', '', '</span></footer>' ); ?>
