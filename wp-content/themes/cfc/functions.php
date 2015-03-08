@@ -610,7 +610,7 @@ function get_content_header($type = 'post', $id = NULL)
 	}
     $_output .= '
 	<div class="category-banner-wrapper1 container-our-team-header-div" style="width: 100%;height: 3em;">
-	<h4 class="lbl-our-team">'.$title.'</h4>
+	<h4 class="lbl-our-team" style="padding-top: 12px;">'.$title.'</h4>
 
 	<div class="category-banner-flare"><img src="'.get_template_directory_uri().'/images/flare.png" /></div>';
 	//$_output .= '<img class="category-banner-left" src="'.$header_img_left_url.'">';

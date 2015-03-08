@@ -57,12 +57,12 @@ get_header(); ?>
 						
 						?>
 						<div style="background-color: rgba(235, 241, 253, 0.7);display: inline-block;margin-top: 5px;width: 100%;">
-						<div class="entry-header" style="text-align: center">
-							<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+						<div class="entry-header" style="text-align: center;">
+							<?php the_title( '<h1 class="entry-title" style="/*margin: 20px 0 12px;*/margin: 0;">', '</h1>' ); ?>
                             <?php the_date(); ?>
 						</div><!-- .entry-header -->
 						
-						<div class="entry-summary" style="">
+						<div class="entry-summary" style="/*margin: 20px 0 12px;*/display: table;">
 							<a href="<?php echo get_permalink(); ?>"><?php the_excerpt(); ?></a>
 						</div><!-- .entry-summary -->
 						

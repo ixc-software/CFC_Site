@@ -320,8 +320,9 @@ $(function(){
             $("#span-cfc-front").css('margin-left','11em');
             $(".front-middle-blue-line").css('width','100%');
            // $("#logoWords").css('width','82%');
+           // alert(1);
             $(".phoneapp")
-                .css('width',2500)
+                .css('width',$(window).height()*0.60)
                 .css('height',$(window).height()*0.66);
 
             /*var margTopImage = ($(window).height()/3)*2 - (350+111);
