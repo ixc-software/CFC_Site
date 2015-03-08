@@ -324,13 +324,13 @@ $(function(){
                 .css('width',2500)
                 .css('height',$(window).height()*0.66);
 
-            var margTopImage = ($(window).height()/3)*2 - (406+111);
+            /*var margTopImage = ($(window).height()/3)*2 - (350+111);
             //logoWords
             if(margTopImage>0){
                 $("#logoWords").css('margin-top',margTopImage+"px");
             }else{
                 $("#logoWords").css('margin-top',"0px");
-            }
+            }*/
             var w = $(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68) + 20;
 
             $("#logoWords").css('width',w);
@@ -357,7 +357,7 @@ $(function(){
 			
 			$(this).parents('.staff').css('padding-top', $(this).height());
 		});
-		
+
 		$('.staff .mailto').css('top', function() {
 			return $(this).siblings('.fnBW').height() - 27;
 		});

@@ -6,8 +6,9 @@
  
 get_header(); ?>
 
-<div id="logoWords" style="margin-top: -1.6em;width: 82%;
-float: right;">
+<div id="logoWords" style="width: 82%;position: absolute;
+bottom: 0;
+right: 0;">
 	<div id="logoImg">
 		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
 			<img  style="width: 8em" src="<?php echo get_template_directory_uri(); ?>/images/composition.png" />
