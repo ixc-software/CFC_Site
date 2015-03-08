@@ -325,19 +325,19 @@ $(function(){
                 .css('width',$(window).height()*0.60)
                 .css('height',$(window).height()*0.66);
 
-            var margTopImage = ($("#main").height() - 355)/2;
-            //logoWords
-            if(margTopImage>0){
-                $("#logoWords").css('margin-bottom',margTopImage+"px");
-            }else{
-                $("#logoWords").css('margin-bottom',"0px");
-            }
+
             var w = $(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68) + 20;
 
             $("#logoWords").css('width',w);
         //    alert(w+","+$(window).width());
         }
-
+        var margTopImage = ($("#main").height() - 355)/2;
+        //logoWords
+        if(margTopImage>0){
+            $("#logoWords").css('margin-bottom',margTopImage+"px");
+        }else{
+            $("#logoWords").css('margin-bottom',"0px");
+        }
 
 
 		if ($('#logoImg img').length)
