@@ -50,28 +50,30 @@ get_header(); ?>
 			
 				<?php
 					
-					twentyfourteen_paging_nav();
+					//twentyfourteen_paging_nav();
 					
 					// Start the Loop.
 					while ( have_posts() ) : the_post();
 						
 						?>
-						
-						<header class="entry-header">
+						<div style="background-color: rgba(235, 241, 253, 0.7);display: inline-block;margin-top: 5px;width: 100%;">
+						<div class="entry-header" style="text-align: center">
 							<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-						</header><!-- .entry-header -->
+                            <?php the_date(); ?>
+						</div><!-- .entry-header -->
 						
-						<div class="entry-summary">
+						<div class="entry-summary" style="">
 							<a href="<?php echo get_permalink(); ?>"><?php the_excerpt(); ?></a>
 						</div><!-- .entry-summary -->
 						
-						<div class="entry-date">
+						<!--<div class="entry-date">
 							<?php the_date(); ?>
 						</div><!-- .entry-date -->
-						
-						<div class="entry-summary-splitter"></div>
-						
+
+						<div class="entry-summary-splitter" style="background: none;"></div>
+						</div>
 						<?php
+
 
 					endwhile;
 					// Previous/next page navigation.

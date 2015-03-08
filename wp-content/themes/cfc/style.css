@@ -1037,17 +1037,22 @@ a.post-thumbnail:hover {
 .site-content .entry-header {
 	position: relative;
 	z-index: 1;
-	margin-bottom:10px;
+	//margin-bottom:10px;
+    width: 30%;
+    min-width: 150px;
+    float: left;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 
 .entry-title {
 	font-size: 33px;
 	font-weight: bold;
 	line-height: 1.0909090909;
-	margin-bottom: 12px;
-	margin: 0 0 12px 0;
+	//margin-bottom: 12px;
+//	margin: 0 0 12px 0;
 	text-transform: uppercase;
-	color:#8A1965;
+	//color:#8A1965;
 }
 
 .entry-title a {

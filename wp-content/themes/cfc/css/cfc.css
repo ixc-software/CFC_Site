@@ -1034,7 +1034,7 @@ body {
 	}
 	
 	header.entry-header {
-		padding:10px 10px 0;
+		padding:0px 10px 0;
 	}
 	
 	
@@ -1231,7 +1231,7 @@ body {
 		background:none;
 		color:#000;
 	}
-	
+
 	.site-content .entry-content, .site-content .entry-summary, .site-content .entry-date, .page-content {
 		padding: 0px 10px 13px;
 	}
@@ -1254,9 +1254,9 @@ body {
 	}
 	
 	.entry-summary-splitter {
-		height:2px;
-		background:url(../images/summury-splitter.png) center no-repeat;
-		background-size:cover;
+		height:3px;
+		/*background:url(../images/summury-splitter.png) center no-repeat;
+		*/background-size:cover;
 		width:100%;
 		margin:15px auto 5px;
 		clear:both;
