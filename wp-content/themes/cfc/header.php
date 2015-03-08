@@ -117,22 +117,22 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
                 <!--inline-table-->
                 <div style="display: none;" id="submenu-about-us" class="submenu">
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/category/free-calls-news/';"><span>News</span></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/our-team/';">Our team</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/contact-us/';">Contacts</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?cat=13';"><span>News</span></div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=1622';">Our team</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=56';">Contacts</div>
                     <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';">Media kit</div>
                 </div>
                 <div style="display: none;" id="submenu-get-cfc" class="submenu">
-                    <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8';">iOs</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12">Mac OS X</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android';">Android</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/get-app-link/';">Get the App's link</div>
+                    <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">iOs</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12'">Mac OS X</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">Android</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=1632';">Get the App's link</div>
                 </div>
                 <div style="display: none;" id="submenu-support"  class="submenu">
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/faq/';">FAQs</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/how-to-start/';">Getting Started</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/about-the-service/';">Features and Functions</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/cfc-tariffs/';">CFC Tariffs</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=32';">FAQs</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=6';">Getting Started</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=10';">Features and Functions</div>
+                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=1779';">CFC Tariffs</div>
                 </div>
             </div>
         <ul id="navigation" class="b-nav" style="display: none;">
