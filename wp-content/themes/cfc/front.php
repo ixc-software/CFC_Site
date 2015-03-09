@@ -18,8 +18,7 @@ right: 0;">
     <h2>Welcome to the CFC world</h2>
 
     <h3>You can call anyone free of charge.</h3>-->
-    <div class="front-middle-blue-line"><span style=";margin-top: 0.8em;" id="span-cfc-front">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CFC is a virtual SIM-card in your mobile for making
-            free phone calls</span></div>
+    <div class="front-middle-blue-line"><span style=";margin-top: 0.8em;" id="span-cfc-front"><?php echo _e( 'CFC is a virtual SIM-card in your mobile for making free phone calls',twentyfourteen); ?></span></div>
     <div class="social-box">
 
         <div class="social-box-android-apple"  onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">
@@ -45,7 +44,7 @@ right: 0;">
         <a style="display: inline-block" class="twitter-share-button"
            href="https://twitter.com/share"
             data-count="vertical">
-            Tweet
+            <?php echo _e( 'Tweet',twentyfourteen); ?>
         </a>
         <script>
             window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));

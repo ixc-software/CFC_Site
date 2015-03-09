@@ -59,7 +59,7 @@
 	</footer>
 -->
 <footer style="background-color: rgb(41,128,185);color:#ffffff;" id="colophon" class="b-footer" role="contentinfo">
-        <span>Copyright 2015 CallsFreeCalls.All right reserved.</span>
+        <span><?php echo _e( 'Copyright 2015 CallsFreeCalls.All right reserved.',twentyfourteen); ?></span>
     </footer>
 </div><!--//root-->
 

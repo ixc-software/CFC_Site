@@ -185,7 +185,7 @@ function esc_html__( $text, $domain = 'default' ) {
  * @param string $text   Text to translate.
  * @param string $domain Optional. Text domain. Unique identifier for retrieving translated strings.
  */
-function _e( $text, $domain = 'default' ) {
+function _e1( $text, $domain = 'default' ) {
 	echo translate( $text, $domain );
 }
 

@@ -67,6 +67,30 @@ function twentyfourteen_setup() {
 	 */
 	load_theme_textdomain( 'twentyfourteen', get_template_directory() . '/languages' );
 
+
+    require_once('languages/streams.php');
+    require_once('languages/gettext.php');
+
+    $lang='en';
+    if(isset($_COOKIE['lang'])){
+        $lang = $_COOKIE['lang'];
+    }
+
+    $locale_file = new FileReader("wp-content/themes/cfc/languages/$lang.mo");
+
+
+
+    global $locale_fetch;
+    $locale_fetch=new gettext_reader($locale_file);
+
+    function _e($text){
+        global $locale_fetch;
+      //  var_dump($locale_fetch);
+
+
+        return $locale_fetch->translate($text);
+    }
+
 	// This theme styles the visual editor to resemble the theme style.
 	add_editor_style( array( 'css/editor-style.css', twentyfourteen_font_url() ) );
 
@@ -586,6 +610,7 @@ function get_content_header($type = 'post', $id = NULL)
 	{
 		$header_img_left = get_field('header_image_left', 'category_'.$id);
 		$header_img_right = get_field('header_image_right', 'category_'.$id);
+		$title = get_the_category_by_ID($id);
 		$title = get_the_category_by_ID($id);
 	}
 	else
