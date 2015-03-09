@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/gettext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/ru.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/set_lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/streams.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/css/index.css" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/l10n.php" afterPath="$PROJECT_DIR$/wp-includes/l10n.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.mo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.po" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -53,8 +46,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7476809" vertical-offset="1382" max-vertical-offset="3893">
-              <caret line="105" column="62" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.148423" vertical-offset="1382" max-vertical-offset="3893">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding>
                 <element signature="e#6#207#0#PHP" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -451,12 +444,6 @@
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
     </task>
-    <task id="LOCAL-00007" summary="+footer(test)">
-      <created>1425563394814</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1425563394814</updated>
-    </task>
     <task id="LOCAL-00008" summary="+footer(text)">
       <created>1425564546884</created>
       <option name="number" value="00008" />
@@ -745,7 +732,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425892518882</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="+languages support">
+      <created>1425904284431</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1425904284431</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,7 +784,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fix backgroud" />
     <MESSAGE value="middle blue line(front.php)" />
     <MESSAGE value="middle blue line(front.php) fix" />
     <MESSAGE value="+middle hero" />
@@ -816,7 +808,8 @@
     <MESSAGE value="fix vertical mobile" />
     <MESSAGE value="update permalink(work on ec2)" />
     <MESSAGE value="update design" />
-    <option name="LAST_COMMIT_MESSAGE" value="update design" />
+    <MESSAGE value="+languages support" />
+    <option name="LAST_COMMIT_MESSAGE" value="+languages support" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1304,8 +1297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7476809" vertical-offset="1382" max-vertical-offset="3893">
-          <caret line="105" column="62" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.148423" vertical-offset="1382" max-vertical-offset="3893">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="e#6#207#0#PHP" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#. Text in echo
+#: header.php:118
+msgid "ABOUT US"
+msgstr "О НАС"
+
+#. Text in echo
+#: header.php:141
+msgid "CFC Tariffs"
+msgstr "Тарифы"
+
+#. Text in echo
+#: front.php:21
+msgid "CFC is a virtual SIM-card in your mobile for making free phone calls"
+msgstr "CFC этовиртуальная SIM -карты в мобильном телефоне для бесплатных телефонных звонков"
+
+#. Text in echo
+#: header.php:128
+msgid "Contacts"
+msgstr "Контакты"
+
+#. Text in echo
+#: footer.php:62
+msgid "Copyright 2015 CallsFreeCalls.All right reserved."
+msgstr "Copyright 2015 CallsFreeCalls.Все права защищены."
+
+#. Text in echo
+#: header.php:138
+msgid "FAQs"
+msgstr "FAQs"
+
+#. Text in echo
+#: header.php:140
+msgid "Features and Functions"
+msgstr "Особенности и функции"
+
+#. Text in echo
+#: header.php:119
+msgid "GET CFC"
+msgstr "Получить CFC"
+
+#. Text in echo
+#: header.php:135
+msgid "Get the Apps link"
+msgstr "Получить ссылку приложения"
+
+#. Text in echo
+#: header.php:139
+msgid "Getting Started"
+msgstr "Начать"
+
+#. Text in echo
+#: header.php:117
+msgid "Home"
+msgstr "Главная"
+
+#. Text in echo
+#: header.php:129
+msgid "Media kit"
+msgstr "Медиа"
+
+#. Text in echo
+#: header.php:126
+msgid "News"
+msgstr "Новости"
+
+#. Text in echo
+#: header.php:127
+msgid "Our team"
+msgstr "Наша команда"
+
+#. Text in echo
+#: header.php:120
+msgid "SUPPORT"
+msgstr "ПОДДЕРЖКА"
+
+#. Text in echo
+#: front.php:48
+msgid "Tweet"
+msgstr "Tweet"
