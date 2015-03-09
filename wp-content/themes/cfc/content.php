@@ -67,7 +67,7 @@
 
 	<?php //twentyfourteen_post_thumbnail(); ?>
     <div style="background-color: rgba(235, 241, 253, 0.7);display: inline-block;width: 100%;">
-	<div class="entry-header" style="text-align: center;position: relative;
+	<div class="entry-header" style="margin-top: 10px;text-align: center;position: relative;
 z-index: 1;
 width: 30%;
 min-width: 150px;
@@ -97,7 +97,7 @@ padding-right: 20px;">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
-	<div class="entry-content" style="/*margin: 20px 0 12px;*/display: table;">
+	<div class="entry-content" style="margin-top: 10px;/*margin: 20px 0 12px;*/display: table;">
 		<?php
 			
 			if ($mobile_thumb)

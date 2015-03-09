@@ -22,3 +22,7 @@ Redirect 301 /keepgoAndroid http://taps.io/keepgoAndroid
 </IfModule>
 
 
+
+# BEGIN WordPress
+
+# END WordPress

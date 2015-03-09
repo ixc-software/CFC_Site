@@ -187,8 +187,13 @@ $(function(){
 		$phoneapp.css( "top" , ($viewport.innerHeight()/2|0)-($phoneapp.outerHeight()/2|0)+ "px" );
 		*/
 	};
-		
+
 	$(window).on('resize', function() {
+
+
+
+
+
 
 		if ($(window).width() > 540)
 		{
@@ -340,6 +345,8 @@ $(function(){
         }
 
 
+
+
 		if ($('#logoImg img').length)
 		{
             //alert('image');
@@ -392,7 +399,7 @@ $(function(){
 		{
 			var timer = setTimeout(updateCable(), 500);
 		}
-		
+
 	});
 	
 	$("window").add( "body" ).on( "resize", centeringPhone );
@@ -674,7 +681,7 @@ $(function(){
 })//d-r
 
 $(window).load(function() {
-	
+
 	$("[data-animate]").animate( { height: "show", opacity: "1" } , "500" );
 	
 	$('#content').css({ top: $(window).height() }).show().animate({ top: 8 }, 500);
@@ -763,6 +770,15 @@ $(window).load(function() {
 	{
 		var timer = setTimeout(updateCable(), 500);
 	}
+    $('.news-divs').each(function(i, obj) {
+        var header = $(this).find('.entry-header');
+        var marg = ($(this).height()-header.height())/2;
+        header.css('margin-top',marg);
+        $(this).find('.entry-summary').css('margin-top',marg);
+
+
+
+    });
 });
 
 $(window).on('beforeunload', function () {
