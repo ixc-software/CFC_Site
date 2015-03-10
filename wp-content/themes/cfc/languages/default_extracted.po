@@ -91,3 +91,43 @@ msgstr "ПОДДЕРЖКА"
 #: front.php:48
 msgid "Tweet"
 msgstr "Tweet"
+
+#. Text in echo
+#: header.php:148
+msgid "cfc-tarifs-page-link"
+msgstr "/?p=1876"
+
+#. Text in echo
+#: header.php:135
+msgid "contacts-page-link"
+msgstr "/?p=1877"
+
+#. Text in echo
+#: header.php:145
+msgid "faq-page-link"
+msgstr "/?p=1879"
+
+#. Text in echo
+#: header.php:147
+msgid "featurest-and-function-page-link"
+msgstr "/?p=1881"
+
+#. Text in echo
+#: header.php:142
+msgid "get-app-page-link"
+msgstr "/?p=1880"
+
+#. Text in echo
+#: header.php:146
+msgid "getting-started-page-link"
+msgstr "/?p=1874"
+
+#. Text in echo
+#: header.php:133
+msgid "news-page-link"
+msgstr "/ru/?cat=23"
+
+#. Text in echo
+#: header.php:134
+msgid "our-team-page-link"
+msgstr "/?p=1860"

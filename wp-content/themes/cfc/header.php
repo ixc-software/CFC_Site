@@ -106,6 +106,9 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                 echo ' <div onclick="setCookie(\'lang\',\'ru\',365);window.location =\''.$langs['en']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
                 <div onclick="setCookie(\'lang\',\'en\',365);window.location =\''.$langs['en']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']!='fr' && $_COOKIE['lang']!='ru'?'lang-active':'') . '">EN</div>
                 <div onclick="setCookie(\'lang\',\'fr\',365);window.location =\''.$langs['fr']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='fr'?'lang-active':'') . '">FR</div>';
+               // echo ' <div onclick="setCookie(\'lang\',\'ru\',365);location.reload();"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
+               // <div onclick="setCookie(\'lang\',\'en\',365);location.reload();" class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']!='fr' && $_COOKIE['lang']!='ru'?'lang-active':'') . '">EN</div>
+                //<div onclick="setCookie(\'lang\',\'fr\',365);location.reload();"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='fr'?'lang-active':'') . '">FR</div>';
 
 
 
@@ -116,38 +119,50 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
             ?>
                 </div>
             </div>
+                <?php
+                    $lang = $_COOKIE['lang'];
+                    if(!isset($_COOKIE['lang'])){
+                        $lang = 'en';
+                    }
+                    if(!$langs[$lang]['active'] && isset($langs[$lang]['url'])){
+                       // try {
+                        //    header("Location: " . $langs[$lang]['url']);
+                       //     die("Location: " . $langs[$lang]['url']);
+                       // }catch (Exception $e){}
+                    }
+
+                ?>
 
 
-
-            <div style="margin-left: 5%; height: 71px;">
-                <div style="display: block;">
-                    <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
-                    <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
-                    <div class="about-header-div hvr-back-pulse" id="get-cfc" onclick="getCfcClicked()"><?php echo _e( 'GET CFC',twentyfourteen); ?></div>
-                    <div class="about-header-div hvr-back-pulse" id="support" onclick="supportClicked()"><?php echo _e( 'SUPPORT',twentyfourteen); ?></div>
-                </div>
-
-
-                <!--inline-table-->
-                <div style="display: none;" id="submenu-about-us" class="submenu">
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?cat=13';"><?php echo _e( 'News',twentyfourteen); ?></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=1622';"><?php echo _e( 'Our team',twentyfourteen); ?></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=56';"><?php echo _e( 'Contacts',twentyfourteen); ?></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';"><?php echo _e( 'Media kit',twentyfourteen); ?></div>
-                </div>
-                <div style="display: none;" id="submenu-get-cfc" class="submenu">
-                    <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">iOs</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12'">Mac OS X</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">Android</div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=1632';"><?php echo _e( 'Get the Apps link',twentyfourteen); ?></div>
-                </div>
-                <div style="display: none;" id="submenu-support"  class="submenu">
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=32';"><?php echo _e( 'FAQs',twentyfourteen); ?></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=6';"><?php echo _e( 'Getting Started',twentyfourteen); ?></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=10';"><?php echo _e( 'Features and Functions',twentyfourteen); ?></div>
-                    <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '/?page_id=1779';"><?php echo _e( 'CFC Tariffs',twentyfourteen); ?></div>
-                </div>
+        <div style="margin-left: 5%; height: 71px;">
+            <div style="display: block;">
+                <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
+                <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
+                <div class="about-header-div hvr-back-pulse" id="get-cfc" onclick="getCfcClicked()"><?php echo _e( 'GET CFC',twentyfourteen); ?></div>
+                <div class="about-header-div hvr-back-pulse" id="support" onclick="supportClicked()"><?php echo _e( 'SUPPORT',twentyfourteen); ?></div>
             </div>
+
+
+            <!--inline-table-->
+            <div style="display: none;" id="submenu-about-us" class="submenu">
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('news-page-link');?>'"><?php echo _e( 'News',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('our-team-page-link');?>';"><?php echo _e( 'Our team',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('contacts-page-link');?>';"><?php echo _e( 'Contacts',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';"><?php echo _e( 'Media kit',twentyfourteen); ?></div>
+            </div>
+            <div style="display: none;" id="submenu-get-cfc" class="submenu">
+                <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">iOs</div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12'">Mac OS X</div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">Android</div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('get-app-page-link');?>';"><?php echo _e( 'Get the Apps link',twentyfourteen); ?></div>
+            </div>
+            <div style="display: none;" id="submenu-support"  class="submenu">
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('faq-page-link');?>';"><?php echo _e( 'FAQs',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('getting-started-page-link');?>';"><?php echo _e( 'Getting Started',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('featurest-and-function-page-link');?>';"><?php echo _e( 'Features and Functions',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('cfc-tarifs-page-link');?>';"><?php echo _e( 'CFC Tariffs',twentyfourteen); ?></div>
+            </div>
+        </div>
         <ul id="navigation" class="b-nav" style="display: none;">
             <li data-action="menuleft" style="display: none;" id="menuLeft">
 		</ul>

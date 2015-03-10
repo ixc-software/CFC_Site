@@ -7603,6 +7603,7 @@ class SitePress{
             $cookie_domain = defined('COOKIE_DOMAIN') ? COOKIE_DOMAIN : $_SERVER['HTTP_HOST'];
             $cookie_path = defined('COOKIEPATH') ? COOKIEPATH : '/';
             setcookie('_icl_current_language', $this->get_current_language(), time()+86400, $cookie_path, $cookie_domain);
+
         }
     }
 

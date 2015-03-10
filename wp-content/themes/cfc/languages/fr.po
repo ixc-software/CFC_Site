@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-09 08:53-0400\n"
+"PO-Revision-Date: 2015-03-10 09:42-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -92,3 +92,43 @@ msgstr "Soutien"
 #: front.php:48
 msgid "Tweet"
 msgstr ""
+
+#. Text in echo
+#: header.php:148
+msgid "cfc-tarifs-page-link"
+msgstr "/?p=1875"
+
+#. Text in echo
+#: header.php:135
+msgid "contacts-page-link"
+msgstr "/?p=1501"
+
+#. Text in echo
+#: header.php:145
+msgid "faq-page-link"
+msgstr "/?p=1865"
+
+#. Text in echo
+#: header.php:147
+msgid "featurest-and-function-page-link"
+msgstr "/?p=1867"
+
+#. Text in echo
+#: header.php:142
+msgid "get-app-page-link"
+msgstr "/?p=1871"
+
+#. Text in echo
+#: header.php:146
+msgid "getting-started-page-link"
+msgstr "/?p=1412"
+
+#. Text in echo
+#: header.php:133
+msgid "news-page-link"
+msgstr "/fr/?cat=16"
+
+#. Text in echo
+#: header.php:134
+msgid "our-team-page-link"
+msgstr "/?p=1873"
