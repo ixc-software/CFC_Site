@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#. Text in echo
+#: header.php:140
+msgid "ABOUT US"
+msgstr ""
+
+#. Text in echo
+#: header.php:163
+msgid "CFC Tariffs"
+msgstr ""
+
+#. Text in echo
+#: header.php:150
+msgid "Contacts"
+msgstr ""
+
+#. Text in echo
+#: header.php:160
+msgid "FAQs"
+msgstr ""
+
+#. Text in echo
+#: header.php:162
+msgid "Features and Functions"
+msgstr ""
+
+#. Text in echo
+#: header.php:141
+msgid "GET CFC"
+msgstr ""
+
+#. Text in echo
+#: header.php:157
+msgid "Get the Apps link"
+msgstr ""
+
+#. Text in echo
+#: header.php:161
+msgid "Getting Started"
+msgstr ""
+
+#. Text in echo
+#: header.php:139
+msgid "Home"
+msgstr ""
+
+#. Text in echo
+#: header.php:151
+msgid "Media kit"
+msgstr ""
+
+#. Text in echo
+#: header.php:148
+msgid "News"
+msgstr ""
+
+#. Text in echo
+#: header.php:149
+msgid "Our team"
+msgstr ""
+
+#. Text in echo
+#: header.php:142
+msgid "SUPPORT"
+msgstr ""
+
+#. Text in echo
+#: header.php:148
+msgid "cfc-tarifs-page-link"
+msgstr "/?page_id=1779"
+
+#. Text in echo
+#: header.php:135
+msgid "contacts-page-link"
+msgstr "/?page_id=56"
+
+#. Text in echo
+#: header.php:145
+msgid "faq-page-link"
+msgstr "/?page_id=32"
+
+#. Text in echo
+#: header.php:147
+msgid "featurest-and-function-page-link"
+msgstr "/?page_id=22"
+
+#. Text in echo
+#: header.php:142
+msgid "get-app-page-link"
+msgstr "/?page_id=1632"
+
+#. Text in echo
+#: header.php:146
+msgid "getting-started-page-link"
+msgstr "/?page_id=6"
+
+#. Text in echo
+#: header.php:133
+msgid "news-page-link"
+msgstr "/?cat=13"
+
+#. Text in echo
+#: header.php:134
+msgid "our-team-page-link"
+msgstr "/?page_id=1622 "
