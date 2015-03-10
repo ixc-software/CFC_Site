@@ -2,19 +2,18 @@
  * Created by Alexeev on 09-Mar-15.
  */
 function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+d.toUTCString();
-    document.cookie = cname + "=" + cvalue + "; " + expires;
-    setCookie1(cname,cvalue,exdays);
+
+
+    var cookieName = cname;
+    var cookieValue = cvalue;
+    var myDate = new Date();
+    myDate.setMonth(myDate.getMonth() + 12);
+    document.cookie = cookieName +"=" + cookieValue + ";expires=" + myDate
+    + ";domain=.presta.com;path=/;";
+  
 }
 
-function setCookie1(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+d.toUTCString();
-    document.cookie = cname + "=" + cvalue + "; " + expires;
-}
+
 
 function getCookie(cname) {
     var name = cname + "=";
