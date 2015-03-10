@@ -9,8 +9,8 @@ function setCookie(cname, cvalue, exdays) {
     var myDate = new Date();
     myDate.setMonth(myDate.getMonth() + 12);
     document.cookie = cookieName +"=" + cookieValue + ";expires=" + myDate
-    + ";domain=.presta.com;path=/;";
-  
+    + ";domain=."+window.location.host+";path=/;";
+
 }
 
 

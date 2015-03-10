@@ -21,6 +21,7 @@ div{
     background-color: rgb(52, 152, 219);
 }
 .news-hheader-div{
+    z-index: 100500;
     vertical-align: middle;
     width: 137px;
     font-size: 12px;
