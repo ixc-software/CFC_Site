@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-10 09:42-0400\n"
+"PO-Revision-Date: 2015-03-12 06:44-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -96,7 +96,7 @@ msgstr ""
 #. Text in echo
 #: header.php:148
 msgid "cfc-tarifs-page-link"
-msgstr "/?p=1875"
+msgstr "/?page_id=1779"
 
 #. Text in echo
 #: header.php:135
@@ -116,7 +116,7 @@ msgstr "/?p=1867"
 #. Text in echo
 #: header.php:142
 msgid "get-app-page-link"
-msgstr "/?p=1871"
+msgstr "/?page_id=1632"
 
 #. Text in echo
 #: header.php:146
@@ -132,3 +132,88 @@ msgstr "/fr/?cat=16"
 #: header.php:134
 msgid "our-team-page-link"
 msgstr "/?p=1873"
+
+#. Text in echo
+#: tarrifs.php:62
+msgid "Bonuses/min"
+msgstr "Bonus / min"
+
+#. Text in echo
+#: tarrifs.php:31
+msgid "CFC Tariffs for Calls"
+msgstr "CFC tarifs pour les appels"
+
+#. Text in echo
+#: tarrifs.php:60
+msgid "Country"
+msgstr "de Campagne"
+
+#. Text in echo
+#: tarrifs.php:45
+msgid "Get"
+msgstr "Obtenir"
+
+#. Text in echo
+#: tarrifs.php:34
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#. Text in echo
+#: tarrifs.php:43
+msgid "Please enter first seven digits"
+msgstr "Se il vous plaît entrer sept premiers chiffres"
+
+#. Text in echo
+#: tarrifs.php:51
+msgid "Please enter first seven digits at least."
+msgstr "Se il vous plaît entrez d'abord sept chiffres au moins."
+
+#. Text in echo
+#: tarrifs.php:51
+msgid "Please paste the number without + and 00."
+msgstr "Se il vous plaît coller le numéro sans + et 00."
+
+#. Text in echo
+#: tarrifs.php:61
+msgid "Price in USD"
+msgstr "Prix en USD"
+
+#. Text in echo
+#: get-app-link.php:23
+msgid "E-Mail was sent successfully. Enjoy!"
+msgstr "E-mail a été envoyé avec succès. Profitez!"
+
+#. Text in echo
+#: get-app-link.php:38
+msgid "Get App Link"
+msgstr "Obtenez App Lien"
+
+#. Text in echo
+#: get-app-link.php:59
+msgid "Get E-Mail with app link"
+msgstr "Obtenez E-Mail"
+
+#. Text in echo
+#: get-app-link.php:41
+msgid "Get FREE SMS with app link"
+msgstr "Obtenez gratuitement des SMS"
+
+#. Text in echo
+#: get-app-link.php:25
+msgid "Please enter valid E-Mail."
+msgstr "Se il vous plaît entrer e-mail valide."
+
+#. Text in echo
+#: get-app-link.php:24
+msgid "Please enter valid phone.12"
+msgstr "Se il vous plaît entrer sept premiers chiffres"
+
+#. Text in echo
+#: get-app-link.php:22
+msgid "SMS was sent successfully. Enjoy!"
+msgstr "SMS a été envoyé avec succès. Profitez!"
+
+#. Text in echo
+#: get-app-link.php:49 get-app-link.php:71
+msgid "Send"
+msgstr "Envoyer"

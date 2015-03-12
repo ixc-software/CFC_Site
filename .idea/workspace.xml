@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/en.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/en.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.mo" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/languages/en.po" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/en.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.mo" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.po" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/languages/ru.mo" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/languages/ru.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -29,270 +36,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1411">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="459" max-vertical-offset="4165">
-              <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+            <state vertical-scroll-proportion="-2.0" vertical-offset="2253" max-vertical-offset="4165">
+              <caret line="139" column="144" selection-start-line="139" selection-start-column="103" selection-end-line="139" selection-end-column="144" />
               <folding>
                 <element signature="e#6#207#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#10751#11734#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="935">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sitepress.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/sitepress-multilingual-cms/sitepress.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.346154" vertical-offset="129068" max-vertical-offset="142001">
-              <caret line="7605" column="0" selection-start-line="7605" selection-start-column="0" selection-end-line="7605" selection-end-column="0" />
-              <folding>
-                <marker date="1425989213046" expanded="true" signature="750:801" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="23539:23645" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="23792:23840" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="23935:24032" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="24233:24317" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="24461:24602" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="24780:24956" placeholder="SELECT x.ter..." />
-                <marker date="1425989213046" expanded="true" signature="25085:25226" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="27009:27176" placeholder="SELECT * FRO..." />
-                <marker date="1425989213046" expanded="true" signature="39332:39443" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="39700:39746" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="40012:40201" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="40315:40501" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="42037:42111" placeholder="SELECT * FRO..." />
-                <marker date="1425989213046" expanded="true" signature="43687:43747" placeholder="SELECT code ..." />
-                <marker date="1425989213046" expanded="true" signature="55106:55513" placeholder="SELECT l.id,..." />
-                <marker date="1425989213046" expanded="true" signature="56301:56522" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="58473:58535" placeholder="SELECT code ..." />
-                <marker date="1425989213046" expanded="true" signature="58758:58834" placeholder="SELECT defau..." />
-                <marker date="1425989213046" expanded="true" signature="58922:58989" placeholder="SELECT code ..." />
-                <marker date="1425989213046" expanded="true" signature="59731:60088" placeholder="SELECT code,..." />
-                <marker date="1425989213046" expanded="true" signature="60468:60811" placeholder="SELECT code,..." />
-                <marker date="1425989213046" expanded="true" signature="61441:61808" placeholder="SELECT code,..." />
-                <marker date="1425989213046" expanded="true" signature="62145:62269" placeholder="SELECT code ..." />
-                <marker date="1425989213046" expanded="true" signature="81746:81814" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="82592:82746" placeholder="SELECT comme..." />
-                <marker date="1425989213046" expanded="true" signature="83877:84076" placeholder="SELECT p.pos..." />
-                <marker date="1425989213046" expanded="true" signature="89005:89034" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="90409:90615" placeholder="SELECT p.ID,..." />
-                <marker date="1425989213046" expanded="true" signature="92830:92878" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="94447:94536" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="103648:103719" placeholder="SELECT engli..." />
-                <marker date="1425989213046" expanded="true" signature="103866:103937" placeholder="SELECT engli..." />
-                <marker date="1425989213046" expanded="true" signature="109831:109942" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="110706:110803" placeholder="SELECT code ..." />
-                <marker date="1425989213046" expanded="true" signature="110858:110964" placeholder="SELECT defau..." />
-                <marker date="1425989213046" expanded="true" signature="113567:113649" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="113827:113939" placeholder="INSERT INTO ..." />
-                <marker date="1425989213046" expanded="true" signature="113952:114112" placeholder="SELECT CONCA..." />
-                <marker date="1425989213046" expanded="true" signature="114168:114221" placeholder="SELECT MAX(t..." />
-                <marker date="1425989213046" expanded="true" signature="114395:114507" placeholder="INSERT INTO ..." />
-                <marker date="1425989213046" expanded="true" signature="114524:114663" placeholder="SELECT 'tax_..." />
-                <marker date="1425989213046" expanded="true" signature="114727:114780" placeholder="SELECT MAX(t..." />
-                <marker date="1425989213046" expanded="true" signature="114829:114941" placeholder="INSERT INTO ..." />
-                <marker date="1425989213046" expanded="true" signature="114954:115028" placeholder="SELECT 'comm..." />
-                <marker date="1425989213046" expanded="true" signature="120776:120950" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="121409:121616" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="121697:121762" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="121923:122101" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="122410:122569" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="122730:122839" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="123245:123363" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="123770:123879" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="124651:124814" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="124870:124935" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="125067:125120" placeholder="SELECT MAX(t..." />
-                <marker date="1425989213046" expanded="true" signature="125875:125970" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="126600:126804" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="127293:127873" placeholder="SELECT DISTI..." />
-                <marker date="1425989213046" expanded="true" signature="128016:128596" placeholder="SELECT DISTI..." />
-                <marker date="1425989213046" expanded="true" signature="130921:131070" placeholder="SELECT trid,..." />
-                <marker date="1425989213046" expanded="true" signature="132933:133015" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="133468:133529" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="134887:134935" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="135789:135913" placeholder="SELECT trid,..." />
-                <marker date="1425989213046" expanded="true" signature="136560:136648" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="138236:138343" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="139454:139552" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="142524:142592" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="146563:146611" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="147189:147278" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="147368:147416" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="147947:148043" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="150115:150192" placeholder="SELECT ID, p..." />
-                <marker date="1425989213046" expanded="true" signature="151439:151861" placeholder="SELECT p.pos..." />
-                <marker date="1425989213046" expanded="true" signature="152802:153102" placeholder="SELECT p.pos..." />
-                <marker date="1425989213046" expanded="true" signature="154479:154568" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="154973:155023" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="155660:155733" placeholder="SELECT meta_..." />
-                <marker date="1425989213046" expanded="true" signature="155816:155889" placeholder="SELECT meta_..." />
-                <marker date="1425989213046" expanded="true" signature="156137:156199" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="156787:156867" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="157078:157157" placeholder="INSERT INTO ..." />
-                <marker date="1425989213046" expanded="true" signature="159147:159226" placeholder="SELECT md5 F..." />
-                <marker date="1425989213046" expanded="true" signature="160065:160186" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="167197:167238" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="167792:167838" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="169062:169108" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="170680:170817" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="173399:173650" placeholder="SELECT t.tra..." />
-                <marker date="1425989213046" expanded="true" signature="174193:174304" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="174442:174562" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="174813:175040" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="175836:176154" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="177052:177107" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="178000:178072" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="181349:181437" placeholder="SELECT sourc..." />
-                <marker date="1425989213046" expanded="true" signature="182319:182331" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="183238:183254" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="183517:183533" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="189419:189437" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="198878:199240" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="200678:200696" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="200798:200816" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="201396:201409" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="201510:201521" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="202355:202551" placeholder="SELECT p.ID ..." />
-                <marker date="1425989213046" expanded="true" signature="203200:203250" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="203330:203436" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="203496:203628" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="204248:204380" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="204560:204610" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="204704:204792" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="204937:205066" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="206075:206248" placeholder="SELECT trid,..." />
-                <marker date="1425989213046" expanded="true" signature="207830:208158" placeholder="SELECT paren..." />
-                <marker date="1425989213046" expanded="true" signature="210141:210215" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="210283:210337" placeholder="SELECT name ..." />
-                <marker date="1425989213046" expanded="true" signature="211297:211386" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="211561:211629" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="211780:211848" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="211935:211983" placeholder="SELECT name ..." />
-                <marker date="1425989213046" expanded="true" signature="212452:212500" placeholder="SELECT name ..." />
-                <marker date="1425989213046" expanded="true" signature="212536:212604" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="212937:213049" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="213148:213216" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="213303:213351" placeholder="SELECT name ..." />
-                <marker date="1425989213046" expanded="true" signature="218958:219008" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="219373:219440" placeholder="SELECT taxon..." />
-                <marker date="1425989213046" expanded="true" signature="220235:220281" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="220968:221117" placeholder="SELECT trid,..." />
-                <marker date="1425989213046" expanded="true" signature="222866:222940" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="223013:223132" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="223427:223494" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="225578:225692" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="226352:226789" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="230330:230414" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="230838:230888" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="231689:232056" placeholder="SELECT tt.te..." />
-                <marker date="1425989213046" expanded="true" signature="239062:239108" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="240758:240857" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="242122:242221" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="245348:245476" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="245697:245815" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="245859:245968" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="246209:246331" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="246375:246484" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="246697:246877" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="248159:248292" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="255270:255590" placeholder="SELECT COUNT..." />
-                <marker date="1425989213046" expanded="true" signature="266634:266771" placeholder="SELECT name ..." />
-                <marker date="1425989213046" expanded="true" signature="267266:267353" placeholder="SELECT flag,..." />
-                <marker date="1425989213046" expanded="true" signature="272239:272336" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="272519:272611" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="275965:276080" placeholder="SELECT * FRO..." />
-                <marker date="1425989213046" expanded="true" signature="276199:276356" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="276642:276757" placeholder="SELECT * FRO..." />
-                <marker date="1425989213046" expanded="true" signature="280670:280754" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="290100:290253" placeholder="SELECT x.ter..." />
-                <marker date="1425989213046" expanded="true" signature="291513:291706" placeholder="SELECT x.ter..." />
-                <marker date="1425989213046" expanded="true" signature="292078:292231" placeholder="SELECT x.ter..." />
-                <marker date="1425989213046" expanded="true" signature="292915:292994" placeholder="SELECT slug ..." />
-                <marker date="1425989213046" expanded="true" signature="294135:294214" placeholder="SELECT slug ..." />
-                <marker date="1425989213046" expanded="true" signature="294442:294521" placeholder="SELECT slug ..." />
-                <marker date="1425989213046" expanded="true" signature="296173:296411" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="296892:297186" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="299351:299399" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="299897:299945" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="300213:300263" placeholder="SELECT slug ..." />
-                <marker date="1425989213046" expanded="true" signature="303261:303319" placeholder="SELECT tag F..." />
-                <marker date="1425989213046" expanded="true" signature="303759:303821" placeholder="SELECT local..." />
-                <marker date="1425989213046" expanded="true" signature="304508:304651" placeholder="SELECT lm.co..." />
-                <marker date="1425989213046" expanded="true" signature="305346:305482" placeholder="DELETE FROM ..." />
-                <marker date="1425989213046" expanded="true" signature="306211:306286" placeholder="SELECT optio..." />
-                <marker date="1425989213046" expanded="true" signature="306526:306607" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="307221:307297" placeholder="SELECT optio..." />
-                <marker date="1425989213046" expanded="true" signature="307538:307619" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="308244:308355" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="309565:309581" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="310134:310246" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="311467:311499" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="313021:313074" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="313717:313801" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="314539:314706" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="316126:316422" placeholder="SELECT COUNT..." />
-                <marker date="1425989213046" expanded="true" signature="316994:317441" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="317528:318000" placeholder="SELECT post_..." />
-                <marker date="1425989213046" expanded="true" signature="318165:318411" placeholder="SELECT t.nam..." />
-                <marker date="1425989213046" expanded="true" signature="318756:319245" placeholder="SELECT t.nam..." />
-                <marker date="1425989213046" expanded="true" signature="319628:320138" placeholder="SELECT p.ID,..." />
-                <marker date="1425989213046" expanded="true" signature="320557:321056" placeholder="SELECT p.ID,..." />
-                <marker date="1425989213046" expanded="true" signature="321462:321889" placeholder="SELECT p.ID,..." />
-                <marker date="1425989213046" expanded="true" signature="322202:322688" placeholder="SELECT COUNT..." />
-                <marker date="1425989213046" expanded="true" signature="322851:323385" placeholder="SELECT COUNT..." />
-                <marker date="1425989213046" expanded="true" signature="331398:331528" placeholder="SELECT trid ..." />
-                <marker date="1425989213046" expanded="true" signature="331602:331737" placeholder="SELECT trid,..." />
-                <marker date="1425989213046" expanded="true" signature="332545:332855" placeholder="SELECT f.lan..." />
-                <marker date="1425989213046" expanded="true" signature="334624:334728" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="334828:335063" placeholder="SELECT needs..." />
-                <marker date="1425989213046" expanded="true" signature="341797:342005" placeholder="SELECT s.* F..." />
-                <marker date="1425989213046" expanded="true" signature="355991:356150" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="357555:357726" placeholder="SELECT eleme..." />
-                <marker date="1425989213046" expanded="true" signature="358413:358507" placeholder="SELECT code ..." />
-                <marker date="1425989213046" expanded="true" signature="359680:359748" placeholder="SELECT COUNT..." />
-                <marker date="1425989213046" expanded="true" signature="359851:359912" placeholder="SELECT COUNT..." />
-                <marker date="1425989213046" expanded="true" signature="361681:361693" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="361988:362000" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="362659:362671" placeholder="..." />
-                <marker date="1425989213046" expanded="true" signature="373321:373413" placeholder="SELECT ID FR..." />
-                <marker date="1425989213046" expanded="true" signature="373537:373657" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="373986:374066" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="374196:374314" placeholder="SELECT trans..." />
-                <marker date="1425989213046" expanded="true" signature="375342:375446" placeholder="SELECT langu..." />
-                <marker date="1425989213046" expanded="true" signature="378151:378235" placeholder="SELECT term_..." />
-                <marker date="1425989213046" expanded="true" signature="384860:384944" placeholder="SELECT term_..." />
               </folding>
             </state>
           </provider>
@@ -301,60 +52,110 @@
       <file leaf-file-name="default_extracted.po" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1671" max-vertical-offset="2363">
-              <caret line="132" column="9" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3197" max-vertical-offset="3808">
+              <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/footer.php">
+      <file leaf-file-name="en.po" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/en.po">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1088">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2108">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/functions.php">
+      <file leaf-file-name="fr.po" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.po">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="13090">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.9373849" vertical-offset="3214" max-vertical-offset="3825">
+              <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cookie.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fr.mo" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.mo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cookie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39740258" vertical-offset="34" max-vertical-offset="544">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="544">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.cookie.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/jquery.cookie.js">
+      <file leaf-file-name="tarrifs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1378" max-vertical-offset="2091">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.4" vertical-offset="102" max-vertical-offset="1360">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="95" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#6#87#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+                <marker date="1426151524512" expanded="true" signature="2051:2377" placeholder="..." />
+                <marker date="1426151524512" expanded="true" signature="2092:2369" placeholder="..." />
+                <marker date="1426151524512" expanded="true" signature="2103:2360" placeholder="..." />
+                <marker date="1426151524512" expanded="true" signature="2115:2323" placeholder="..." />
+                <marker date="1426151524512" expanded="true" signature="2119:2315" placeholder="..." />
+                <marker date="1426151524512" expanded="true" signature="2335:2348" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
+      <file leaf-file-name="get-app-link.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2023">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state vertical-scroll-proportion="5.230769" vertical-offset="510" max-vertical-offset="1411">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <marker date="1426153124395" expanded="true" signature="1211:1227" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="1324:1748" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="1394:1437" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="1438:1748" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="1625:1748" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="1857:2031" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="2049:2065" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="2147:2368" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="2397:2829" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="2467:2510" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="2511:2829" placeholder="..." />
+                <marker date="1426153124395" expanded="true" signature="2702:2829" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cfc.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3448277" vertical-offset="0" max-vertical-offset="15334">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default_extracted.mo" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.mo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -376,7 +177,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/category.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/content.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-includes/l10n.php" />
@@ -386,12 +186,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/front.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/languages/set_lang.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po" />
         <option value="$PROJECT_DIR$/wp-content/plugins/sitepress-multilingual-cms/sitepress.class.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/jquery.cookie.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/index.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cookie.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/languages/en.po" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.po" />
       </list>
     </option>
   </component>
@@ -428,7 +233,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -595,6 +399,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -635,6 +440,9 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="e084a71d-95ce-4783-8c97-8469fba6a978" server_name="hosinger(presta-ec2-esy.es)">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -642,9 +450,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="e084a71d-95ce-4783-8c97-8469fba6a978" server_name="hosinger(presta-ec2-esy.es)">
       <method />
     </configuration>
     <list size="0" />
@@ -659,12 +464,6 @@
       <created>1425463549536</created>
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
-    </task>
-    <task id="LOCAL-00012" summary="middle blue line(front.php) fix">
-      <created>1425637001800</created>
-      <option name="number" value="00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1425637001800</updated>
     </task>
     <task id="LOCAL-00013" summary="+middle hero">
       <created>1425637851973</created>
@@ -954,35 +753,41 @@
       <option name="project" value="LOCAL" />
       <updated>1425994137940</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="add en.po en.mo">
+      <created>1425994331922</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1425994331922</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57952756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1007874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1007874" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1000,7 +805,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="+social buttons" />
     <MESSAGE value="fix mobile" />
     <MESSAGE value="add font" />
     <MESSAGE value="add facebook link" />
@@ -1025,58 +829,14 @@
     <MESSAGE value="add .po, .mo files" />
     <MESSAGE value="add russian/french post conroller" />
     <MESSAGE value="localize news" />
-    <option name="LAST_COMMIT_MESSAGE" value="localize news" />
+    <MESSAGE value="add en.po en.mo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add en.po en.mo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1462">
-          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14722">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1088">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2091">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="22390" max-vertical-offset="32011">
-          <caret line="1330" column="20" selection-start-line="1330" selection-start-column="16" selection-end-line="1330" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="923" max-vertical-offset="1955">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1258" max-vertical-offset="13668">
@@ -1091,16 +851,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#207#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#10751#11734#0#PHP" expanded="true" />
           </folding>
         </state>
@@ -1275,13 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82323235" vertical-offset="11717" max-vertical-offset="15283">
-          <caret line="718" column="43" selection-start-line="718" selection-start-column="43" selection-end-line="718" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17671" max-vertical-offset="32266">
@@ -1314,7 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="859" max-vertical-offset="1411">
           <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="2635">
           <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,9 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1088">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,240 +1099,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1411">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1411">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1671" max-vertical-offset="2363">
-          <caret line="132" column="9" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/sitepress-multilingual-cms/sitepress.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.346154" vertical-offset="129068" max-vertical-offset="142001">
+        <state vertical-scroll-proportion="0.0" vertical-offset="129068" max-vertical-offset="142001">
           <caret line="7605" column="0" selection-start-line="7605" selection-start-column="0" selection-end-line="7605" selection-end-column="0" />
           <folding>
-            <marker date="1425989213046" expanded="true" signature="750:801" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="23539:23645" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="23792:23840" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="23935:24032" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="24233:24317" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="24461:24602" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="24780:24956" placeholder="SELECT x.ter..." />
-            <marker date="1425989213046" expanded="true" signature="25085:25226" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="27009:27176" placeholder="SELECT * FRO..." />
-            <marker date="1425989213046" expanded="true" signature="39332:39443" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="39700:39746" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="40012:40201" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="40315:40501" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="42037:42111" placeholder="SELECT * FRO..." />
-            <marker date="1425989213046" expanded="true" signature="43687:43747" placeholder="SELECT code ..." />
-            <marker date="1425989213046" expanded="true" signature="55106:55513" placeholder="SELECT l.id,..." />
-            <marker date="1425989213046" expanded="true" signature="56301:56522" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="58473:58535" placeholder="SELECT code ..." />
-            <marker date="1425989213046" expanded="true" signature="58758:58834" placeholder="SELECT defau..." />
-            <marker date="1425989213046" expanded="true" signature="58922:58989" placeholder="SELECT code ..." />
-            <marker date="1425989213046" expanded="true" signature="59731:60088" placeholder="SELECT code,..." />
-            <marker date="1425989213046" expanded="true" signature="60468:60811" placeholder="SELECT code,..." />
-            <marker date="1425989213046" expanded="true" signature="61441:61808" placeholder="SELECT code,..." />
-            <marker date="1425989213046" expanded="true" signature="62145:62269" placeholder="SELECT code ..." />
-            <marker date="1425989213046" expanded="true" signature="81746:81814" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="82592:82746" placeholder="SELECT comme..." />
-            <marker date="1425989213046" expanded="true" signature="83877:84076" placeholder="SELECT p.pos..." />
-            <marker date="1425989213046" expanded="true" signature="89005:89034" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="90409:90615" placeholder="SELECT p.ID,..." />
-            <marker date="1425989213046" expanded="true" signature="92830:92878" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="94447:94536" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="103648:103719" placeholder="SELECT engli..." />
-            <marker date="1425989213046" expanded="true" signature="103866:103937" placeholder="SELECT engli..." />
-            <marker date="1425989213046" expanded="true" signature="109831:109942" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="110706:110803" placeholder="SELECT code ..." />
-            <marker date="1425989213046" expanded="true" signature="110858:110964" placeholder="SELECT defau..." />
-            <marker date="1425989213046" expanded="true" signature="113567:113649" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="113827:113939" placeholder="INSERT INTO ..." />
-            <marker date="1425989213046" expanded="true" signature="113952:114112" placeholder="SELECT CONCA..." />
-            <marker date="1425989213046" expanded="true" signature="114168:114221" placeholder="SELECT MAX(t..." />
-            <marker date="1425989213046" expanded="true" signature="114395:114507" placeholder="INSERT INTO ..." />
-            <marker date="1425989213046" expanded="true" signature="114524:114663" placeholder="SELECT 'tax_..." />
-            <marker date="1425989213046" expanded="true" signature="114727:114780" placeholder="SELECT MAX(t..." />
-            <marker date="1425989213046" expanded="true" signature="114829:114941" placeholder="INSERT INTO ..." />
-            <marker date="1425989213046" expanded="true" signature="114954:115028" placeholder="SELECT 'comm..." />
-            <marker date="1425989213046" expanded="true" signature="120776:120950" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="121409:121616" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="121697:121762" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="121923:122101" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="122410:122569" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="122730:122839" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="123245:123363" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="123770:123879" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="124651:124814" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="124870:124935" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="125067:125120" placeholder="SELECT MAX(t..." />
-            <marker date="1425989213046" expanded="true" signature="125875:125970" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="126600:126804" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="127293:127873" placeholder="SELECT DISTI..." />
-            <marker date="1425989213046" expanded="true" signature="128016:128596" placeholder="SELECT DISTI..." />
-            <marker date="1425989213046" expanded="true" signature="130921:131070" placeholder="SELECT trid,..." />
-            <marker date="1425989213046" expanded="true" signature="132933:133015" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="133468:133529" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="134887:134935" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="135789:135913" placeholder="SELECT trid,..." />
-            <marker date="1425989213046" expanded="true" signature="136560:136648" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="138236:138343" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="139454:139552" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="142524:142592" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="146563:146611" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="147189:147278" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="147368:147416" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="147947:148043" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="150115:150192" placeholder="SELECT ID, p..." />
-            <marker date="1425989213046" expanded="true" signature="151439:151861" placeholder="SELECT p.pos..." />
-            <marker date="1425989213046" expanded="true" signature="152802:153102" placeholder="SELECT p.pos..." />
-            <marker date="1425989213046" expanded="true" signature="154479:154568" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="154973:155023" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="155660:155733" placeholder="SELECT meta_..." />
-            <marker date="1425989213046" expanded="true" signature="155816:155889" placeholder="SELECT meta_..." />
-            <marker date="1425989213046" expanded="true" signature="156137:156199" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="156787:156867" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="157078:157157" placeholder="INSERT INTO ..." />
-            <marker date="1425989213046" expanded="true" signature="159147:159226" placeholder="SELECT md5 F..." />
-            <marker date="1425989213046" expanded="true" signature="160065:160186" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="167197:167238" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="167792:167838" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="169062:169108" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="170680:170817" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="173399:173650" placeholder="SELECT t.tra..." />
-            <marker date="1425989213046" expanded="true" signature="174193:174304" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="174442:174562" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="174813:175040" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="175836:176154" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="177052:177107" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="178000:178072" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="181349:181437" placeholder="SELECT sourc..." />
-            <marker date="1425989213046" expanded="true" signature="182319:182331" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="183238:183254" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="183517:183533" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="189419:189437" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="198878:199240" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="200678:200696" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="200798:200816" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="201396:201409" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="201510:201521" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="202355:202551" placeholder="SELECT p.ID ..." />
-            <marker date="1425989213046" expanded="true" signature="203200:203250" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="203330:203436" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="203496:203628" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="204248:204380" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="204560:204610" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="204704:204792" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="204937:205066" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="206075:206248" placeholder="SELECT trid,..." />
-            <marker date="1425989213046" expanded="true" signature="207830:208158" placeholder="SELECT paren..." />
-            <marker date="1425989213046" expanded="true" signature="210141:210215" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="210283:210337" placeholder="SELECT name ..." />
-            <marker date="1425989213046" expanded="true" signature="211297:211386" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="211561:211629" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="211780:211848" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="211935:211983" placeholder="SELECT name ..." />
-            <marker date="1425989213046" expanded="true" signature="212452:212500" placeholder="SELECT name ..." />
-            <marker date="1425989213046" expanded="true" signature="212536:212604" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="212937:213049" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="213148:213216" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="213303:213351" placeholder="SELECT name ..." />
-            <marker date="1425989213046" expanded="true" signature="218958:219008" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="219373:219440" placeholder="SELECT taxon..." />
-            <marker date="1425989213046" expanded="true" signature="220235:220281" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="220968:221117" placeholder="SELECT trid,..." />
-            <marker date="1425989213046" expanded="true" signature="222866:222940" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="223013:223132" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="223427:223494" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="225578:225692" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="226352:226789" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="230330:230414" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="230838:230888" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="231689:232056" placeholder="SELECT tt.te..." />
-            <marker date="1425989213046" expanded="true" signature="239062:239108" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="240758:240857" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="242122:242221" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="245348:245476" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="245697:245815" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="245859:245968" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="246209:246331" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="246375:246484" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="246697:246877" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="248159:248292" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="255270:255590" placeholder="SELECT COUNT..." />
-            <marker date="1425989213046" expanded="true" signature="266634:266771" placeholder="SELECT name ..." />
-            <marker date="1425989213046" expanded="true" signature="267266:267353" placeholder="SELECT flag,..." />
-            <marker date="1425989213046" expanded="true" signature="272239:272336" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="272519:272611" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="275965:276080" placeholder="SELECT * FRO..." />
-            <marker date="1425989213046" expanded="true" signature="276199:276356" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="276642:276757" placeholder="SELECT * FRO..." />
-            <marker date="1425989213046" expanded="true" signature="280670:280754" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="290100:290253" placeholder="SELECT x.ter..." />
-            <marker date="1425989213046" expanded="true" signature="291513:291706" placeholder="SELECT x.ter..." />
-            <marker date="1425989213046" expanded="true" signature="292078:292231" placeholder="SELECT x.ter..." />
-            <marker date="1425989213046" expanded="true" signature="292915:292994" placeholder="SELECT slug ..." />
-            <marker date="1425989213046" expanded="true" signature="294135:294214" placeholder="SELECT slug ..." />
-            <marker date="1425989213046" expanded="true" signature="294442:294521" placeholder="SELECT slug ..." />
-            <marker date="1425989213046" expanded="true" signature="296173:296411" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="296892:297186" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="299351:299399" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="299897:299945" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="300213:300263" placeholder="SELECT slug ..." />
-            <marker date="1425989213046" expanded="true" signature="303261:303319" placeholder="SELECT tag F..." />
-            <marker date="1425989213046" expanded="true" signature="303759:303821" placeholder="SELECT local..." />
-            <marker date="1425989213046" expanded="true" signature="304508:304651" placeholder="SELECT lm.co..." />
-            <marker date="1425989213046" expanded="true" signature="305346:305482" placeholder="DELETE FROM ..." />
-            <marker date="1425989213046" expanded="true" signature="306211:306286" placeholder="SELECT optio..." />
-            <marker date="1425989213046" expanded="true" signature="306526:306607" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="307221:307297" placeholder="SELECT optio..." />
-            <marker date="1425989213046" expanded="true" signature="307538:307619" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="308244:308355" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="309565:309581" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="310134:310246" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="311467:311499" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="313021:313074" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="313717:313801" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="314539:314706" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="316126:316422" placeholder="SELECT COUNT..." />
-            <marker date="1425989213046" expanded="true" signature="316994:317441" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="317528:318000" placeholder="SELECT post_..." />
-            <marker date="1425989213046" expanded="true" signature="318165:318411" placeholder="SELECT t.nam..." />
-            <marker date="1425989213046" expanded="true" signature="318756:319245" placeholder="SELECT t.nam..." />
-            <marker date="1425989213046" expanded="true" signature="319628:320138" placeholder="SELECT p.ID,..." />
-            <marker date="1425989213046" expanded="true" signature="320557:321056" placeholder="SELECT p.ID,..." />
-            <marker date="1425989213046" expanded="true" signature="321462:321889" placeholder="SELECT p.ID,..." />
-            <marker date="1425989213046" expanded="true" signature="322202:322688" placeholder="SELECT COUNT..." />
-            <marker date="1425989213046" expanded="true" signature="322851:323385" placeholder="SELECT COUNT..." />
-            <marker date="1425989213046" expanded="true" signature="331398:331528" placeholder="SELECT trid ..." />
-            <marker date="1425989213046" expanded="true" signature="331602:331737" placeholder="SELECT trid,..." />
-            <marker date="1425989213046" expanded="true" signature="332545:332855" placeholder="SELECT f.lan..." />
-            <marker date="1425989213046" expanded="true" signature="334624:334728" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="334828:335063" placeholder="SELECT needs..." />
-            <marker date="1425989213046" expanded="true" signature="341797:342005" placeholder="SELECT s.* F..." />
-            <marker date="1425989213046" expanded="true" signature="355991:356150" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="357555:357726" placeholder="SELECT eleme..." />
-            <marker date="1425989213046" expanded="true" signature="358413:358507" placeholder="SELECT code ..." />
-            <marker date="1425989213046" expanded="true" signature="359680:359748" placeholder="SELECT COUNT..." />
-            <marker date="1425989213046" expanded="true" signature="359851:359912" placeholder="SELECT COUNT..." />
-            <marker date="1425989213046" expanded="true" signature="361681:361693" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="361988:362000" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="362659:362671" placeholder="..." />
-            <marker date="1425989213046" expanded="true" signature="373321:373413" placeholder="SELECT ID FR..." />
-            <marker date="1425989213046" expanded="true" signature="373537:373657" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="373986:374066" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="374196:374314" placeholder="SELECT trans..." />
-            <marker date="1425989213046" expanded="true" signature="375342:375446" placeholder="SELECT langu..." />
-            <marker date="1425989213046" expanded="true" signature="378151:378235" placeholder="SELECT term_..." />
-            <marker date="1425989213046" expanded="true" signature="384860:384944" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT x.ter..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT l.id,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT defau..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT comme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.pos..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.ID,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT engli..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT engli..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT defau..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT CONCA..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT MAX(t..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT 'tax_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT MAX(t..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT 'comm..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT MAX(t..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID, p..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.pos..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.pos..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT meta_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT md5 F..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT t.tra..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT sourc..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.ID ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT paren..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT name ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT name ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT name ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT name ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT taxon..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT tt.te..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT name ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT flag,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT x.ter..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT x.ter..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT x.ter..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT slug ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT slug ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT slug ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT slug ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT tag F..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT local..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT lm.co..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT optio..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT optio..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT post_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT t.nam..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT t.nam..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.ID,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.ID,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT p.ID,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trid,..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT f.lan..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT needs..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT s.* F..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT eleme..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT code ..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT trans..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT langu..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
+            <marker date="1425989213046" expanded="true" signature="-1:-1" placeholder="SELECT term_..." />
           </folding>
         </state>
       </provider>
@@ -1605,28 +1334,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1378" max-vertical-offset="2091">
           <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="459" max-vertical-offset="4165">
-          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
-          <folding>
-            <element signature="e#6#207#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#10751#11734#0#PHP" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1649,8 +1357,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39740258" vertical-offset="34" max-vertical-offset="544">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="544">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0" vertical-offset="2253" max-vertical-offset="4165">
+          <caret line="139" column="144" selection-start-line="139" selection-start-column="103" selection-end-line="139" selection-end-column="144" />
+          <folding>
+            <element signature="e#6#207#0#PHP" expanded="true" />
+            <element signature="e#10751#11734#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/en.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1642" max-vertical-offset="2108">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4" vertical-offset="102" max-vertical-offset="1360">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="23" selection-end-column="95" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <marker date="1426151524512" expanded="true" signature="2051:2377" placeholder="..." />
+            <marker date="1426151524512" expanded="true" signature="2092:2369" placeholder="..." />
+            <marker date="1426151524512" expanded="true" signature="2103:2360" placeholder="..." />
+            <marker date="1426151524512" expanded="true" signature="2115:2323" placeholder="..." />
+            <marker date="1426151524512" expanded="true" signature="2119:2315" placeholder="..." />
+            <marker date="1426151524512" expanded="true" signature="2335:2348" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3448277" vertical-offset="0" max-vertical-offset="15334">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.230769" vertical-offset="510" max-vertical-offset="1411">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1426153124395" expanded="true" signature="1211:1227" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="1324:1748" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="1394:1437" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="1438:1748" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="1625:1748" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="1857:2031" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="2049:2065" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="2147:2368" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="2397:2829" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="2467:2510" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="2511:2829" placeholder="..." />
+            <marker date="1426153124395" expanded="true" signature="2702:2829" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/default_extracted.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3197" max-vertical-offset="3808">
+          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="530">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/languages/fr.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9373849" vertical-offset="3214" max-vertical-offset="3825">
+          <caret line="219" column="0" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding />
         </state>
       </provider>

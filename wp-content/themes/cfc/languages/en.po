@@ -115,3 +115,4 @@ msgstr "/?cat=13"
 #: header.php:134
 msgid "our-team-page-link"
 msgstr "/?page_id=1622 "
+

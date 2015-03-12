@@ -55,7 +55,7 @@ msgstr "Получить CFC"
 #. Text in echo
 #: header.php:135
 msgid "Get the Apps link"
-msgstr "Получить ссылку приложения"
+msgstr "Получить ссылку"
 
 #. Text in echo
 #: header.php:139
@@ -95,7 +95,7 @@ msgstr "Tweet"
 #. Text in echo
 #: header.php:148
 msgid "cfc-tarifs-page-link"
-msgstr "/?p=1876"
+msgstr "/?page_id=1779"
 
 #. Text in echo
 #: header.php:135
@@ -115,7 +115,7 @@ msgstr "/?p=1881"
 #. Text in echo
 #: header.php:142
 msgid "get-app-page-link"
-msgstr "/?p=1880"
+msgstr "/?page_id=1632"
 
 #. Text in echo
 #: header.php:146
@@ -131,3 +131,88 @@ msgstr "/ru/?cat=23"
 #: header.php:134
 msgid "our-team-page-link"
 msgstr "/?p=1860"
+
+#. Text in echo
+#: tarrifs.php:62
+msgid "Bonuses/min"
+msgstr ""
+
+#. Text in echo
+#: tarrifs.php:31
+msgid "CFC Tariffs for Calls"
+msgstr "Тарифы на звонки"
+
+#. Text in echo
+#: tarrifs.php:60
+msgid "Country"
+msgstr "Страна"
+
+#. Text in echo
+#: tarrifs.php:45
+msgid "Get"
+msgstr "Получить"
+
+#. Text in echo
+#: tarrifs.php:34
+msgid "Phone number"
+msgstr "Номер телефона"
+
+#. Text in echo
+#: tarrifs.php:43
+msgid "Please enter first seven digits"
+msgstr "Пожалуйста введите первые семь цифр"
+
+#. Text in echo
+#: tarrifs.php:51
+msgid "Please enter first seven digits at least."
+msgstr "Пожалуйста, введите первые семь цифр, по крайней мере."
+
+#. Text in echo
+#: tarrifs.php:51
+msgid "Please paste the number without + and 00."
+msgstr "Введите номер без + и 00"
+
+#. Text in echo
+#: tarrifs.php:61
+msgid "Price in USD"
+msgstr "Цена в Долларах США"
+
+#. Text in echo
+#: get-app-link.php:23
+msgid "E-Mail was sent successfully. Enjoy!"
+msgstr "E-Mail был отправлен успешно!"
+
+#. Text in echo
+#: get-app-link.php:38
+msgid "Get App Link"
+msgstr "Получить ссылку на приложение"
+
+#. Text in echo
+#: get-app-link.php:59
+msgid "Get E-Mail with app link"
+msgstr "Получить E-Mail."
+
+#. Text in echo
+#: get-app-link.php:41
+msgid "Get FREE SMS with app link"
+msgstr "Получить бесплатное сообщение."
+
+#. Text in echo
+#: get-app-link.php:25
+msgid "Please enter valid E-Mail."
+msgstr "Пожалуйста введите верный E-Mail"
+
+#. Text in echo
+#: get-app-link.php:24
+msgid "Please enter valid phone.12"
+msgstr "Пожалуйста введите верный номер телефона."
+
+#. Text in echo
+#: get-app-link.php:22
+msgid "SMS was sent successfully. Enjoy!"
+msgstr "СМС было отправлено успешно!"
+
+#. Text in echo
+#: get-app-link.php:49 get-app-link.php:71
+msgid "Send"
+msgstr "Отправить"

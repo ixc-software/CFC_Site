@@ -2,7 +2,10 @@ var flareTop,
 	flareLeft;
 
 var emailPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+var successMessage = 'SMS was sent successfully. Enjoy!';
+var successEmail = 'E-Mail was sent successfully. Enjoy!';
+var badMessage ='Please enter valid phone.';
+var badEmail ='Please enter valid E-Mail.';
 $.masksLoad = function(url) {
 	var maskList;
 	$.ajax({
@@ -528,13 +531,13 @@ $(function(){
 					email: email
 				},
 				success: function(html){
-					alert('E-Mail was sent successfully. Enjoy!');
+					alert(successEmail);
 				}
 			});
 		}
 		else
 		{
-			alert('Please enter valid E-Mail.');
+			alert(badEmail);
 		}
 	});
 	
@@ -555,7 +558,7 @@ $(function(){
 				success: function(response){
 					if (response == 1)
 					{
-						alert('SMS was sent successfully. Enjoy!');
+						alert(successMessage);
 					}
 					esle
 					{
@@ -569,7 +572,7 @@ $(function(){
 		}
 		else
 		{
-			alert('Please enter valid phone.');
+			alert(badMessage);
 		}
 	});
 	
@@ -642,7 +645,7 @@ $(function(){
 		}
 		else
 		{
-			alert('Enter at least seven digits of phone.');
+			//alert('Enter at least seven digits of phone.');
 		}
 	});
 	
