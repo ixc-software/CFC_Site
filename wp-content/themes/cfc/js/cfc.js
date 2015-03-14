@@ -321,13 +321,13 @@ $(function(){
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');
             $(".front-middle-blue-line").css('width',$(window).width()+'px');
-           // $("#logoWords").css('width','100%');
+            $("#logoWords").css('width','100%');
 
 
         }else{
             $("#span-cfc-front").css('margin-left','5%');
             $(".front-middle-blue-line").css('width','100%');
-           // $("#logoWords").css('width','82%');
+            $("#logoWords").css('width','82%');
            // alert(1);
             $(".phoneapp")
                 .css('width',$(window).height()*0.60)
