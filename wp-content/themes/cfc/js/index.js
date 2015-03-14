@@ -8,13 +8,14 @@ function resetMenuColor(){
     $("#support").css('background-color','');
     $(".submenu").hide();
 }
+var display_type = 'block';
 function aboutUsClicked()
 {
     resetMenuColor();
     $("#about-us").css('background-color','rgb(52,152,219)');
     $("#submenu-about-us")
         .fadeIn('slow')
-        .css('display','inline-table');
+        .css('display', display_type);
 
 }
 function getCfcClicked()
@@ -23,7 +24,7 @@ function getCfcClicked()
     $("#get-cfc").css('background-color','rgb(52,152,219)');
     $("#submenu-get-cfc")
         .fadeIn('slow')
-        .css('display','inline-table');
+        .css('display', display_type);
 }
 function supportClicked()
 {
@@ -31,5 +32,5 @@ function supportClicked()
     $("#support").css('background-color','rgb(52,152,219)');
     $("#submenu-support")
         .fadeIn('slow')
-        .css('display','inline-table');
+        .css('display', display_type);
 }
