@@ -10,8 +10,9 @@ div{
     cursor: pointer;
 }
 .about-header-div{
-    font-size: 5.9vw;
-    width: 133px;
+    font-size: 1.5vmax;
+    min-width: 133px;
+    width: 15%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
@@ -25,7 +26,8 @@ div{
 
     z-index: 100500;
     vertical-align: middle;
-    width: 137px;
+    min-width: 137px;
+    width: 15%;
     font-size: 1.5vw;
     margin-left: 0px;
     color:#ffffff;
