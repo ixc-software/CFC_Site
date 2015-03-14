@@ -37,7 +37,7 @@ right: 0;display: table;">
             <img src="<?php echo get_template_directory_uri(); ?>/images/App_Store_Badge_small.png">
         </div>
 
-
+        <div id="share-box" style="margin-top: 10px">
         <div id="fb-root" ></div>
         <script>(function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -48,18 +48,18 @@ right: 0;display: table;">
             }(document, 'script', 'facebook-jssdk'));</script>
 
         <!-- Place this tag where you want the +1 button to render. -->
-        <div class="g-plusone" data-size="tall" style="display: inline-block"></div>
+        <div class="g-plusone" data-size="tall"  data-annotation="none" style="display: inline-block"></div>
 
         <a style="display: inline-block" class="twitter-share-button"
            href="https://twitter.com/share"
-            data-count="vertical">
+            data-count="none">
             <?php echo _e( 'Tweet',twentyfourteen); ?>
         </a>
         <script>
             window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
         </script>
-        <div style="display: inline-block" class="fb-share-button" data-href="https://www.facebook.com/CallsFreeCalls" data-layout="box_count"></div>
-
+        <div style="display: inline-block" class="fb-share-button" data-href="https://www.facebook.com/CallsFreeCalls" data-layout="button"></div>
+        </div>
     </div>
     </div>
 </div>
