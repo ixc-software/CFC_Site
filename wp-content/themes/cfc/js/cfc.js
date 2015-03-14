@@ -195,6 +195,8 @@ $(function(){
 
         if($(window).width()<$(window).height()){
             $("#phoneapp").hide();
+        }else{
+            $("#phoneapp").show();
         }
 
 
