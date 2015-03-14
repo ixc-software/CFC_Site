@@ -3,6 +3,7 @@ div{
     border-color: #468847;
     margin-left: 0;
 }
+
 .lang-div{
     width: 30%;
     display: inline;
@@ -18,7 +19,7 @@ div{
     padding-bottom: 10px;
     text-align: center;
     cursor: pointer;
-  
+
 }
 .lang-active{
     background-color: rgb(52, 152, 219);
