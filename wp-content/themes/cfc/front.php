@@ -6,14 +6,20 @@
  
 get_header(); ?>
 
-<div id="logoWords" style="width: 82%;position: absolute;
+<div id="logoWords" style="height:100%;width: 82%;position: absolute;
 bottom: 0;
-right: 0;">
-	<div id="logoImg">
-		<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
-			<img  style="width: 8em" src="<?php echo get_template_directory_uri(); ?>/images/composition.png" />
+right: 0;display: table;">
+    <div id="gnom-blueline-sharebuttons">
+
+
+	<!--<div id="logoImg1">
+		<!--<a href="https://itunes.apple.com/in/app/cfc/id580661730?mt=12" target="_blank">
+			<img  style="/*width: 8em*/" src="<?php echo get_template_directory_uri(); ?>/images/composition.png" />
 		</a>
-	</div>
+	</div>-->
+
+        <div id="container1" >
+        </div>
     <!--
     <h2>Welcome to the CFC world</h2>
 
@@ -54,6 +60,7 @@ right: 0;">
         </script>
         <div style="display: inline-block" class="fb-share-button" data-href="https://www.facebook.com/CallsFreeCalls" data-layout="box_count"></div>
 
+    </div>
     </div>
 </div>
 <div id="cableLeft"  style="display: none;"></div>

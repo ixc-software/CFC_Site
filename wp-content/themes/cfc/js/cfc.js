@@ -321,7 +321,7 @@ $(function(){
         if($("#phoneapp").css('display')=='none'){
             $("#span-cfc-front").css('margin-left','0px');
             $(".front-middle-blue-line").css('width',$(window).width()+'px');
-            $("#logoWords").css('width','100%');
+           // $("#logoWords").css('width','100%');
 
 
         }else{
@@ -336,16 +336,15 @@ $(function(){
 
             var w = $(window).width()-(parseFloat($("#phoneapp").css('height'))*0.68) + 20;
 
-            $("#logoWords").css('width',w);
+           // $("#logoWords").css('width',w);
         //    alert(w+","+$(window).width());
         }
-        var margTopImage = ($("#main").height() - 355)/2;
-        //logoWords
+        /*var margTopImage = ($("#main").height() - 355)/2;
         if(margTopImage>0){
             $("#logoWords").css('margin-bottom',margTopImage+"px");
         }else{
             $("#logoWords").css('margin-bottom',"0px");
-        }
+        }*/
 
 
 
