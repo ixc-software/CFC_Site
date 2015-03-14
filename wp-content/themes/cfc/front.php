@@ -18,7 +18,9 @@ right: 0;">
     <h2>Welcome to the CFC world</h2>
 
     <h3>You can call anyone free of charge.</h3>-->
-    <div class="front-middle-blue-line"><span style=";margin-top: 0.8em;" id="span-cfc-front"><?php echo _e( 'CFC is a virtual SIM-card in your mobile for making free phone calls',twentyfourteen); ?></span></div>
+    <div class="front-middle-blue-line"><span style="    display: inline-block;
+    vertical-align: middle;
+    line-height: 14px;" id="span-cfc-front"><?php echo _e( 'CFC is a virtual SIM-card in your mobile for making free phone calls',twentyfourteen); ?></span></div>
     <div class="social-box">
 
         <div class="social-box-android-apple"  onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">
