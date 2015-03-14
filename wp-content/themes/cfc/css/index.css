@@ -78,8 +78,9 @@ div{
 .front-middle-blue-line{
     margin-right: 10px;
    float:right;
-    height: 50px;
-    line-height:50px;
+    //height: 10%;
+    //line-height:10%;
+    font-size: 1.5vmax;
     width: 100%;
 
    background-color:rgb(88,179,252);

@@ -325,7 +325,7 @@ $(function(){
 
 
         }else{
-            $("#span-cfc-front").css('margin-left','11em');
+            $("#span-cfc-front").css('margin-left','5%');
             $(".front-middle-blue-line").css('width','100%');
            // $("#logoWords").css('width','82%');
            // alert(1);
