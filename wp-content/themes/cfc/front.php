@@ -138,6 +138,7 @@ right: 0;display: table;">
     </div>
     </div>
 </div>
+
 <div id="cableLeft"  style="display: none;"></div>
 <div id="cableMain"  style="display: none;"><img src="<?php echo get_template_directory_uri(); ?>/images/cable-main.png" /></div>
 <!--

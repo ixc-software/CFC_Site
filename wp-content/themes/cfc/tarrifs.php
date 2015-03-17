@@ -40,7 +40,8 @@ if (have_posts())
             <div class="input-group input-group-lg col-sm-3" style=" margin-left: auto;
     margin-right: auto;">
 
-                <input type="text" name="phone_code" id="phone_code" value="" class="form-control" autocomplete="off" placeholder="<?php echo _e( 'Please enter first seven digits',twentyfourteen); ?>"  aria-describedby="sizing-addon1">
+                <input type="text" name="phone_code" id="phone_code" value="" class="form-control" autocomplete="off" placeholder="+____-___-____"  aria-describedby="sizing-addon1">
+
                 <span class="input-group-btn">
                     <button class="btn btn-default" id="getTarrifs" value="GET" type="button"><?php echo _e( 'Get',twentyfourteen); ?></button>
               </span>

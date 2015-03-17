@@ -42,6 +42,10 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/cookie.js"></script>
 
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="<?php echo get_template_directory_uri(); ?>/js/rrssb.min.js"></script>
+
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css">
 
 	<!--[if lt IE 9]>
