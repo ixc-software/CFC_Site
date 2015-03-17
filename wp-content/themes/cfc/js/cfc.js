@@ -192,12 +192,17 @@ $(function(){
 	};
 
 	$(window).on('resize', function() {
-
+        var phone= $("#phoneapp");
         if($(window).width()<$(window).height()){
-            $("#phoneapp").hide();
+            phone.hide();
+            $("#span-cfc-front")
+                .css('width','100%');
         }else{
-            $("#phoneapp").show();
+            phone.show();
+            $("#span-cfc-front")
+                .css('width',$(window).width() - phone.width() * 0.89);
         }
+
 
 
 

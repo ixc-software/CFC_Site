@@ -26,8 +26,8 @@ right: 0;display: table;">
     <h3>You can call anyone free of charge.</h3>-->
     <div class="front-middle-blue-line"><span style="padding-bottom: 20px;
   padding-top: 20px;    display: inline-block;
-    vertical-align: middle;
-    " id="span-cfc-front"><?php echo _e( 'CFC is a virtual SIM-card in your mobile for making free phone calls',twentyfourteen); ?></span></div>
+    vertical-align: middle;width: 85%;
+    " id="span-cfc-front">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php echo _e( 'CFC is a virtual SIM-card in your mobile for making free phone calls',twentyfourteen); ?></span></div>
     <div class="social-box">
         <div>
         <div class="social-box-android-apple"  onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">
