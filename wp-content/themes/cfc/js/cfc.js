@@ -280,11 +280,11 @@ $(function(){
 			function() {
 				if ($(window).width() > 540)
 				{
-					$('.category-scroll-inner').height($scroll.outerHeight(true) - 80);
+					$('.category-scroll-inner').height($scroll.outerHeight(true) - 110);
 				}
 				else
 				{
-					$('.category-scroll-inner').height($scroll.outerHeight(true) - 80);
+					$('.category-scroll-inner').height($scroll.outerHeight(true) - 110);
 				}
 
 				if ($('#contentSlider').length)
