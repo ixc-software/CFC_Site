@@ -47,7 +47,7 @@ right: 0;display: table;">
                     <li class="rrssb-facebook">
                         <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
                         https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ -->
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://kurtnoble.com/labs/rrssb/index.html" class="popup">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://cfc.io/" class="popup">
                             <span class="rrssb-icon">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                                     <path d="M27.825,4.783c0-2.427-2.182-4.608-4.608-4.608H4.783c-2.422,0-4.608,2.182-4.608,4.608v18.434
@@ -61,7 +61,7 @@ right: 0;display: table;">
 
                     <li class="rrssb-twitter">
                         <!-- Replace href with your Meta and URL information  -->
-                        <a href="http://twitter.com/home?status=Ridiculously%20Responsive%20Social%20Sharing%20Buttons%20by%20@joshuatuscan%20and%20@dbox%20http://kurtnoble.com/labs/rrssb" class="popup">
+                        <a href="http://twitter.com/home?status=Calls%20Free%20Calls%20Free%20phone%20calls%20and%20SMS%20texting%20with%20CFC.io%20-%20virtual%20Sim-card%20app%20in%20your%20mobile%20http://cfc.io/" class="popup">
                             <span class="rrssb-icon">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
@@ -79,7 +79,7 @@ right: 0;display: table;">
 
                     <li class="rrssb-googleplus">
                         <!-- Replace href with your meta and URL information.  -->
-                        <a href="https://plus.google.com/share?url=Check%20out%20how%20ridiculously%20responsive%20these%20social%20buttons%20are%20http://kurtnoble.com/labs/rrssb/index.html" class="popup">
+                        <a href="https://plus.google.com/share?url=Calls%20Free%20Calls%20Free%20phone%20calls%20and%20SMS%20texting%20with%20CFC.io%20-%20virtual%20Sim-card%20app%20in%20your%20mobile%20http://cfc.io/" class="popup">
                             <span class="rrssb-icon">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
                                     <g>

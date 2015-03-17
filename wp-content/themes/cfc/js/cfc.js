@@ -793,7 +793,7 @@ $(window).on('beforeunload', function () {
 
 function updateCable()
 {
-	var cableTop =  ($('#logoImg img').offset().top + $('#logoImg img').height());
+	/*var cableTop =  ($('#logoImg img').offset().top + $('#logoImg img').height());
 	$('#cableMain, #cableLeft').css('top', cableTop - 140);
 
 	var cableWidth =  $('#phoneapp').offset().left - ($('#logoImg img').offset().left + $('#logoImg img').outerWidth()) + 30;
@@ -806,7 +806,7 @@ function updateCable()
 	{
 		$('#cableLeft').width(0);
 	}
-	console.log('dfsdf');
+	console.log('dfsdf');*/
 }
 
 function showSmileys() {
