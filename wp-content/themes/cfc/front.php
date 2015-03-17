@@ -29,15 +29,20 @@ right: 0;display: table;">
     vertical-align: middle;
     " id="span-cfc-front"><?php echo _e( 'CFC is a virtual SIM-card in your mobile for making free phone calls',twentyfourteen); ?></span></div>
     <div class="social-box">
-
+        <div>
         <div class="social-box-android-apple"  onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">
             <img src="<?php echo get_template_directory_uri(); ?>/images/googleplay.png" >
         </div>
         <div class="social-box-android-apple" onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">
             <img src="<?php echo get_template_directory_uri(); ?>/images/App_Store_Badge_small.png">
         </div>
+        </div>
+        <div id="share-box" style="height:50px;margin-top: 10px">
 
-        <div id="share-box" style="margin-top: 10px">
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55054ee55f816240" async="async"></script>
+
+            <!--
         <div id="fb-root" ></div>
         <script>(function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -47,7 +52,7 @@ right: 0;display: table;">
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
 
-        <!-- Place this tag where you want the +1 button to render. -->
+
         <div class="g-plusone" data-size="tall"  data-annotation="none" style="display: inline-block"></div>
 
         <a style="display: inline-block" class="twitter-share-button"
@@ -59,7 +64,7 @@ right: 0;display: table;">
             window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
         </script>
         <div style="display: inline-block" class="fb-share-button" data-href="https://www.facebook.com/CallsFreeCalls" data-layout="button"></div>
-        </div>
+        --></div>
     </div>
     </div>
 </div>
