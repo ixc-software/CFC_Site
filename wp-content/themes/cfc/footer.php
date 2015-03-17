@@ -67,7 +67,12 @@
 </div><!--//root-->
 
 <?php wp_footer(); ?>
+<!-- Required Javascript files. Copy these to your document. -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery.1.10.2.min.js"><\/script>')</script>
 
 <script src="<?php echo get_template_directory_uri(); ?>/js/rrssb.min.js"></script>
+
 </body>
 </html>
