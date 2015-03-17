@@ -104,7 +104,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                     //<div onclick="window.location =\''.$langs['en']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['en']['active']?'lang-active':'') . '">EN</div>
                     //<div onclick="window.location =\''.$langs['fr']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['fr']['active']?'lang-active':'') . '">FR</div>';
 
-                echo ' <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'ru\',365);window.location =\''.$langs['en']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
+                echo ' <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'ru\',365);window.location =\''.$langs['ru']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
                 <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'en\',365);window.location =\''.$langs['en']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']!='fr' && $_COOKIE['lang']!='ru'?'lang-active':'') . '">EN</div>
                 <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'fr\',365);window.location =\''.$langs['fr']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='fr'?'lang-active':'') . '">FR</div>';
                // echo ' <div onclick="setCookie(\'lang\',\'ru\',365);location.reload();"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
