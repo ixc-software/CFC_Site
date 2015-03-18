@@ -1243,7 +1243,10 @@ body {
 	.site-content .entry-content, .site-content .entry-summary, .site-content .entry-date, .page-content {
 		padding: 0px 10px 13px;
 	}
-	
+    .entry-content p{
+        font-family: "Times New Roman", Times, serif !important;
+        font-size: 1.5em;
+    }
 	.site-content .entry-summary p {
 		margin-bottom:0;
 	}
