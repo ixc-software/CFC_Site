@@ -539,13 +539,13 @@ $(function(){
 					email: email
 				},
 				success: function(html){
-					alert(successEmail);
+					swal(successEmail,"","success");
 				}
 			});
 		}
 		else
 		{
-			alert(badEmail);
+			swal(badEmail,"","error");
 		}
 	});
 
@@ -566,11 +566,11 @@ $(function(){
 				success: function(response){
 					if (response == 1)
 					{
-						alert(successMessage);
+						swal(successMessage,"","success");
 					}
 					esle
 					{
-						alert('Error occured.');
+						swal('Error occured.',"","error");
 					}
 				},
 				error: function() {
@@ -580,7 +580,7 @@ $(function(){
 		}
 		else
 		{
-			alert(badMessage);
+			swal(badMessage,"","error");
 		}
 	});
 
