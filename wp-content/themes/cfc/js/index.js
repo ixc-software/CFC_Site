@@ -6,15 +6,15 @@
 var clickedState = 0;
 function resetMenuColor(element){
 
-    console.log(element);
-    if(clickedState!=element) {
+   // console.log(element);
+   // if(clickedState!=element) {
         $(".submenu").hide();
         $("#about-us").css('background-color', '');
         $("#home").css('background-color', '');
         $("#get-cfc").css('background-color', '');
         $("#support").css('background-color', '');
 
-    }
+   // }
 }
 var display_type = 'block';
 function aboutUsClicked()

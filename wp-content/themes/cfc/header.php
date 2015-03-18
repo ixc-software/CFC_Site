@@ -144,10 +144,17 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
         <div style="margin-left: 5%; height: 71px;padding-top: 1%" id="top-menu">
             <div style="display: block;">
+                <!--
                 <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
                 <div class="about-header-div hvr-back-pulse"  onmouseout="resetMenuColor(1)" onmouseover="aboutUsClicked()" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
                 <div class="about-header-div hvr-back-pulse" id="get-cfc"   onmouseout="resetMenuColor(2)" onmouseover="getCfcClicked()" onclick="getCfcClicked()"><?php echo _e( 'GET CFC',twentyfourteen); ?></div>
                 <div class="about-header-div hvr-back-pulse" id="support"   onmouseout="resetMenuColor(3)" onmouseover="supportClicked()" onclick="supportClicked()"><?php echo _e( 'SUPPORT',twentyfourteen); ?></div>
+            -->
+                <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
+                <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
+                <div class="about-header-div hvr-back-pulse" id="get-cfc"   onclick="getCfcClicked()"><?php echo _e( 'GET CFC',twentyfourteen); ?></div>
+                <div class="about-header-div hvr-back-pulse" id="support"   onclick="supportClicked()"><?php echo _e( 'SUPPORT',twentyfourteen); ?></div>
+
             </div>
 
 
