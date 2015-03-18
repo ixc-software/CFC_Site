@@ -200,7 +200,7 @@ $(function(){
             $(".news-hheader-div").css('font-size','1.8vw');
             $("#top-menu").css('padding-top','1%');
             $(".lang-div").css('font-size','2.5vmax');
-            $(".social-box").css('width','80%');
+            $(".social-box").css('width','97%');
             $(".share-container").css('width','100%');
         }else{
             phone.show();
