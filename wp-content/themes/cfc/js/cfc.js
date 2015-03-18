@@ -197,7 +197,7 @@ $(function(){
             phone.hide();
             $("#span-cfc-front")
                 .css('width','100%');
-            $(".news-hheader-div").css('font-size','1.5vmax');
+            $(".news-hheader-div").css('font-size','1.8vw');
         }else{
             phone.show();
             $("#span-cfc-front")
