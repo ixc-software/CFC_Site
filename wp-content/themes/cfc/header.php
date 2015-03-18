@@ -143,7 +143,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
 
         <div style="margin-left: 5%; height: 71px;padding-top: 1%" id="top-menu">
-            <div style="display: block;">
+            <div style="display: block;" id="main-menu">
                 <!--
                 <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
                 <div class="about-header-div hvr-back-pulse"  onmouseout="resetMenuColor(1)" onmouseover="aboutUsClicked()" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
@@ -217,7 +217,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 		
 		<div class="content-top"></div>
 		
-		<div class="hfeed site b-content" style="bottom: 0;position: absolute;height: 100%;">
+		<div class="hfeed site b-content" style="bottom: 0;position: absolute;">
 			<?php if ( get_header_image() ) : ?>
 			<div id="site-header">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">

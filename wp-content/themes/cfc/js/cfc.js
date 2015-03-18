@@ -204,6 +204,7 @@ $(function(){
             $(".share-container").css('width','100%');
             $(".about-header-div").css('font-size','2.5vmax');
             $("#top-menu").css('margin-left','0');
+            $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
         }else{
             phone.show();
             $("#span-cfc-front")
@@ -214,13 +215,14 @@ $(function(){
             $(".lang-div").css('font-size','1.5vmax');
             $(".about-header-div").css('font-size','1.5vmax');
             $("#top-menu").css('margin-left','5%');
+            $("#gnom-blueline-sharebuttons").css('vertical-align','middle');
         }
 
 
 
 
 
-		if ($(window).width() > 540)
+		/*if ($(window).width() > 540)
 		{
 			$viewport.height(function() {
 				return $(window).height() - 140;
@@ -231,7 +233,7 @@ $(function(){
 			$viewport.height(function() {
 				return $(window).height() - 102;
 			});
-		}
+		}*/
 
 		var innerHeight = $('#viewport').innerHeight() - 10,
 			innerLeft = ($(window).width() - $content.width()) / 2;
@@ -426,7 +428,7 @@ $(function(){
 
 	});
 
-	$("window").add( "body" ).on( "resize", centeringPhone );
+	$("window").add( "body" ).on( "viewport", centeringPhone );
 
 	$(window).trigger('resize');
 
