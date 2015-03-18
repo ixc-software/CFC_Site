@@ -199,9 +199,11 @@ $(function(){
                 .css('width','100%');
             $(".news-hheader-div").css('font-size','1.8vw');
             $("#top-menu").css('padding-top','1%');
-            $(".lang-div").css('font-size','2.5vmax');
+            $(".lang-div").css('font-size','3.5vmax');
             $(".social-box").css('width','97%');
             $(".share-container").css('width','100%');
+            $(".about-header-div").css('font-size','2.5vmax');
+            $("#top-menu").css('margin-left','0');
         }else{
             phone.show();
             $("#span-cfc-front")
@@ -210,6 +212,8 @@ $(function(){
             $("#top-menu").css('padding-top','0%');
             $(".social-box").css('width','30%');
             $(".lang-div").css('font-size','1.5vmax');
+            $(".about-header-div").css('font-size','1.5vmax');
+            $("#top-menu").css('margin-left','5%');
         }
 
 
