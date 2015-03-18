@@ -40,7 +40,7 @@ if (have_posts())
 
 	<h3 style="margin-bottom:0;"><?php echo _e( 'Get FREE SMS with app link',twentyfourteen); ?>:</h3>
 
-        <div class="row">
+
             <div class="input-group input-group-lg col-sm-3" style=" margin-left: auto;
     margin-right: auto;">
 
@@ -49,7 +49,7 @@ if (have_posts())
                     <button class="btn btn-default" type="button" value="SEND" name="smsSend" id="smsSend"><?php echo _e( 'Send',twentyfourteen); ?></button>
               </span>
             </div>
-            </div>
+   
         <!--
 		<input type="text" name="sms" id="sms" value="" class="get-app-input" />
 		<input type="button" name="smsSend" id="smsSend" value="SEND" class="get-app-button" />
@@ -62,7 +62,7 @@ if (have_posts())
             <input type="button" name="emailSend" id="emailSend" value="SEND" class="get-app-button" />
 	</p>-->
 
-        <div class="row">
+
             <div class="input-group input-group-lg col-sm-3" style=" margin-left: auto;
     margin-right: auto;">
 
@@ -71,7 +71,7 @@ if (have_posts())
                     <button class="btn btn-default" type="button" name="emailSend" id="emailSend" value="SEND"><?php echo _e( 'Send',twentyfourteen); ?></button>
               </span>
             </div>
-        </div>
+
 
 	<?php
 }

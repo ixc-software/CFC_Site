@@ -36,16 +36,16 @@ if (have_posts())
 			<!--<input type="text" name="phone_code" id="phone_code" value="" class="get-app-input" autocomplete="off" placeholder="Please enter first seven digits" />
 			<input type="button" name="getTarrifs" id="getTarrifs" value="GET" class="get-app-button" />
 			-->
-            <div class="row">
-            <div class="input-group input-group-lg col-sm-3" style=" margin-left: auto;
-    margin-right: auto;">
 
-                <input type="text" name="phone_code" id="phone_code" value="" class="form-control" autocomplete="off" placeholder="+____-___-____"  aria-describedby="sizing-addon1">
+                    <div class="input-group input-group-lg col-sm-3" style=" margin-left: auto;
+            margin-right: auto;">
 
-                <span class="input-group-btn">
-                    <button class="btn btn-default" id="getTarrifs" value="GET" type="button"><?php echo _e( 'Get',twentyfourteen); ?></button>
-              </span>
-            </div>
+                        <input type="text" name="phone_code" id="phone_code" value="" class="form-control" autocomplete="off" placeholder="+____-___-____"  aria-describedby="sizing-addon1">
+
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" id="getTarrifs" value="GET" type="button"><?php echo _e( 'Get',twentyfourteen); ?></button>
+                      </span>
+
 			<span id="ajaxLoader"></span>
 		</div>
         </div>
