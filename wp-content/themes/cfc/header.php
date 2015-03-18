@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hover.css">
     <!-- Place this tag in your head or just before your close body tag. -->
     <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/libs/bootstrap.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
@@ -158,7 +159,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';"><?php echo _e( 'Media kit',twentyfourteen); ?></div>
             </div>
             <div style="display: none;" id="submenu-get-cfc" class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">iOs</div>
+                <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">IOS</div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12'">Mac OS X</div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">Android</div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('get-app-page-link');?>';"><?php echo _e( 'Get the Apps link',twentyfourteen); ?></div>
