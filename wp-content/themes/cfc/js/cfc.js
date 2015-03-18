@@ -199,12 +199,17 @@ $(function(){
                 .css('width','100%');
             $(".news-hheader-div").css('font-size','1.8vw');
             $("#top-menu").css('padding-top','1%');
+            $(".lang-div").css('font-size','2.5vmax');
+            $(".social-box").css('width','80%');
+            $(".share-container").css('width','100%');
         }else{
             phone.show();
             $("#span-cfc-front")
                 .css('width',$(window).width() - phone.width() * 0.89);
             $(".news-hheader-div").css('font-size','1.5vw');
             $("#top-menu").css('padding-top','0%');
+            $(".social-box").css('width','30%');
+            $(".lang-div").css('font-size','1.5vmax');
         }
 
 
