@@ -198,11 +198,13 @@ $(function(){
             $("#span-cfc-front")
                 .css('width','100%');
             $(".news-hheader-div").css('font-size','1.8vw');
+            $("#top-menu").css('padding-top','1%');
         }else{
             phone.show();
             $("#span-cfc-front")
                 .css('width',$(window).width() - phone.width() * 0.89);
             $(".news-hheader-div").css('font-size','1.5vw');
+            $("#top-menu").css('padding-top','0%');
         }
 
 
