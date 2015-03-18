@@ -57,7 +57,7 @@ get_header(); ?>
 						
 						?>
 						<div class="news-divs" style="background-color: rgba(235, 241, 253, 0.7);display: inline-block;margin-bottom: 5px;width: 100%;">
-						<div class="entry-header" style="text-align: center;">
+						<div class="entry-header" style="word-wrap: break-word;text-align: center;">
 							<?php the_title( '<h1 class="entry-title" style="/*margin: 20px 0 12px;*/margin: 0;">', '</h1>' ); ?>
                             <?php the_date(); ?>
 						</div><!-- .entry-header -->

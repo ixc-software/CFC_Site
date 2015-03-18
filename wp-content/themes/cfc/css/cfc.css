@@ -1041,6 +1041,7 @@ body {
 	
 	header.entry-header {
 		padding:0px 10px 0;
+        word-wrap: break-word;
 	}
 	
 	
