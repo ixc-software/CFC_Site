@@ -196,7 +196,10 @@ $(function(){
         if($(window).width()<$(window).height()){
             phone.hide();
             $("#span-cfc-front")
-                .css('width','100%');
+                .css('width','100%')
+                .css('padding-bottom','5px')
+                .css('padding-top','5px');
+            $(".front-middle-blue-line").css('font-size','2.5vmax');
             $(".news-hheader-div").css('font-size','1.8vw');
             $("#top-menu").css('padding-top','1%');
             $(".lang-div").css('font-size','30px');
@@ -207,6 +210,11 @@ $(function(){
             $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
         }else{
             phone.show();
+            $("#span-cfc-front")
+                .css('width','100%')
+                .css('padding-bottom','20px')
+                .css('padding-top','20px');
+            $(".front-middle-blue-line").css('font-size','1.5vmax');
             $("#span-cfc-front")
                 .css('width',$(window).width() - phone.width() * 0.89);
             $(".news-hheader-div").css('font-size','1.5vw');
