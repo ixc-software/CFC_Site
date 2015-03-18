@@ -752,6 +752,7 @@ body {
 		width:100%;
         position: absolute;
         bottom: 6%;
+        z-index: -5;
 		/*height: calc( 100% - 74px - 50px );
 		margin:20px 0 30px;
 		background:url(../images/rails-repeat.png) 0 0 repeat-y;*/
