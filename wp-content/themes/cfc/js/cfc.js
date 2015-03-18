@@ -197,10 +197,12 @@ $(function(){
             phone.hide();
             $("#span-cfc-front")
                 .css('width','100%');
+            $(".news-hheader-div").css('font-size','1.5vmax');
         }else{
             phone.show();
             $("#span-cfc-front")
                 .css('width',$(window).width() - phone.width() * 0.89);
+            $(".news-hheader-div").css('font-size','1.5vw');
         }
 
 
