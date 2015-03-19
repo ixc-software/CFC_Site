@@ -16,10 +16,10 @@ body{
 .about-header-div{
     background-color: rgb(88, 179, 252);
     z-index: 1000000;
-    margin-left: -4px;
+    //margin-left: -4px;
     font-size:2.5vmax;
     min-width: 133px;
-    width: 25%;
+    width: 24%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
