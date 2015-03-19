@@ -1053,6 +1053,7 @@ a.post-thumbnail:hover {
 //	margin: 0 0 12px 0;
 	text-transform: uppercase;
 	//color:#8A1965;
+    word-wrap: break-word;
 }
 
 .entry-title a {

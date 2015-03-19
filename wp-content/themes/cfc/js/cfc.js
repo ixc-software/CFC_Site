@@ -200,8 +200,8 @@ $(function(){
                 .css('width','100%')
                 .css('padding-bottom','5px')
                 .css('padding-top','5px');
-            $(".front-middle-blue-line").css('font-size','2.5vmax');
-            $(".news-hheader-div").css('font-size','1.8vw');
+            $(".front-middle-blue-line").css('font-size','3.5vmax');
+            $(".news-hheader-div").css('font-size','2vmax');
             $("#top-menu").css('padding-top','1%');
             $(".lang-div").css('font-size','30px');
             $(".social-box").css('width','97%');
