@@ -10,6 +10,9 @@ div{
     padding: 10px 10px 10px;
     cursor: pointer;
 }
+body{
+    background-color: rgb(214, 231, 251) !important;
+}
 .about-header-div{
     z-index: 1000000;
     margin-left: -4px;

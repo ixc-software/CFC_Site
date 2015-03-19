@@ -5,7 +5,11 @@
  */
  
 get_header(); ?>
-
+<style>
+    body{
+        background-image: url('/wp-content/themes/cfc/images/background1.png') !important;
+    }
+</style>
 <div id="logoWords" style="height:100%;width: 82%;position: absolute;
 bottom: 0;
 right: 0;display: table;">
