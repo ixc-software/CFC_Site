@@ -419,12 +419,6 @@
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
     </task>
-    <task id="LOCAL-00063" summary="update middle blue line">
-      <created>1426351887866</created>
-      <option name="number" value="00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1426351887866</updated>
-    </task>
     <task id="LOCAL-00064" summary="font size">
       <created>1426353316951</created>
       <option name="number" value="00064" />
@@ -713,7 +707,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426763987812</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="blue line font-size">
+      <created>1426764102244</created>
+      <option name="number" value="00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1426764102244</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -759,7 +759,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fulll screen reading" />
     <MESSAGE value="scrolling news" />
     <MESSAGE value="+add this" />
     <MESSAGE value="+share" />
@@ -784,7 +783,8 @@
     <MESSAGE value="word wrap" />
     <MESSAGE value="news font" />
     <MESSAGE value="share font size" />
-    <option name="LAST_COMMIT_MESSAGE" value="share font size" />
+    <MESSAGE value="blue line font-size" />
+    <option name="LAST_COMMIT_MESSAGE" value="blue line font-size" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
