@@ -202,11 +202,14 @@ $(function(){
                 .css('padding-top','5px');
             $(".front-middle-blue-line").css('font-size','3.5vmax');
             $(".news-hheader-div").css('font-size','2vmax');
+            $(".about-header-div").css('font-size','2.5vmax');
+
+
             $("#top-menu").css('padding-top','1%');
             $(".lang-div").css('font-size','30px');
             $(".social-box").css('width','97%');
             $(".share-container").css('width','100%');
-            $(".about-header-div").css('font-size','2.5vmax');
+
             $("#top-menu").css('margin-left','0');
             $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
             $(".rrssb-buttons li a .rrssb-text").css('font-size','3vw');
