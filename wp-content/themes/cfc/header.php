@@ -142,7 +142,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                 ?>
 
 
-        <div style="margin-left: 5%; height: 71px;padding-top: 1%" id="top-menu">
+        <div style="margin-left: 5%; height: 71px;padding-top: 11px" id="top-menu">
             <div style="display: block;" id="main-menu">
                 <!--
                 <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>

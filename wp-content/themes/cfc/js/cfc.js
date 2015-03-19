@@ -205,7 +205,7 @@ $(function(){
             $(".about-header-div").css('font-size','2.5vmax');
 
 
-            $("#top-menu").css('padding-top','1%');
+            $("#top-menu").css('padding-top','11px');
             $(".lang-div").css('font-size','30px');
             $(".social-box").css('width','97%');
             $(".share-container").css('width','100%');
@@ -223,7 +223,7 @@ $(function(){
             $("#span-cfc-front")
                 .css('width',$(window).width() - phone.width() * 0.89);
             $(".news-hheader-div").css('font-size','1.5vw');
-            $("#top-menu").css('padding-top','0%');
+            $("#top-menu").css('padding-top','11px');
             $(".social-box").css('width','30%');
             $(".lang-div").css('font-size','1.5vmax');
             $(".about-header-div").css('font-size','1.5vmax');
