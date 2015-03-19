@@ -200,7 +200,7 @@ $(function(){
                 .css('width','100%')
                 .css('padding-bottom','5px')
                 .css('padding-top','5px');
-            $(".front-middle-blue-line").css('font-size','5vw');
+            $(".front-middle-blue-line").css('font-size','3vw');
             $(".news-hheader-div").css('font-size','2vmax');
             $(".about-header-div").css('font-size','2.5vmax');
 
