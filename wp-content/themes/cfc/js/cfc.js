@@ -209,6 +209,7 @@ $(function(){
             $(".about-header-div").css('font-size','2.5vmax');
             $("#top-menu").css('margin-left','0');
             $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
+            $(".rrssb-buttons li a .rrssb-text").css('font-size','3vw');
         }else{
             phone.show();
             $("#span-cfc-front")
@@ -225,6 +226,7 @@ $(function(){
             $(".about-header-div").css('font-size','1.5vmax');
             $("#top-menu").css('margin-left','5%');
             $("#gnom-blueline-sharebuttons").css('vertical-align','middle');
+            $(".rrssb-buttons li a .rrssb-text").css('font-size','1vw');
         }
 
 
