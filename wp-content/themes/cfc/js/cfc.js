@@ -213,8 +213,10 @@ $(function(){
             $("#top-menu").css('margin-left','0');
             $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
             $(".rrssb-buttons li a .rrssb-text").css('font-size','3vw');
+            $(".b-content").css('bottom','9%');
         }else{
             phone.show();
+            $(".b-content").css('bottom','0');
             $("#span-cfc-front")
                 .css('width','100%')
                 .css('padding-bottom','20px')
