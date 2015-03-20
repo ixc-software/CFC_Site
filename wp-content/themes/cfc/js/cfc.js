@@ -265,7 +265,7 @@ $(function(){
 		$('.content-left, .content-right').height(innerHeight - 34);
 
         var topheight =  ($("#main-menu").offset().top+$("#main-menu").height()+$("#submenu-about-us").height());
-        $("#content").css('top',topheight+20);
+        $("#content").css('top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height());
 
 
 		if ($('#homeContent').length > 0 || $('#getAppContent').length > 0)

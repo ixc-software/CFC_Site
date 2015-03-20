@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="hand to footer">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css" />
+    <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -69,8 +65,8 @@
       <file leaf-file-name="cfc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28370786" vertical-offset="3979" max-vertical-offset="16286">
-              <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.14044943" vertical-offset="4489" max-vertical-offset="16286">
+              <caret line="267" column="119" selection-start-line="267" selection-start-column="119" selection-end-line="267" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -432,12 +428,6 @@
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
     </task>
-    <task id="LOCAL-00090" summary="remove alert&#10;+swal">
-      <created>1426677250917</created>
-      <option name="number" value="00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1426677250917</updated>
-    </task>
     <task id="LOCAL-00091" summary="news word wrap">
       <created>1426677718349</created>
       <option name="number" value="00091" />
@@ -726,7 +716,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426873414725</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="input fix">
+      <created>1426879931523</created>
+      <option name="number" value="00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1426879931523</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -772,7 +768,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="menu vs language fix" />
     <MESSAGE value="font-size menu" />
     <MESSAGE value="mouseover" />
     <MESSAGE value="menu padding" />
@@ -797,7 +792,8 @@
     <MESSAGE value="+border radius" />
     <MESSAGE value="fix hand" />
     <MESSAGE value="hand to footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="hand to footer" />
+    <MESSAGE value="input fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="input fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1212,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28370786" vertical-offset="3979" max-vertical-offset="16286">
-          <caret line="240" column="0" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.14044943" vertical-offset="4489" max-vertical-offset="16286">
+          <caret line="267" column="119" selection-start-line="267" selection-start-column="119" selection-end-line="267" selection-end-column="119" />
           <folding />
         </state>
       </provider>
