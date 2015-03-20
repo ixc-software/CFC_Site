@@ -72,11 +72,6 @@ if (have_posts())
 }
 ?>
 </article>
-<script>
-        $(function(){
-                       $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height());
-        });
 
-</script>
 
 <?php get_footer(); ?>

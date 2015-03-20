@@ -237,7 +237,7 @@ $(function(){
             $(".rrssb-buttons li a .rrssb-text").css('font-size','1vw');
             $(".news-hheader-div").css('width','20%').css('padding-top','10px').css('padding-bottom','10px');
         }
-        $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height());
+        $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height()+30);
 
         //  $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
 
@@ -264,7 +264,7 @@ $(function(){
 
 		$('.content-left, .content-right').height(innerHeight - 34);
 
-        var topheight =  ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())*1.1;
+        var topheight =  ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())*($(window).height()>2000? 1.2 : 1.1);
         $("#content").css('top',topheight);
 
 
@@ -743,7 +743,7 @@ $(window).load(function() {
 
 	$("[data-animate]").animate( { height: "show", opacity: "1" } , "500" );
 
-	$('#content').css({ top: $(window).height() }).show().animate({ top: ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())*1.1}, 500);
+	$('#content').css({ top: $(window).height() }).show().animate({ top: ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())*($(window).height()>2000? 1.2 : 1.1)}, 500);
 
 	if ($('.category-banner-wrapper').length > 0)
 	{
