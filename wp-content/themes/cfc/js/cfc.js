@@ -217,7 +217,7 @@ $(function(){
             $(".b-content").css('bottom','9%');
             $(".news-hheader-div").css('width','24%').css('padding-top','15px').css('padding-bottom','15px');
         }else{
-            //if(phone.is(":visible"))
+            if(isFrontPage!=undefined && isFrontPage)
                 phone.show();
             $(".b-content").css('bottom','0');
             $("#span-cfc-front")
@@ -237,7 +237,9 @@ $(function(){
             $(".rrssb-buttons li a .rrssb-text").css('font-size','1vw');
             $(".news-hheader-div").css('width','20%').css('padding-top','10px').css('padding-bottom','10px');
         }
-      //  $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
+        $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height());
+
+        //  $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
 
 
 

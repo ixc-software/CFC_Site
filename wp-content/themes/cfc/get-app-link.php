@@ -8,7 +8,7 @@
 get_header(); ?>
 <script src="<?php echo get_template_directory_uri(); ?>/js/sweet-alert.min.js"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/sweet-alert.css">
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="this-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php
 if (have_posts())
 {
@@ -78,4 +78,10 @@ if (have_posts())
 }
 ?>
 </article>
+<script>
+    $(function(){
+        $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height());
+    });
+
+</script>
 <?php get_footer(); ?>

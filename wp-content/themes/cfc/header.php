@@ -70,7 +70,15 @@ $.src='//v2.zopim.com/?1lvtHDkNTmJYdMsZPt5owbbQ0yi4Bdzc';z.t=+new Date;$.
 type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 <!--End of Zopim Live Chat Script-->
-
+<script>
+    var isFrontPage = <?php
+    if(is_front_page()){
+        echo 1;
+    }else{
+    echo 0;
+    }
+     ?>;
+</script>
 <body <?php body_class(); ?>>
 
 

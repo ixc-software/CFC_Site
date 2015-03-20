@@ -6,7 +6,7 @@
  
 get_header(); ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="this-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php
 if (have_posts())
 {
@@ -72,4 +72,11 @@ if (have_posts())
 }
 ?>
 </article>
+<script>
+        $(function(){
+                       $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height());
+        });
+
+</script>
+
 <?php get_footer(); ?>
