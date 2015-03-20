@@ -9,7 +9,12 @@ get_header(); ?>
     body{
         background-image: url('/wp-content/themes/cfc/images/background1.png') !important;
     }
+
+
+
 </style>
+
+
 <div id="logoWords" style="height:100%;width: 82%;position: absolute;
 bottom: 0;
 right: 0;display: table;">
@@ -42,11 +47,11 @@ right: 0;display: table;">
         </div>
         </div>
 
-            <div class="share-container clearfix">
+            <div class="share-container clearfix" >
 
 
                 <!-- Buttons start here. Copy this ul to your document. -->
-                <ul class="rrssb-buttons clearfix" style="margin: 0;">
+                <ul class="rrssb-buttons clearfix" style="margin: 0;height: 53px;">
 
                     <li class="rrssb-facebook">
                         <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
