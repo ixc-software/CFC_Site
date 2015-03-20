@@ -202,8 +202,8 @@ $(function(){
                 .css('padding-bottom','5px')
                 .css('padding-top','5px');
             $(".front-middle-blue-line").css('font-size','4vw');
-            $(".news-hheader-div").css('font-size','2vmax');
-            $(".about-header-div").css('font-size','2.5vmax');
+            $(".news-hheader-div").css('font-size','1.8vmax');
+            $(".about-header-div").css('font-size','2.2vmax');
 
 
             $("#top-menu").css('padding-top','11px');
