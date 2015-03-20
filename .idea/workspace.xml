@@ -83,8 +83,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.298995" vertical-offset="459" max-vertical-offset="2516">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.81155777" vertical-offset="459" max-vertical-offset="2516">
+              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -424,12 +424,6 @@
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
     </task>
-    <task id="LOCAL-00075" summary="blue line portret view">
-      <created>1426367643195</created>
-      <option name="number" value="00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1426367643195</updated>
-    </task>
     <task id="LOCAL-00076" summary="fix portret view">
       <created>1426367833548</created>
       <option name="number" value="00076" />
@@ -718,7 +712,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426858106306</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="news header div border">
+      <created>1426862838397</created>
+      <option name="number" value="00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1426862838397</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -764,7 +764,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fix blue line text width" />
     <MESSAGE value="language bug" />
     <MESSAGE value="fix phone placeholders" />
     <MESSAGE value="width input get app link" />
@@ -789,7 +788,8 @@
     <MESSAGE value="footer fix" />
     <MESSAGE value="share buttons" />
     <MESSAGE value="share buttons on top" />
-    <option name="LAST_COMMIT_MESSAGE" value="share buttons on top" />
+    <MESSAGE value="news header div border" />
+    <option name="LAST_COMMIT_MESSAGE" value="news header div border" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1192,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.298995" vertical-offset="459" max-vertical-offset="2516">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.81155777" vertical-offset="459" max-vertical-offset="2516">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
           <folding />
         </state>
       </provider>
