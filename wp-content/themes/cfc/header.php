@@ -90,6 +90,8 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
                 <div style="float:left;margin-left: 3em;">
 
 
+
+
         <?php
             $langs = icl_get_languages('skip_missing=1');
 
@@ -126,6 +128,16 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
             }
             ?>
                 </div>
+                <!-- AddToAny BEGIN -->
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="float:right;  margin-right: 30px;">
+
+                    <a class="a2a_button_facebook" style="float:right;"></a>
+                    <a class="a2a_button_twitter" style="float:right;"></a>
+                    <a class="a2a_button_google_plus" style="float:right;"></a>
+
+                </div>
+                <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
             </div>
                 <?php
                     $lang = $_COOKIE['lang'];

@@ -215,7 +215,6 @@ $(function(){
             $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
             $(".rrssb-buttons li a .rrssb-text").css('font-size','3vw');
             $(".b-content").css('bottom','9%');
-            $(".a2a_button_facebook").css('margin-left',($(window).width()-3*64)/2);
         }else{
             phone.show();
             $(".b-content").css('bottom','0');
@@ -234,9 +233,8 @@ $(function(){
             $("#top-menu").css('margin-left','5%');
             $("#gnom-blueline-sharebuttons").css('vertical-align','middle');
             $(".rrssb-buttons li a .rrssb-text").css('font-size','1vw');
-            $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
         }
-
+      //  $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
 
 
 

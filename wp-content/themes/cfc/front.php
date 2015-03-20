@@ -10,9 +10,9 @@ get_header(); ?>
         background-image: url('/wp-content/themes/cfc/images/background1.png') !important;
     }
     .a2a_svg{
-        width: 64px;
-        height: 64px;
-        background-size: 64px;
+        width: 54px;
+        height: 54px;
+        background-size: 54px;
 
     }
 
@@ -117,16 +117,7 @@ right: 0;display: table;">
                 </ul>
                 -->
 
-                <!-- AddToAny BEGIN -->
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
 
-                        <a class="a2a_button_facebook"></a>
-                        <a class="a2a_button_twitter"></a>
-                        <a class="a2a_button_google_plus"></a>
-
-                </div>
-                <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-                <!-- AddToAny END -->
             </div>
 
 
