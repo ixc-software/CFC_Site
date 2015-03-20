@@ -203,7 +203,7 @@ $(function(){
                 .css('padding-top','5px');
             $(".front-middle-blue-line").css('font-size','4vw');
                 $(".news-hheader-div").css('font-size','2.1vw');
-            $(".about-header-div").css('font-size','3vw');
+            $(".about-header-div").css('font-size','3vw').css('width','24%');
 
 
             $("#top-menu").css('padding-top','11px');
@@ -215,6 +215,7 @@ $(function(){
             $("#gnom-blueline-sharebuttons").css('vertical-align','bottom');
             $(".rrssb-buttons li a .rrssb-text").css('font-size','3vw');
             $(".b-content").css('bottom','9%');
+            $(".news-hheader-div").css('width','24%').css('padding-top','15px').css('padding-bottom','15px');
         }else{
             phone.show();
             $(".b-content").css('bottom','0');
@@ -229,10 +230,11 @@ $(function(){
             $("#top-menu").css('padding-top','11px');
             $(".social-box").css('width','30%');
             $(".lang-div").css('font-size','1.5vmax');
-            $(".about-header-div").css('font-size','1.5vmax');
+            $(".about-header-div").css('font-size','1.5vmax').css('width','20%');
             $("#top-menu").css('margin-left','5%');
             $("#gnom-blueline-sharebuttons").css('vertical-align','middle');
             $(".rrssb-buttons li a .rrssb-text").css('font-size','1vw');
+            $(".news-hheader-div").css('width','20%').css('padding-top','10px').css('padding-bottom','10px');
         }
       //  $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
 
