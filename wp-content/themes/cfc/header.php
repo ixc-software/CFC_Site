@@ -172,22 +172,22 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
             <!--inline-table-->
             <div style="display: none;" id="submenu-about-us" class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center" onclick="setCookie('menuClicked',menuClicked.News,365);window.location = '<?php echo _e('news-page-link');?>'"><?php echo _e( 'News',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('our-team-page-link');?>';"><?php echo _e( 'Our team',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('contacts-page-link');?>';"><?php echo _e( 'Contacts',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-news" onclick="window.location = '<?php echo _e('news-page-link');?>'"><?php echo _e( 'News',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-our-team" onclick="window.location = '<?php echo _e('our-team-page-link');?>';"><?php echo _e( 'Our team',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-contacts" onclick="window.location = '<?php echo _e('contacts-page-link');?>';"><?php echo _e( 'Contacts',twentyfourteen); ?></div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';"><?php echo _e( 'Media kit',twentyfourteen); ?></div>
             </div>
             <div style="display: none;" id="submenu-get-cfc" class="submenu">
                 <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">IOS</div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12'">Mac OS X</div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">Android</div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('get-app-page-link');?>';"><?php echo _e( 'Get the Apps link',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-get-app" onclick="window.location = '<?php echo _e('get-app-page-link');?>';"><?php echo _e( 'Get the Apps link',twentyfourteen); ?></div>
             </div>
             <div style="display: none;" id="submenu-support"  class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('faq-page-link');?>';"><?php echo _e( 'FAQs',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('getting-started-page-link');?>';"><?php echo _e( 'Getting Started',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('featurest-and-function-page-link');?>';"><?php echo _e( 'Features and Functions',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('cfc-tarifs-page-link');?>';"><?php echo _e( 'CFC Tariffs',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-faq" onclick="window.location = '<?php echo _e('faq-page-link');?>';"><?php echo _e( 'FAQs',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-getting-started" onclick="window.location = '<?php echo _e('getting-started-page-link');?>';"><?php echo _e( 'Getting Started',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-features" onclick="window.location = '<?php echo _e('featurest-and-function-page-link');?>';"><?php echo _e( 'Features and Functions',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" id="d-cfc-tarrifs" onclick="window.location = '<?php echo _e('cfc-tarifs-page-link');?>';"><?php echo _e( 'CFC Tariffs',twentyfourteen); ?></div>
             </div>
         </div>
         <ul id="navigation" class="b-nav" style="display: none;">

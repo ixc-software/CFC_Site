@@ -56,28 +56,35 @@ function supportClicked()
 function MenuClicked() {}
 MenuClicked.prototype.News = function(){
     aboutUsClicked()
-    $("#news-hheader-div")
+    $("#d-news").css('opacity','1.0');
 };
 MenuClicked.prototype.OurTeam = function(){
     aboutUsClicked()
+    $("#d-our-team").css('opacity','1.0');
 };
 MenuClicked.prototype.Contacts= function(){
     aboutUsClicked()
+    $("#d-contacts").css('opacity','1.0');
 };
 MenuClicked.prototype.GetAppLink = function(){
     getCfcClicked()
+    $("#d-get-app").css('opacity','1.0');
 };
 MenuClicked.prototype.Faqs = function(){
     supportClicked()
+    $("#d-faq").css('opacity','1.0');
 };
 MenuClicked.prototype.GettingStart = function(){
     supportClicked()
+    $("#d-getting-started").css('opacity','1.0');
 };
 MenuClicked.prototype.FeaturesAndFunctions = function(){
     supportClicked()
+    $("#d-features").css('opacity','1.0');
 };
 MenuClicked.prototype.CFCTarifs = function(){
     supportClicked()
+    $("#d-cfc-tarrifs").css('opacity','1.0');
 };
 
 menuClicked = new MenuClicked();
@@ -99,7 +106,7 @@ function showMenuFromPageId(id)
     map[1501] = menuClicked.Contacts;
     map[1877] = menuClicked.Contacts;
 
-    map[1632] = menuClicked.News;
+    map[1632] = menuClicked.GetAppLink;
 
     map[32] = menuClicked.Faqs;
     map[1879] = menuClicked.Faqs;

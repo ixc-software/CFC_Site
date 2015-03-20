@@ -30,6 +30,7 @@ body{
     background-color: rgb(52, 152, 219);
 }
 .news-hheader-div{
+    opacity: 0.75;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(196, 172, 202);
