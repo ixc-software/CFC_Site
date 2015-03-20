@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/css/rrssb.css" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/css/rrssb.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -30,15 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="front.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="672" max-vertical-offset="3060">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            <state vertical-scroll-proportion="-2.2181818" vertical-offset="1884" max-vertical-offset="3264">
+              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
               </folding>
@@ -68,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cfc.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cfc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3539" max-vertical-offset="16184">
-              <caret line="218" column="43" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.38961038" vertical-offset="3182" max-vertical-offset="16201">
+              <caret line="196" column="83" selection-start-line="196" selection-start-column="83" selection-end-line="196" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -173,10 +171,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/cfc.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/index.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/css/rrssb.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/front.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
       </list>
     </option>
   </component>
@@ -421,12 +419,6 @@
       <created>1425463549536</created>
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
-    </task>
-    <task id="LOCAL-00069" summary="lang font size">
-      <created>1426354935640</created>
-      <option name="number" value="00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1426354935640</updated>
     </task>
     <task id="LOCAL-00070" summary="footer">
       <created>1426355736106</created>
@@ -716,13 +708,20 @@
       <option name="project" value="LOCAL" />
       <updated>1426791542988</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="footer fix">
+      <created>1426854752884</created>
+      <option name="number" value="00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1426854752884</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -740,7 +739,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1007874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1134,14 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3539" max-vertical-offset="16184">
-          <caret line="218" column="43" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-55.115383" vertical-offset="879" max-vertical-offset="4267">
@@ -1170,15 +1160,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="672" max-vertical-offset="3060">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        <state vertical-scroll-proportion="-2.2181818" vertical-offset="1884" max-vertical-offset="3264">
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38961038" vertical-offset="3182" max-vertical-offset="16201">
+          <caret line="196" column="83" selection-start-line="196" selection-start-column="83" selection-end-line="196" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>

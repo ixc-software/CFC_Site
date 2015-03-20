@@ -194,6 +194,7 @@ $(function(){
 	$(window).on('resize', function() {
 
         var phone= $("#phoneapp");
+        $(".a2a_button_facebook").css('margin-left',($(".a2a_kit").width()-3*64)/2)
         if($(window).width()<$(window).height()){
             phone.hide();
             $("#span-cfc-front")
