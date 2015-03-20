@@ -529,6 +529,9 @@ body {
 	}
     html,body{
       //  background-image: url('/wp-content/themes/cfc/images/background1.png') !important;
+
+    }
+    .site-background{
         background-size: 2500px 100% !important;
     }
 

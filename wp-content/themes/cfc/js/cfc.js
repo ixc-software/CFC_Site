@@ -157,8 +157,6 @@ $(function(){
 							"height" : "100%",
                             "background-image":siteBackground.src,
                             "background-attachment": "fixed",
-
-                            "background-position": "50% 0%",
                             "background-repeat": "no-repeat",
 
 							"opacity" : "0"

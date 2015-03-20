@@ -94,6 +94,7 @@ menuClicked = new MenuClicked();
 function showMenuFromPageId(id)
 {
     var map = [];
+   map[1581] = function(){};
     map[1910] = menuClicked.News;
     map[1810] = menuClicked.News;
     map[1438] = menuClicked.News;
@@ -122,5 +123,10 @@ function showMenuFromPageId(id)
 
     map[1779]= menuClicked.CFCTarifs;
 
-    map[id]();
+    if(!map[id]){
+        menuClicked.News();
+    }else{
+        map[id]();
+    }
+
 }

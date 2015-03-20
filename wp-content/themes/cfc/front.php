@@ -6,7 +6,7 @@
  
 get_header(); ?>
 <style>
-    body{
+    .site-background{
         background-image: url('/wp-content/themes/cfc/images/background1.png') !important;
     }
     .a2a_svg{

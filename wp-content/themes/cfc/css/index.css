@@ -126,6 +126,7 @@ body{
     text-align: center;
 }
 .container-our-team-header-div{
+    margin-top: -2em;
     background-color: rgb(232,76,61);
 }
 .our-team-container{
