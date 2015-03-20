@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/front.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -69,8 +68,8 @@
       <file leaf-file-name="cfc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38961038" vertical-offset="3182" max-vertical-offset="16201">
-              <caret line="196" column="83" selection-start-line="196" selection-start-column="83" selection-end-line="196" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.43376625" vertical-offset="3845" max-vertical-offset="16201">
+              <caret line="236" column="53" selection-start-line="236" selection-start-column="53" selection-end-line="236" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -420,12 +419,6 @@
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
     </task>
-    <task id="LOCAL-00070" summary="footer">
-      <created>1426355736106</created>
-      <option name="number" value="00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1426355736106</updated>
-    </task>
     <task id="LOCAL-00071" summary="middle line font-sizee">
       <created>1426356319856</created>
       <option name="number" value="00071" />
@@ -714,7 +707,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426854752884</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="share buttons">
+      <created>1426857005372</created>
+      <option name="number" value="00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1426857005372</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -760,7 +759,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="+share resp" />
     <MESSAGE value="fix resize" />
     <MESSAGE value="fix blue line text width" />
     <MESSAGE value="language bug" />
@@ -785,7 +783,8 @@
     <MESSAGE value="pushed button" />
     <MESSAGE value="=alpha chanel about header div" />
     <MESSAGE value="footer fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer fix" />
+    <MESSAGE value="share buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="share buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1173,8 +1172,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38961038" vertical-offset="3182" max-vertical-offset="16201">
-          <caret line="196" column="83" selection-start-line="196" selection-start-column="83" selection-end-line="196" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.43376625" vertical-offset="3845" max-vertical-offset="16201">
+          <caret line="236" column="53" selection-start-line="236" selection-start-column="53" selection-end-line="236" selection-end-column="53" />
           <folding />
         </state>
       </provider>
