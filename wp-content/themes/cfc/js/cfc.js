@@ -264,7 +264,7 @@ $(function(){
 
 		$('.content-left, .content-right').height(innerHeight - 34);
 
-        var topheight =  ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())*($(window).height()>2000? 1.2 : 1.1);
+        var topheight =  ($("#submenu-about-us").offset().top+$("#submenu-about-us").height());
         $("#content").css('top',topheight);
 
 
@@ -740,10 +740,10 @@ $(function(){
 })//d-r
 
 $(window).load(function() {
-    alert($(window).height());
+   // alert($(window).height());
 	$("[data-animate]").animate( { height: "show", opacity: "1" } , "500" );
 
-	$('#content').css({ top: $(window).height() }).show().animate({ top: ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())*($(window).height()>2000? 1.2 : 1.1)}, 500);
+	$('#content').css({ top: $(window).height() }).show().animate({ top: ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())}, 500);
 
 	if ($('.category-banner-wrapper').length > 0)
 	{
