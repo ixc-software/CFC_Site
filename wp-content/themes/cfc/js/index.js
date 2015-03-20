@@ -56,35 +56,35 @@ function supportClicked()
 function MenuClicked() {}
 MenuClicked.prototype.News = function(){
     aboutUsClicked()
-    $("#d-news").css('opacity','1.0');
+    $("#d-news").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.OurTeam = function(){
     aboutUsClicked()
-    $("#d-our-team").css('opacity','1.0');
+    $("#d-our-team").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.Contacts= function(){
     aboutUsClicked()
-    $("#d-contacts").css('opacity','1.0');
+    $("#d-contacts").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.GetAppLink = function(){
     getCfcClicked()
-    $("#d-get-app").css('opacity','1.0');
+    $("#d-get-app").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.Faqs = function(){
     supportClicked()
-    $("#d-faq").css('opacity','1.0');
+    $("#d-faq").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.GettingStart = function(){
     supportClicked()
-    $("#d-getting-started").css('opacity','1.0');
+    $("#d-getting-started").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.FeaturesAndFunctions = function(){
     supportClicked()
-    $("#d-features").css('opacity','1.0');
+    $("#d-features").css('background-color','rgba(121,198,44,1)');
 };
 MenuClicked.prototype.CFCTarifs = function(){
     supportClicked()
-    $("#d-cfc-tarrifs").css('opacity','1.0');
+    $("#d-cfc-tarrifs").css('background-color','rgba(121,198,44,1)');
 };
 
 menuClicked = new MenuClicked();

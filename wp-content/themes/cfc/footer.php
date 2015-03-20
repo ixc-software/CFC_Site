@@ -58,10 +58,12 @@
 		</div>
 	</footer>
 -->
-<footer style="background-color: rgb(41,128,185);color:#ffffff;   font-size: 3.0vh;  position: absolute;
+<footer style="/*background-color: rgb(41,128,185);color:#ffffff;*/
+  background-color: transparent;
+   font-size: 3.0vh;  position: absolute;
   bottom: 0;
   z-index: 199;
-  height: 5%;" id="colophon" class="b-footer" role="contentinfo">
+  height: 0px;" id="colophon" class="b-footer" role="contentinfo">
       <!--  <span><?php echo _e( 'Copyright 2015 CallsFreeCalls.All right reserved.',twentyfourteen); ?></span>-->
     <span><?php echo _e( ' ',twentyfourteen); ?></span>
     </footer>
