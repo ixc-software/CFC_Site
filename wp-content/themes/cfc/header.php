@@ -24,7 +24,7 @@
 
 
 
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=.5">
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -172,7 +172,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
             <!--inline-table-->
             <div style="display: none;" id="submenu-about-us" class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('news-page-link');?>'"><?php echo _e( 'News',twentyfourteen); ?></div>
+                <div class="news-hheader-div hvr-underline-from-center" onclick="setCookie('menuClicked',menuClicked.News,365);window.location = '<?php echo _e('news-page-link');?>'"><?php echo _e( 'News',twentyfourteen); ?></div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('our-team-page-link');?>';"><?php echo _e( 'Our team',twentyfourteen); ?></div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = '<?php echo _e('contacts-page-link');?>';"><?php echo _e( 'Contacts',twentyfourteen); ?></div>
                 <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';"><?php echo _e( 'Media kit',twentyfourteen); ?></div>
@@ -196,6 +196,12 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 		<!--<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
         -->
 	<div id="viewport" class="b-viewport">
+
+    <script>
+        var pageid =  <?php echo get_the_ID(); ?>;
+
+        showMenuFromPageId(pageid);
+    </script>
 
 
 <div class="b-content-decoration<?php if( !is_front_page() ) echo ' __opened'; ?>" >
