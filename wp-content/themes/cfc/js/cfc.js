@@ -202,7 +202,7 @@ $(function(){
                 .css('padding-bottom','5px')
                 .css('padding-top','5px');
             $(".front-middle-blue-line").css('font-size','4vw');
-            $(".news-hheader-div").css('font-size','2vw');
+                $(".news-hheader-div").css('font-size','2.2vw');
             $(".about-header-div").css('font-size','3vw');
 
 
