@@ -828,7 +828,8 @@ body {
 	}
 
 	.phoneapp {
-		position: absolute;
+        position: fixed;
+		//position: absolute;
 		bottom: -10px;
 		left: auto!important;
 

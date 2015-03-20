@@ -93,6 +93,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 
 
         <?php
+
             $langs = icl_get_languages('skip_missing=1');
 
             if (count($langs) >= 1)

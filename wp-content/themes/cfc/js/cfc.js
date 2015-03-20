@@ -217,7 +217,8 @@ $(function(){
             $(".b-content").css('bottom','9%');
             $(".news-hheader-div").css('width','24%').css('padding-top','15px').css('padding-bottom','15px');
         }else{
-            phone.show();
+            //if(phone.is(":visible"))
+                phone.show();
             $(".b-content").css('bottom','0');
             $("#span-cfc-front")
                 .css('width','100%')
@@ -262,7 +263,7 @@ $(function(){
 		$('.content-left, .content-right').height(innerHeight - 34);
 
         var topheight =  ($("#main-menu").offset().top+$("#main-menu").height()+$("#submenu-about-us").height());
-        $("#content").css('top',topheight);
+        $("#content").css('top',topheight+20);
 
 
 		if ($('#homeContent').length > 0 || $('#getAppContent').length > 0)
