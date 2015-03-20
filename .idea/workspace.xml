@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33146068" vertical-offset="12547" max-vertical-offset="16286">
-              <caret line="745" column="94" selection-start-line="745" selection-start-column="94" selection-end-line="745" selection-end-column="94" />
+              <caret line="745" column="145" selection-start-line="745" selection-start-column="145" selection-end-line="745" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -428,12 +428,6 @@
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
     </task>
-    <task id="LOCAL-00092" summary="menu vs language fix">
-      <created>1426677935028</created>
-      <option name="number" value="00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1426677935029</updated>
-    </task>
     <task id="LOCAL-00093" summary="font-size menu">
       <created>1426678428482</created>
       <option name="number" value="00093" />
@@ -722,12 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1426883892681</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="category margin top">
+      <created>1426884491143</created>
+      <option name="number" value="00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1426884491143</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -768,7 +768,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="font-size menu" />
     <MESSAGE value="mouseover" />
     <MESSAGE value="menu padding" />
     <MESSAGE value="front page" />
@@ -793,7 +792,8 @@
     <MESSAGE value="fix hand" />
     <MESSAGE value="hand to footer" />
     <MESSAGE value="input fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="input fix" />
+    <MESSAGE value="category margin top" />
+    <option name="LAST_COMMIT_MESSAGE" value="category margin top" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1209,7 +1209,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33146068" vertical-offset="12547" max-vertical-offset="16286">
-          <caret line="745" column="94" selection-start-line="745" selection-start-column="94" selection-end-line="745" selection-end-column="94" />
+          <caret line="745" column="145" selection-start-line="745" selection-start-column="145" selection-end-line="745" selection-end-column="145" />
           <folding />
         </state>
       </provider>
