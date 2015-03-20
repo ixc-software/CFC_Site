@@ -30,20 +30,22 @@ body{
     background-color: rgb(52, 152, 219);
 }
 .news-hheader-div{
+    border-radius: 5px;
+    margin-top: 3px;
     opacity: 0.75;
    // border-style: solid;
     //border-width: 2px;
     //border-color: rgb(196, 172, 202);
     z-index: 1000000;
-//margin-left: -4px;
+
     font-size:2.5vmax;
-    min-width:137px;
-    width: 24.5%;
+    min-width:133px;
+    width: 24%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     cursor: pointer;
-    margin-left: -4px;
+    //margin-left: -4px;
     border-style: solid;
 
     background-color: rgb(121,198,44);
