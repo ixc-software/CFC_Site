@@ -36,7 +36,12 @@ if (have_posts())
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <h2><?php echo _e( 'Get App Link',twentyfourteen); ?></h2>
+
+    <div class="category-banner-wrapper1 container-our-team-header-div" style="width: 100%;height: 3em;">
+        <h4 class="lbl-our-team" style="padding-top: 12px;"><?php echo _e( 'Get App Link',twentyfourteen); ?></h4>
+
+    </div>
+
 
 
 	<h3 style="margin-bottom:0;"><?php echo _e( 'Get FREE SMS with app link',twentyfourteen); ?>:</h3>

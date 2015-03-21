@@ -28,7 +28,13 @@ if (have_posts())
 
 //the_title('<h2>', '</h2>');
 ?>
-    <h2><?php echo _e( 'CFC Tariffs for Calls',twentyfourteen); ?></h2>
+
+    <div class="category-banner-wrapper1 container-our-team-header-div" style="width: 100%;height: 3em;">
+        <h4 class="lbl-our-team" style="padding-top: 12px;"><?php echo _e( 'CFC Tariffs for Calls',twentyfourteen); ?></h4>
+
+        <div class="category-banner-flare"><img src="http://presta.com/wp-content/themes/cfc/images/flare.png"></div><div class="clear"></div>
+    </div>
+
 	<div class="grid_12">
 
         <h3><?php echo _e( 'Phone number',twentyfourteen); ?></h3>

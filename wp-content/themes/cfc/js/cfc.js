@@ -235,7 +235,6 @@ $(function(){
             $(".rrssb-buttons li a .rrssb-text").css('font-size','1vw');
             $(".news-hheader-div").css('width','20%').css('padding-top','10px').css('padding-bottom','10px');
         }
-        $(".this-post").css('margin-top',$("#main-menu").offset().top*2+$("#main-menu").height()+$("#submenu-about-us").height()+30);
 
         //  $(".a2a_button_facebook").css('margin-left',($(".social-box").width()-3*64)/2);
 
@@ -274,9 +273,10 @@ $(function(){
 
         var topheight =  offsetTopHeight+$("#submenu-about-us").height();
         $("#content").css('top',topheight);
+        $(".this-post").offset({top:offsetTopHeight+$("#submenu-about-us").height()+5});
 
 
-		if ($('#homeContent').length > 0 || $('#getAppContent').length > 0)
+        if ($('#homeContent').length > 0 || $('#getAppContent').length > 0)
 		{
 			//$('.b-content').height(innerHeight ).width('100%');
             $("#content").css('height',$(window).height()-topheight-$("#colophon").height()).width('100%');
