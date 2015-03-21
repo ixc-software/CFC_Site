@@ -262,7 +262,17 @@ $(function(){
 
 		$('.content-left, .content-right').height(innerHeight - 34);
 
-        var topheight =  ($("#submenu-about-us").offset().top+$("#submenu-about-us").height());
+
+        var offsetTopHeight = 0;
+        if(($("#submenu-about-us").offset().top!=0)){
+            offsetTopHeight = $("#submenu-about-us").offset().top;
+        }else if(($("#submenu-get-cfc").offset().top!=0)){
+            offsetTopHeight = $("#submenu-get-cfc").offset().top;
+        }else{
+            offsetTopHeight = $("#submenu-support").offset().top;
+        }
+
+        var topheight =  offsetTopHeight+$("#submenu-about-us").height();
         $("#content").css('top',topheight);
 
 
@@ -740,8 +750,15 @@ $(function(){
 $(window).load(function() {
    // alert($(window).height());
 	$("[data-animate]").animate( { height: "show", opacity: "1" } , "500" );
-
-	$('#content').css({ top: $(window).height() }).show().animate({ top: ($("#submenu-about-us").offset().top+$("#submenu-about-us").height())}, 500);
+    var offsetTopHeight = 0;
+    if(($("#submenu-about-us").offset().top!=0)){
+        offsetTopHeight = $("#submenu-about-us").offset().top;
+    }else if(($("#submenu-get-cfc").offset().top!=0)){
+        offsetTopHeight = $("#submenu-get-cfc").offset().top;
+    }else{
+        offsetTopHeight = $("#submenu-support").offset().top;
+    }
+	$('#content').css({ top: $(window).height() }).show().animate({ top: (offsetTopHeight+$("#submenu-about-us").height())}, 500);
 
 	if ($('.category-banner-wrapper').length > 0)
 	{
