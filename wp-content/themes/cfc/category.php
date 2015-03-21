@@ -10,7 +10,17 @@
  */
 
 get_header(); ?>
-
+    <style>
+        p{
+            font-size: 2vmax !important;
+        }
+        h2{
+            font-size: 3vmax !important;
+        }
+        h2{
+            font-size: 3.5vmax !important;
+        }
+    </style>
 	<section id="primary" class="content-area">
 		<div id="site-content" class="site-content" role="main">
 
