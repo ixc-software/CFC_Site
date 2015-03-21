@@ -9,7 +9,17 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-
+<style>
+    p{
+        font-size: 2vmax !important;
+    }
+    h2{
+        font-size: 3vmax !important;
+    }
+    h2{
+        font-size: 3.5vmax !important;
+    }
+</style>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
 	<?php if ( is_single() ) :
@@ -96,7 +106,9 @@ padding-right: 20px;">
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
-	<?php else : ?>
+
+    <?php else : ?>
+
 	<div class="entry-content" style="margin-top: 10px;/*margin: 20px 0 12px;*/display: table;">
 		<?php
 			

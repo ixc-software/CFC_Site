@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a8ee97-08bc-45f4-8bb2-888f6f17f450" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/cfc/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/cfc/content.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -33,7 +31,7 @@
       <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2754">
+            <state vertical-scroll-proportion="-4.5384617" vertical-offset="18" max-vertical-offset="2754">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
@@ -45,7 +43,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2830" max-vertical-offset="4726">
+            <state vertical-scroll-proportion="-8.846154" vertical-offset="2830" max-vertical-offset="4726">
               <caret line="188" column="44" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="59" />
               <folding>
                 <element signature="e#12985#13968#0#PHP" expanded="true" />
@@ -74,14 +72,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2414">
-              <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.48697916" vertical-offset="0" max-vertical-offset="2618">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
-                <marker date="1425892331479" expanded="true" signature="2215:2249" placeholder="..." />
-                <marker date="1425892331479" expanded="true" signature="3839:3857" placeholder="..." />
+                <marker date="1426934613509" expanded="true" signature="2385:2419" placeholder="..." />
+                <marker date="1426934613509" expanded="true" signature="4014:4032" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -100,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get-app-link.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get-app-link.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3984375" vertical-offset="459" max-vertical-offset="1496">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="459" max-vertical-offset="1496">
               <caret line="39" column="112" selection-start-line="39" selection-start-column="112" selection-end-line="39" selection-end-column="112" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#article#0;n#!!top" expanded="true" />
@@ -158,7 +156,6 @@
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/movies/wp-content/themes/cfc/front.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/content-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cfc/content.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-includes/l10n.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/languages/ru.mo" />
@@ -183,6 +180,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/tarrifs.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cfc/content.php" />
       </list>
     </option>
   </component>
@@ -427,12 +425,6 @@
       <created>1425463549536</created>
       <option name="number" value="Default" />
       <updated>1425463549536</updated>
-    </task>
-    <task id="LOCAL-00102" summary="lang font size">
-      <created>1426699241432</created>
-      <option name="number" value="00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1426699241432</updated>
     </task>
     <task id="LOCAL-00103" summary="gnom bottom">
       <created>1426702156231</created>
@@ -722,7 +714,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426932938022</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="tarrifs+get app lnnk new header">
+      <created>1426933880771</created>
+      <option name="number" value="00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1426933880771</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1101,50 +1099,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="2414">
-          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
-          <folding>
-            <marker date="1425892331479" expanded="true" signature="2215:2249" placeholder="..." />
-            <marker date="1425892331479" expanded="true" signature="3839:3857" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1496">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="2754">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1722" max-vertical-offset="2329">
-          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2830" max-vertical-offset="4726">
-          <caret line="188" column="44" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="59" />
-          <folding>
-            <element signature="e#12985#13968#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,10 +1126,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="459" max-vertical-offset="1496">
+          <caret line="39" column="112" selection-start-line="39" selection-start-column="112" selection-end-line="39" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5384617" vertical-offset="18" max-vertical-offset="2754">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.846154" vertical-offset="2830" max-vertical-offset="4726">
+          <caret line="188" column="44" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="59" />
+          <folding>
+            <element signature="e#12985#13968#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/cfc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.068966" vertical-offset="4412" max-vertical-offset="16541">
           <caret line="275" column="90" selection-start-line="275" selection-start-column="90" selection-end-line="275" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1722" max-vertical-offset="2329">
+          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1186,13 +1184,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/get-app-link.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cfc/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3984375" vertical-offset="459" max-vertical-offset="1496">
-          <caret line="39" column="112" selection-start-line="39" selection-start-column="112" selection-end-line="39" selection-end-column="112" />
+        <state vertical-scroll-proportion="0.48697916" vertical-offset="0" max-vertical-offset="2618">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#article#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#div#0;n#article#0;n#!!top" expanded="true" />
+            <marker date="1426934613509" expanded="true" signature="2385:2419" placeholder="..." />
+            <marker date="1426934613509" expanded="true" signature="4014:4032" placeholder="..." />
           </folding>
         </state>
       </provider>
