@@ -37,7 +37,7 @@ if (have_posts())
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-    <div class="category-banner-wrapper1 container-our-team-header-div" style="width: 100%;height: 3em;">
+    <div class="category-banner-wrapper1 container-our-team-header-div" style="width: 100%;height: 3em;margin:0;">
         <h4 class="lbl-our-team" style="padding-top: 12px;"><?php echo _e( 'Get App Link',twentyfourteen); ?></h4>
 
     </div>

@@ -273,7 +273,7 @@ $(function(){
 
         var topheight =  offsetTopHeight+$("#submenu-about-us").height();
         $("#content").css('top',topheight);
-        $(".this-post").offset({top:offsetTopHeight+$("#submenu-about-us").height()+5});
+        $(".this-post").css('margin-top',offsetTopHeight+$("#submenu-about-us").height()+4);
 
 
         if ($('#homeContent').length > 0 || $('#getAppContent').length > 0)
