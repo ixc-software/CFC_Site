@@ -19,10 +19,10 @@
 define('DB_NAME', 'cfc_db');
 
 /** MySQL database username */
-define('DB_USER', 'cfc_user');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'qIlA#?i2&ro$');
+define('DB_PASSWORD', 'GfAggP7L');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
