@@ -9,7 +9,6 @@
  * @since Twenty Fourteen 1.0
  */
 ?><!DOCTYPE html>
-
 <!-- SendGrid -->
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
@@ -21,197 +20,87 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 <head>
-
-
-
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=.5">
+ 	<meta name='yandex-verification' content='6798feeeb342ebcd' />
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/rrssb.css" />
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-
-
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/hover.css">
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.cookie.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/libs/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/cookie.js"></script>
-
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script src="<?php echo get_template_directory_uri(); ?>/js/rrssb.min.js"></script>
-
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/index.css">
-
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-
 	<![endif]-->
-
 	<?php wp_head(); ?>
 	<meta name="apple-itunes-app" content="app-id=506916707">
-
 </head>
 
 <!--Start of Zopim Live Chat Script-->
 <script type="text/javascript">
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
 d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-$.src='//v2.zopim.com/?1lvtHDkNTmJYdMsZPt5owbbQ0yi4Bdzc';z.t=+new Date;$.
-type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="//v2.zopim.com/?36WdQ8aoH1oV3lFiktxFqivwVxZ9neV3";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 </script>
 <!--End of Zopim Live Chat Script-->
-<script>
-    var isFrontPage = <?php
-    if(is_front_page()){
-        echo 1;
-    }else{
-    echo 0;
-    }
-     ?>;
-</script>
+
 <body <?php body_class(); ?>>
 
 
 <div class="b-root">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/smile_hey_left.png" id="smile_hey_left">
 	<img src="<?php echo get_template_directory_uri(); ?>/images/smile_hey_right.png" id="smile_hey_right">
-
+	<?php
+	$langs = icl_get_languages('skip_missing=1');
+	//print_r($langs);
+	if (count($langs) > 1)
+	{
+		?>
+		<div class="languages">
+		<?php
+		foreach ($langs as $lang_code => $lang_data)
+		{
+			if (!$lang_data['active'])
+			{
+				echo '<a href="'.$lang_data['url'].'"><img src="'.get_template_directory_uri().'/images/icon_lang_'.$lang_data['language_code'].'.png"></a>';
+			}
+		}
+		?>
+		</div>
+		<?php
+	}
+	?>
 	<nav class="top-menu">
-        <!--
 		<div class="top-menu-left-bg"></div>
 		<div class="top-menu-main-bg left"></div>
 		<div class="top-menu-main-bg right"></div>
 		<div class="top-menu-right-bg"></div>
-		-->
-
-            <div class="row row-margined-top">
-                <div style="float:left;margin-left: 3em;">
-
-
-
-
-        <?php
-
-            $langs = icl_get_languages('skip_missing=1');
-
-            if (count($langs) >= 1)
-            {
-                ?>
-
-                    <?php
-                    foreach ($langs as $lang_code => $lang_data)
-                    {
-                        if (!$lang_data['active'])
-                        {
-                           // echo '<a href="'.$lang_data['url'].'"><img src="'.get_template_directory_uri().'/images/icon_lang_'.$lang_data['language_code'].'.png"></a>';
-                        }
-
-
-                    }
-                   // echo ' <div onclick="window.location =\''.$langs['ru']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['ru']['active']?'lang-active':'') . '">RU</div>
-                    //<div onclick="window.location =\''.$langs['en']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['en']['active']?'lang-active':'') . '">EN</div>
-                    //<div onclick="window.location =\''.$langs['fr']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($langs['fr']['active']?'lang-active':'') . '">FR</div>';
-
-                echo ' <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'ru\',365);window.location =\''.$langs['ru']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
-                <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'en\',365);window.location =\''.$langs['en']['url'] .'\'" class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']!='fr' && $_COOKIE['lang']!='ru'?'lang-active':'') . '">EN</div>
-                <div style="font-size: 1.5vmax" onclick="setCookie(\'lang\',\'fr\',365);window.location =\''.$langs['fr']['url'] .'\'"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='fr'?'lang-active':'') . '">FR</div>';
-               // echo ' <div onclick="setCookie(\'lang\',\'ru\',365);location.reload();"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='ru'?'lang-active':'') . '">RU</div>
-               // <div onclick="setCookie(\'lang\',\'en\',365);location.reload();" class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']!='fr' && $_COOKIE['lang']!='ru'?'lang-active':'') . '">EN</div>
-                //<div onclick="setCookie(\'lang\',\'fr\',365);location.reload();"  class="lang-div hvr-back-pulse ' . ($_COOKIE['lang']=='fr'?'lang-active':'') . '">FR</div>';
-
-
-
-                ?>
-
-            <?php
-            }
-            ?>
-                </div>
-                <!-- AddToAny BEGIN -->
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="float:right;  margin-right: 3em;">
-
-                    <a class="a2a_button_facebook" style="float:right;"></a>
-                    <a class="a2a_button_twitter" style="float:right;"></a>
-                    <a class="a2a_button_google_plus" style="float:right;"></a>
-
-                </div>
-                <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-                <!-- AddToAny END -->
-            </div>
-                <?php
-                    $lang = $_COOKIE['lang'];
-                    if(!isset($_COOKIE['lang'])){
-                        $lang = 'en';
-                    }
-                    if(!$langs[$lang]['active'] && isset($langs[$lang]['url'])){
-                       // try {
-                        //    header("Location: " . $langs[$lang]['url']);
-                       //     die("Location: " . $langs[$lang]['url']);
-                       // }catch (Exception $e){}
-                    }
-
-                ?>
-
-
-        <div style="margin-left: 5%; height: 71px;padding-top: 11px" id="top-menu">
-            <div style="display: block;" id="main-menu">
-                <!--
-                <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
-                <div class="about-header-div hvr-back-pulse"  onmouseout="resetMenuColor(1)" onmouseover="aboutUsClicked()" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
-                <div class="about-header-div hvr-back-pulse" id="get-cfc"   onmouseout="resetMenuColor(2)" onmouseover="getCfcClicked()" onclick="getCfcClicked()"><?php echo _e( 'GET CFC',twentyfourteen); ?></div>
-                <div class="about-header-div hvr-back-pulse" id="support"   onmouseout="resetMenuColor(3)" onmouseover="supportClicked()" onclick="supportClicked()"><?php echo _e( 'SUPPORT',twentyfourteen); ?></div>
-            -->
-                <div class="about-header-div hvr-back-pulse" id="home" onclick="window.location = '/'"><?php echo _e( 'Home',twentyfourteen); ?></div>
-                <div class="about-header-div hvr-back-pulse" id="about-us" onclick="aboutUsClicked()"><?php echo _e( 'ABOUT US',twentyfourteen); ?></div>
-                <div class="about-header-div hvr-back-pulse" id="get-cfc"   onclick="getCfcClicked()"><?php echo _e( 'GET CFC',twentyfourteen); ?></div>
-                <div class="about-header-div hvr-back-pulse" id="support"   onclick="supportClicked()"><?php echo _e( 'SUPPORT',twentyfourteen); ?></div>
-
-            </div>
-
-
-            <!--inline-table-->
-            <div style="display: none;" id="submenu-about-us" class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center" id="d-news" onclick="window.location = '<?php echo _e('news-page-link');?>'"><?php echo _e( 'News',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" id="d-our-team" onclick="window.location = '<?php echo _e('our-team-page-link');?>';"><?php echo _e( 'Our team',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" id="d-contacts" onclick="window.location = '<?php echo _e('contacts-page-link');?>';"><?php echo _e( 'Contacts',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://www.dropbox.com/sh/0r9bhx0vhklp6sm/AACzI9cD9HUYYPnh9d2hV2C9a?dl=0';"><?php echo _e( 'Media kit',twentyfourteen); ?></div>
-            </div>
-            <div style="display: none;" id="submenu-get-cfc" class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center"  onclick="window.location = 'https://itunes.apple.com/app/id506916707?mt=8'">IOS</div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://itunes.apple.com/in/app/cfc/id580661730?mt=12'">Mac OS X</div>
-                <div class="news-hheader-div hvr-underline-from-center" onclick="window.location = 'https://play.google.com/store/apps/details?id=com.callsfreecalls.android'">Android</div>
-                <div class="news-hheader-div hvr-underline-from-center" id="d-get-app" onclick="window.location = '<?php echo _e('get-app-page-link');?>';"><?php echo _e( 'Get the Apps link',twentyfourteen); ?></div>
-            </div>
-            <div style="display: none;" id="submenu-support"  class="submenu">
-                <div class="news-hheader-div hvr-underline-from-center" id="d-faq" onclick="window.location = '<?php echo _e('faq-page-link');?>';"><?php echo _e( 'FAQs',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" id="d-getting-started" onclick="window.location = '<?php echo _e('getting-started-page-link');?>';"><?php echo _e( 'Getting Started',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" id="d-features" onclick="window.location = '<?php echo _e('featurest-and-function-page-link');?>';"><?php echo _e( 'Features and Functions',twentyfourteen); ?></div>
-                <div class="news-hheader-div hvr-underline-from-center" id="d-cfc-tarrifs" onclick="window.location = '<?php echo _e('cfc-tarifs-page-link');?>';"><?php echo _e( 'CFC Tariffs',twentyfourteen); ?></div>
-            </div>
-        </div>
-        <ul id="navigation" class="b-nav" style="display: none;">
-            <li data-action="menuleft" style="display: none;" id="menuLeft">
+		<ul id="navigation" class="b-nav">
+			<li data-action="menuleft" id="menuLeft">
+				<a href="#"><span>About Us</span></a>
+				<ol data-visible="">
+					<?php wp_nav_menu( array( 'menu' => 'Contacts', 'items_wrap' => '%3$s' , 'container' => false ) ); ?>
+				</ol>
+			</li>
+			<li class="top-menu-devider"></li>
+			<li data-action="menucenter" id="menuCenter">
+				<a href="#"><span>Get CFC</span></a>
+				<ol data-visible="">
+					<?php wp_nav_menu( array( 'menu' => 'Get CFC', 'items_wrap' => '%3$s' , 'container' => false ) ); ?>
+				</ol>
+			</li>
+			<li class="top-menu-devider"></li>
+			<li data-action="menuright" id="menuRight">
+				<a href="#"><span>Support</span></a>
+				<ol data-visible="">
+					<?php wp_nav_menu( array( 'menu' => 'Support', 'items_wrap' => '%3$s' , 'container' => false ) ); ?>
+				</ol>
+			</li>
 		</ul>
-		<!--<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
-        -->
+		<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_home.png" id="icon_home"></a>
+	</nav>
 	<div id="viewport" class="b-viewport">
-
-    <script>
-        var pageid =  <?php echo get_the_ID(); ?>;
-
-        showMenuFromPageId(pageid);
-    </script>
-
+		<div class="viewport-left-bg"></div>
+		<div class="viewport-right-bg"></div>
 
 <div class="b-content-decoration<?php if( !is_front_page() ) echo ' __opened'; ?>" >
 	<?php
@@ -244,7 +133,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 		
 		<div class="content-top"></div>
 		
-		<div class="hfeed site b-content" style="bottom: 0;position: absolute;">
+		<div class="hfeed site b-content">
 			<?php if ( get_header_image() ) : ?>
 			<div id="site-header">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">

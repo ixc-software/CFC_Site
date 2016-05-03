@@ -1,2 +1,12 @@
 User-agent: *
-Disallow: /
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /inpost-gallery/
+Disallow: /cfc-tarrifs/
+Disallow: /fr/
+Disallow: /feed/
+
+Host: cfc.io
+Sitemap: http://cfc.io/sitemap.xml.gz
+Sitemap: http://cfc.io/sitemap.xml

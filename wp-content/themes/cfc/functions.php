@@ -776,7 +776,7 @@ function _ajax_get_tarrifs_by_phone_code()
 		}
 	}
 	
-	$url = 'http://mac5.ixcglobal.com:8081/getPrice.do?code='.$phone_code;
+	$url = 'http://mac7.ixcglobal.com:8081/getPrice.do?code='.$phone_code;
 	//$url = 'http://redmine.cfc.io:8081/getPrice.do?code='.$phone_code;
 	$tarrifs = file_get_contents($url);
 	
