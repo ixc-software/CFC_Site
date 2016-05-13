@@ -60,9 +60,9 @@ $(function () {
     }
 
     // Check return URL's
-    if (window.location.search == '?action=success') {
+    if (param['action'] === 'success') {
         $('div#result_block').html('<h1 style="color:green;">Congratulations, you order paid success!</h1><a href="/">Back</a>');
-    } else if (window.location.search == '?action=cancel') {
+    } else if (param['action'] === 'cancel') {
         $('div#result_block').html('<h1 style="color:grey;">You have canceled you order. Maybe you want try again?</h1><a href="/">Back</a>');
     }
 
