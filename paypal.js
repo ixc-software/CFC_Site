@@ -32,7 +32,7 @@ $(function () {
     // Formatted GET-parameters
     var email = decodeMultiEscapedEmail(param['email']);
     var amount = parseInt(param['amount']);
-    var DeviceType = decodeURIComponent(param['DeviceType']);
+    var DeviceType = decodeURIComponent(param['DeviceType'] || param['deviceType']);
     var error = 1, email_input, amount_type_input;
 
     // Check GET parameters
