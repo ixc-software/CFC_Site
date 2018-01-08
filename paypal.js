@@ -13,8 +13,8 @@ $(function () {
     // Return URL's
     var PayPalReturnURL = 'http://cfc.io/pay/?action=success';
     var PayPalCancelReturnURL = 'http://cfc.io/pay/?action=cancel';
-//  var PayPalNotifyURL = 'http://paypalcfcsitesandbox.cfc.io/paypalApproving';
-    var PayPalNotifyURL = 'http://paypalcfcsite.cfc.io/paypalApproving';
+//  var PayPalNotifyURL = 'https://paypalcfcsitesandbox.cfc.io/paypalApproving';
+    var PayPalNotifyURL = 'https://paypalcfcsite.cfc.io/paypalApproving';
 
     // Helper for simple work with URL GET params
     var tmp = new Array();
